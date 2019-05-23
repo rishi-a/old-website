@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome"
+date:   2019-05-23 17:17:39 +0530
+categories: jekyll update
+---
+Welcome to my new website. I migrated to Jekyll from Wordpress for some obvious reasons. Hope I will keep updating the content
