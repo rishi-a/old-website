@@ -6,7 +6,7 @@ date:   2019-05-23 17:17:39 +0530
 categories: 
 ---
 
-I was recently shortlisted for Ph.D. admission at IIT Gandhinagar after clearing the written test and interview. Before this, I was working as a JRF in the same institute under Prof. Nipun Batra since March 2019. From August 2018 to January 2018, I was doing MS (By Research) and Teaching Assistantship at IIIT Sricity. For some reasons, I decided to leave the MS program at Sricity. Meeting and working under Prof. Venkatesh Vinayakarao was the most fabulous thing that happened there. 
+I was recently shortlisted for Ph.D. admission at IIT Gandhinagar after clearing the written test and interview. Before this, I was working as a JRF in the same institute under <a href="https://nipunbatra.github.io/" target="_blank">Prof. Nipun Batra</a> since March 2019. From August 2018 to January 2019, I was doing MS (By Research) and Teaching Assistantship at IIIT Sricity. For some reasons, I decided to leave the MS program at Sricity. Meeting and working under <a href="http://vvtesh.co.in" target="_blank">Prof. Venkatesh Vinayakarao</a> was the most fabulous thing that happened there. 
 
 After my BTech in ECE at Gauhati University, I primarily worked for about 3.5 years in multiple organizations in the Web Design and Development domain. I was even into freelancing. 3.5 years and I was done with those Jobs. I loved the 9-5 (or 9 to 6.30) culture but eventually thought that I did not want to continue that way. 
 
@@ -24,4 +24,5 @@ So, Ph.D. seems to be what I wanted to do. I enjoy the essence of understanding 
 
 5. Ph.D. stipend may not be very attractive to some. But saving at least 15k+ and life in a vibrant campus of IIT is actually awesome. (Awesome for a middle class like me)
 
- 
+
+So, that is it. I hope my journey will be fulfilling. I know it will be full of challenges and pressure, but anything worth having is difficult to have, and it is climbing that mountain that is important.
