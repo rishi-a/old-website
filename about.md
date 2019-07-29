@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is a personal website of Rishiraj Adhikary
+Rishiraj Adhikary is currently a Ph.D. student at IIT Gandhinagar under Prof. Nipun Batra in the Computational Sustainability Lab. Formerly he was a Research Assistant in the same lab from March 2019 to July 2019.
 
-You can find the source code for Minima at GitHub:
-[Rishiraj@Github](https://github.com/rishi-a)
 
 You can find me in Twitter
 [Rishiraj@Twitter](https://twitter.com/rishihere)
