@@ -4,7 +4,10 @@
 
 layout: page
 ---
-
+<style>
+	p{text-align: justify;}
+	li{text-align: justify;}	
+</style>
 #### About Me
 I'm currently a Ph.D. fresher at IIT Gandhinagar under Prof. Nipun Batra. I'm exploring the area of Computational Sustainability. Water conservation and air pollution reduction measures interest me. 
 
