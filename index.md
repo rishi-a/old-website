@@ -9,14 +9,13 @@ layout: page
 	li{text-align: justify;}	
 </style>
 #### About Me
-I'm currently a Ph.D. fresher at IIT Gandhinagar under Prof. Nipun Batra. I'm exploring the area of Computational Sustainability. Water conservation and air pollution reduction measures interest me. 
-
+I'm currently a Ph.D. fresher under [Prof. Nipun Batra](http://nipunbatra.github.io) at IIT Gandhinagar. My work focuses on Computational Sustainability and Sensors. I have worked on sensor interfacing and sensor communication for gathering data like water flow rate and air quality.  
 --
 
 #### Updates
 
-- Attending India Clean Air Summit (ICAS) 2019” organised by CSTEP, in collaboration with Karnataka State Pollution Control Board (KSPCB), under the Department of Forest, Ecology and Environment, GoK
-- Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI from July 24 to July 27 in Delhi. 
+- Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP on 22nd and 23rd August 2019.  ICAS was conducted in collaboration with Karnataka State Pollution Control Board (KSPCB), under the Department of Forest, Ecology and Environment, GoK
+- Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI from July 24 to July 27 2019 in Delhi. 
 - Joined IIT Gandhinagar as a Ph.D. student on July 29, 2019
 
 
