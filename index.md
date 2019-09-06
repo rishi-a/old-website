@@ -9,12 +9,19 @@ layout: page
 	li{text-align: justify;}	
 </style>
 #### About Me
-I'm currently a Ph.D. fresher under [Prof. Nipun Batra](http://nipunbatra.github.io) at IIT Gandhinagar. My work focuses on Computational Sustainability and Sensors. I have worked on sensor interfacing and sensor communication for gathering data like water flow rate and air quality.  
+I'm currently a Ph.D. fresher under [Prof. Nipun Batra](http://nipunbatra.github.io) at IIT Gandhinagar. My work focuses on Computational Sustainability and Sensor networks.  
 --
 
 #### Teaching
 
 - Teaching Assistant and Guest Lecturer For [Operating Systems](https://nipunbatra.github.io/teaching/os-fall-19/index.html) (Fall 2019, CS301)
+	- Lecture Slides: [Free Space Management][1]
+	- Lecture Slides: [Begineers Guide To Assembly][2] (for someone with a C background)
+
+
+
+[1]:{{ site.url }}/downloads/free-space-management-1.pdf
+[2]:{{ site.url }}/downloads/machine-language-c.pdf
 
 #### Updates
 
