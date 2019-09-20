@@ -9,7 +9,7 @@ layout: page
 	li{text-align: justify;}	
 </style>
 #### About Me
-I'm currently a Ph.D. fresher under [Prof. Nipun Batra](http://nipunbatra.github.io) at IIT Gandhinagar. My work focuses on Computational Sustainability and Sensor networks.  
+I'm currently a Ph.D. fresher under [Prof. Nipun Batra](http://nipunbatra.github.io) in the [Sustainability Lab](https://sustainability-lab.github.io/) of IIT Gandhinagar. My work will focus on Computational Sustainability and Sensor networks.  
 --
 
 #### Teaching
