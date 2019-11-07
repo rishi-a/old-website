@@ -9,7 +9,7 @@ layout: page
 	li{text-align: justify;}	
 </style>
 #### About Me
-I'm currently a Ph.D. fresher under [Prof. Nipun Batra](http://nipunbatra.github.io) in the [Sustainability Lab](https://sustainability-lab.github.io/) of IIT Gandhinagar. My work will focus on Computational Sustainability and Sensor networks.  
+I'm currently a Ph.D. fresher under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in the [Computational Sustainability Lab](https://sustainability-lab.github.io/) of IIT Gandhinagar. My work will focus on Computational Sustainability and Sensor networks.  
 --
 
 #### Teaching
@@ -20,14 +20,16 @@ I'm currently a Ph.D. fresher under [Prof. Nipun Batra](http://nipunbatra.github
 
 
 
-[1]:{{ site.url }}/downloads/free-space-management-1.pdf
-[2]:{{ site.url }}/downloads/machine-language-c.pdf
 
 #### Updates
 
-- Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP on 22nd and 23rd August 2019.  ICAS was conducted in collaboration with Karnataka State Pollution Control Board (KSPCB), under the Department of Forest, Ecology and Environment, GoK
-- Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI from July 24 to July 27 2019 in Delhi. 
-- Joined IIT Gandhinagar as a Ph.D. student on July 29, 2019
+- **04th November**: Attended [AI For Social Good](https://sites.google.com/view/aiforsocialgoodworkshop/home) Workshop in Google Research Bangalore.
+- **22nd August**: Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP.
+- **29th July** Joined IIT Gandhinagar as a Ph.D. student
+- **24th July**: Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI in Delhi. 
 - Past updates are in the blog page. 
+
+[1]:{{ site.url }}/downloads/free-space-management-1.pdf
+[2]:{{ site.url }}/downloads/machine-language-c.pdf
 
 
