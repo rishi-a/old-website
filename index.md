@@ -10,7 +10,7 @@ layout: page
 </style>
 #### **About Me**
 
-<img style="padding:10px;" align="left" width="150" height="150" src="/images/header.JPG">I'm currently a Ph.D. fresher under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in the [Computational Sustainability Lab](https://sustainability-lab.github.io/) of IIT Gandhinagar. My work will focus on Computational Sustainability and Sensor networks. The image on the left was taken on the way to Shillong Peak in Meghalaya. I did my schooling from Shillong and grew up there although I was born in Assam.
+<img style="padding:10px;" align="left" width="150" height="150" src="/images/header.JPG">I'm currently a Ph.D. fresher under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in the [Computational Sustainability Lab](https://sustainability-lab.github.io/) of IIT Gandhinagar. My work will focus on Computational Sustainability and Sensor networks. The image on the left was taken on the way to Shillong Peak in Meghalaya. I did my schooling from Shillong and grew up there although I was born in Assam. [*Why am I doing a PhD?*](https://rishi-a.github.io/2019/05/23/why-phd-and-not-a-job.html)
 
 
 <div style="margin-top: 100px"></div>
