@@ -9,19 +9,39 @@ layout: page
 
 ---
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 	p{text-align: justify;}
 	li{text-align: justify;}
-	nothing{
-	  font-family: 'Quicksand', Helvetica;
-	  font-size: 12pt;
-	  font-weight:500;
-	}	
+
+	@media only screen and (max-width: 500px) {
+	  	.pad-1 {
+	   		 padding: 10px;
+	  	}
+	  	.pad-2 {
+	   		 padding:10px;
+	  	}
+
+  	}
+
+	@media only screen and (min-width: 501px) {
+	  	.pad-1 {
+	   		 padding-left: :10px;
+	  	}
+	  	.pad-2 {
+	   		 padding-left:10px; padding-right: 10px
+	  	}
+  	
+	}
+
+	#about-me, #teaching, #updates, #past-roles{
+		border-bottom: 1px solid black;
+
+	}
 </style>
 
 ##### **About Me**
 
-<img style="padding:10px;" align="left" width="150" height="150" src="/images/header.JPG">I'm currently a Ph.D. fresher under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in the [Computational Sustainability Lab](https://sustainability-lab.github.io/) of IIT Gandhinagar. My work will focus on Computational Sustainability and Sensor networks. The image on the left was taken on the way to Shillong Peak in Meghalaya. I did my schooling from Shillong and grew up there although I was born in Assam. [*Why am I doing a PhD?*](https://rishi-a.github.io/2019/05/23/why-phd-and-not-a-job.html)
+<img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
+<img class="pad-2" align="right" width="200" height="170" src="/images/rsc_guwahati-3.jpeg">I'm a first-year Ph.D. student under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in  IIT Gandhinagar. I'm interested in solving societal problems with Machine Learning and IoT. I did my schooling from Shillong and grew up there, although I was born in Assam. [*Why am I doing a PhD?*](https://rishi-a.github.io/2019/05/23/why-phd-and-not-a-job.html)
 
 
 <div style="margin-top: 100px"></div>
