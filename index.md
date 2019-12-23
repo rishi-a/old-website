@@ -58,7 +58,7 @@ layout: page
 
 ##### **Updates**
 - **05th December'19**: Joined [CEEW](https://www.ceew.in) as a Visiting Fellow
-- **01st December'19**: Attended workshop on Priorities for Advancing Research on Health Effects of Air Pollution in India in AIIMS, New Delhi
+- **01st December'19**: Attended workshop on "Priorities for Advancing Research on Health Effects of Air Pollution in India" in AIIMS, New Delhi. [Poster Presented][3]
 - **04th November'19**: Attended [AI For Social Good](https://sites.google.com/view/aiforsocialgoodworkshop/home) Workshop in Google Research Bangalore.
 - **22nd August'19**: Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP.
 - **29th July'19** Joined IIT Gandhinagar as a Ph.D. student
@@ -77,5 +77,6 @@ layout: page
 
 [1]:{{ site.url }}/downloads/free-space-management-1.pdf
 [2]:{{ site.url }}/downloads/machine-language-c.pdf
+[3]:{{ site.url }}/downloads/poster-aiims.pdf
 
 
