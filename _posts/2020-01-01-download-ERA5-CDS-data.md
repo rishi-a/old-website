@@ -61,8 +61,8 @@ ds.t2m[2].plot()
 
 
 
+<img src="/images/output_5_1.png">
 
-![png](output_5_1.png)
 
 
 
@@ -77,8 +77,7 @@ ds.t2m[1000].plot()
 
 
 
-
-![png](output_6_1.png)
+<img src="/images/output_6_1.png">
 
 
 The index in t2m is the 3rd dimention which is time. Below is choice of lat-long for Gandhinagar, Gujarat. This will filter the huge xrray in these coordinate values
