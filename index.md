@@ -57,6 +57,7 @@ layout: page
 <div style="margin-top: 50px"></div>
 
 ##### **Updates**
+- **04th January'20**: Attended CoDS COMAD 2020 in ISB Hyderabad 
 - **05th December'19**: Joined [CEEW](https://www.ceew.in) as a Visiting Fellow
 - **01st December'19**: Attended workshop on "Priorities for Advancing Research on Health Effects of Air Pollution in India" in AIIMS, New Delhi. [Poster Presented][3]
 - **04th November'19**: Attended [AI For Social Good](https://sites.google.com/view/aiforsocialgoodworkshop/home) Workshop in Google Research Bangalore.
