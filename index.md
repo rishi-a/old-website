@@ -9,6 +9,16 @@ layout: page
 
 ---
 <style>
+
+	@-webkit-keyframes slide {
+	    from { background-position: 0 0; }
+	    to { background-position: -400px 0; }
+	}
+	#background{
+		background: gray url("/images/tiny-squares/tiny-square.jpg") repeat 0 0;
+		-webkit-animation: slide 20s linear infinite;
+		-moz-animation: slide 20s linear infinite;
+	}
 	p{text-align: justify;}
 	li{text-align: justify;}
 
@@ -81,3 +91,6 @@ layout: page
 [3]:{{ site.url }}/downloads/poster-aiims.pdf
 
 
+<script>
+	document.getElementsByTagName("body")[0].setAttribute("id", "background"); 
+</script>
