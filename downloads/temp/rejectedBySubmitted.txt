@@ -1,262 +1,4164 @@
-Jason Weston---0.14
-Razvan Pascanu---0.17
-Tengyu Ma---0.2
-Marc Brockschmidt---0.2
-Lior Wolf---0.2
-Stefano Soatto---0.2
-Arthur Szlam---0.2
-Frank Hutter---0.2
-Roger Grosse---0.2
-Shixiang Gu---0.2
-Demis Hassabis---0.2
-Will Dabney---0.2
-Huan Zhang---0.2
-Adam Santoro---0.2
-Max Welling---0.22
-Jascha Sohl-Dickstein---0.25
-Zhilin Yang---0.25
-Alexander L. Gaunt---0.25
-Jing Jiang---0.25
-Timo Aila---0.25
-Sanjeev Arora---0.25
-Matthew Botvinick---0.25
-Jian Peng---0.25
-Josh Merel---0.25
-Bo Dai---0.25
-Samuel S. Schoenholz---0.25
-Nicolas Papernot---0.25
-Kelvin Xu---0.25
-Leonard Berrada---0.25
-W. James Murdoch---0.25
-Rishabh Singh---0.25
-James T. Kwok---0.25
-Zeming Lin---0.25
-Richard E. Turner---0.25
-Alan Yuille---0.25
-Adam Roberts---0.25
-Sanja Fidler---0.25
-Roman Novak---0.25
-Kris M. Kitani---0.25
-Stephen Clark---0.25
-Karen Simonyan---0.25
-Daniel Soudry---0.25
-Yi Zhou---0.25
-Jeffrey Pennington---0.25
-Percy Liang---0.25
-Daniel J. Mankowitz---0.25
-Angela Fan---0.25
-Dmitry Vetrov---0.25
-James Glass---0.25
-Wieland Brendel---0.25
-Zhuoran Yang---0.25
-Xingyou Song---0.25
-William W. Cohen---0.33
-Joan Bruna---0.33
-Hugo Larochelle---0.33
-Shakir Mohamed---0.33
-Remi Munos---0.33
-Antoine Bordes---0.33
-Kristin Branson---0.33
-Bhuwan Dhingra---0.33
-Surya Ganguli---0.33
-James Bradbury---0.33
-Geoffrey Hinton---0.33
-Kundan Kumar---0.33
-Oriol Vinyals---0.33
-James Martens---0.33
-Takeru Miyato---0.33
-Barret Zoph---0.33
-Irina Higgins---0.33
-Jiahui Yu---0.33
-Carlos Florensa---0.33
-Angeliki Lazaridou---0.33
-Eric Nalisnick---0.33
-Peter O'Connor---0.33
-David M. Blei---0.33
-Chris J. Maddison---0.33
-Tero Karras---0.33
-Antonio Torralba---0.33
-Brian Cheung---0.33
-Jeff Bilmes---0.33
-Greg Yang---0.33
-Jost Tobias Springenberg---0.33
-Ilya Loshchilov---0.33
-Yuhuai Wu---0.33
-Pulkit Agrawal---0.33
-Tom Erez---0.33
-Adriana Romero---0.33
-Dzmitry Bahdanau---0.33
-Philemon Brakel---0.33
-Emilio Parisotto---0.33
-Tim Klinger---0.33
-Lisha Li---0.33
-Jaime G. Carbonell---0.33
-Samuli Laine---0.33
-Harrison Edwards---0.33
-Noam Shazeer---0.33
-Chong Wang---0.33
-Michael Maire---0.33
-Hao Wang---0.33
-Hubert Soyer---0.33
-Pramod Viswanath---0.33
-Tim Genewein---0.33
-Xuezhe Ma---0.33
-Alexey Dosovitskiy---0.33
-William Chan---0.33
-Christian Szegedy---0.33
-Klaus-Robert Müller---0.33
-Douglas Eck---0.33
-Yann N. Dauphin---0.33
-Rakshit Trivedi---0.33
-Brooks Paige---0.33
-Chun-Liang Li---0.33
-Weizhu Chen---0.33
-Xue Bin Peng---0.33
-Zachary C. Lipton---0.33
-Jianshu Chen---0.33
-Luke Vilnis---0.33
-Jake Snell---0.33
-Richard Zemel---0.33
-Kai-Wei Chang---0.33
-Igor Mordatch---0.33
-Pieter-Jan Kindermans---0.33
-Corentin Tallec---0.33
-Szymon Sidor---0.33
-Dmitriy Serdyuk---0.33
-Maximilian Igl---0.33
-Masanori Koyama---0.33
-Sandeep Subramanian---0.33
-Aleksandar Bojchevski---0.33
-Arno Onken---0.33
-Rong Ge---0.33
-Jean Kossaifi---0.33
-Martin Riedmiller---0.33
-Nicolas Courty---0.33
-Efstratios Gavves---0.33
-David Dohan---0.33
-Zsolt Kira---0.33
-R Devon Hjelm---0.33
-Sainbayar Sukhbaatar---0.33
-John Langford---0.33
-Asja Fischer---0.33
-William Fedus---0.33
-Felix Hill---0.33
-Marlos C. Machado---0.33
-Tom Goldstein---0.33
-Paul Vicol---0.33
-David Rolnick---0.33
-Jiri Hron---0.33
-Chongyang Tao---0.33
-Greg Wayne---0.33
-Devendra Singh Chaplot---0.33
-Valentin Khrulkov---0.33
-Konrad Kording---0.33
-Hervé Jégou---0.33
-Hongyuan Zha---0.33
-Shai Shalev-Shwartz---0.33
-Deva Ramanan---0.33
-Herke van Hoof---0.33
-Yingbin Liang---0.33
-Yao-Hung Hubert Tsai---0.33
-Nebojsa Jojic---0.33
-Sebastien Racaniere---0.33
-Jaehoon Lee---0.33
-Chunyuan Li---0.33
-Jinfeng Yi---0.33
-Milad Alizadeh---0.33
-David Duvenaud---0.33
-Sanjiv Kumar---0.33
-Jakob Uszkoreit---0.33
-Yedid Hoshen---0.33
-Shengjia Zhao---0.33
-Hao Zhang---0.33
-Xingjun Ma---0.33
-James Bailey---0.33
-Cenk Baykal---0.33
-Dan Feldman---0.33
-Neil Houlsby---0.33
-Philipp Hennig---0.33
-Yong Yu---0.33
-Yutian Chen---0.33
-Bin Yu---0.33
-Haichao Zhang---0.33
-Nicholas Rhinehart---0.33
-Tingwu Wang---0.33
-Gábor Melis---0.33
-Seong Joon Oh---0.33
-Bernt Schiele---0.33
-John Miller---0.33
-Alex Wang---0.33
-Samuel R. Bowman---0.33
-Chuan-Sheng Foo---0.33
-Liang Lin---0.33
-Xiangyi Chen---0.33
-Mingyi Hong---0.33
-Chen Sun---0.33
-Cheng Zhang---0.33
-Thien Huu Nguyen---0.33
-Wanli Ouyang---0.33
-Changyou Chen---0.33
-Philip Torr---0.33
-Jun Huan---0.33
-Richard Baraniuk---0.33
-Richard Turner---0.33
-Mohamed Elhoseiny---0.33
-Xu Tan---0.33
-Taiji Suzuki---0.33
-Xue Lin---0.33
-Kurt Shuster---0.33
-Minshuo Chen---0.33
-Yi Yang---0.33
-Kihyuk Sohn---0.33
-Anusha Nagabandi---0.33
-Hung Le---0.33
-Yun Fu---0.33
-Guodong Zhang---0.33
-Krishnamurthy (Dj) Dvijotham---0.33
-Sven Gowal---0.33
-Yingce Xia---0.33
-Ian Simon---0.33
-Curtis Hawthorne---0.33
-Wotao Yin---0.33
-Quanquan Gu---0.33
-Ruosong Wang---0.33
-Xiang Ren---0.33
-Zhe Wang---0.33
-Pradeep Ravikumar---0.33
-Mingrui Liu---0.33
-Kun Xu---0.33
-Baoxin Li---0.33
-Josip Djolonga---0.33
-Jifeng Dai---0.33
-Guillaume Obozinski---0.33
-Samy Bengio---0.38
-Abhinav Gupta---0.38
-Yan Duan---0.4
-Xi Chen---0.4
-Daniel Tarlow---0.4
-Yan Liu---0.4
-Pascal Vincent---0.4
-Edward Grefenstette---0.4
-Wang Ling---0.4
-Andrew Zisserman---0.4
-Lihong Li---0.4
-Nicolas Ballas---0.4
-Erich Elsen---0.4
-Moritz Hardt---0.4
-Tim Rocktäschel---0.4
-Xinyun Chen---0.4
-Dumitru Erhan---0.4
-Douwe Kiela---0.4
-Joshua B. Tenenbaum---0.4
-Charles Blundell---0.4
-Sijia Liu---0.4
-Xiao Wang---0.4
-Aaron Courville---0.42
-Pieter Abbeel---0.42
-Balaraman Ravindran---0.43
-Ben Poole---0.43
-Sergey Levine---0.44
+Kotaro Nakayama---1.0
+Yutaka Matsuo---1.0
+Masahiro Suzuki---1.0
+Li Deng---1.0
+Mohammad Taha Bahadori---1.0
+Walter F. Stewart---1.0
+Jimeng Sun---1.0
+Jan Chorowski---1.0
+David Grangier---1.0
+Rico Jonschkowski---1.0
+Oliver Brock---1.0
+Kai Arulkumaran---1.0
+Hervé Glotin---1.0
+Sarath Chandar---1.0
+Tom Zahavy---1.0
+Jean-Baptiste Tristan---1.0
+Michael L. Wick---1.0
+Tri Nguyen---1.0
+Mir Rosenberg---1.0
+Rangan Majumder---1.0
+Bert De Brabandere---1.0
+Daan Wierstra---1.0
+Sebastian Nowozin---1.0
+Xiaoxiao Guo---1.0
+Kevin Jamieson---1.0
+---1.0
+Tai Sing Lee---1.0
+Joshua V. Dillon---1.0
+Johannes Welbl---1.0
+Timothy M. Hospedales---1.0
+Luke Metz---1.0
+Alexander M. Rush---1.0
+Zhiting Hu---1.0
+Louis Shao---1.0
+Denny Britz---1.0
+Brian Strope---1.0
+Ray Kurzweil---1.0
+Franziska Horn---1.0
+Margaret Mitchell---1.0
+Sing Bing Kang---1.0
+Krzysztof Chalupka---1.0
+Robert Chen---1.0
+Mohammad Ali Mehrolhassani---1.0
+Majid Mohammadi---1.0
+Pedro H. P. Savarese---1.0
+Leonardo O. Mazza---1.0
+Daniel R. Figueiredo---1.0
+Bofang Li---1.0
+Tao Liu---1.0
+Zhe Zhao---1.0
+Buzhou Tang---1.0
+Xiaoyong Du---1.0
+Irwan Bello*---1.0
+Hieu Pham*---1.0
+Yihao Feng---1.0
+Tianxiang Gao---1.0
+Vladimir Jojic---1.0
+Xin Wang---1.0
+Joseph E. Gonzalez---1.0
+Sihan Li---1.0
+Jiantao Jiao---1.0
+Yanjun Han---1.0
+Tsachy Weissman---1.0
+Alberto Delmás Lascorz---1.0
+Sayeh Sharify---1.0
+Patrick Judd---1.0
+Andreas Moshovos---1.0
+Yang Lu---1.0
+Song-Chun Zhu---1.0
+Ying Nian Wu---1.0
+Zhengping Che---1.0
+David Sontag---1.0
+Rudolf Kadlec---1.0
+Ondřej Bajgar---1.0
+Peter Hrincar---1.0
+Jan Kleindienst---1.0
+Wenyuan Zeng---1.0
+Wenjie Luo---1.0
+Arthur Guez---1.0
+Gabriel Dulac-Arnold---1.0
+Andre Barreto---1.0
+Thomas Degris---1.0
+Yunpeng Chen---1.0
+Shuicheng Yan---1.0
+Wojciech Zaremba---1.0
+Aurelia Léon---1.0
+Eugene Vorontsov---1.0
+Samuel Kadoury---1.0
+Yuanzhi Ke---1.0
+Masafumi Hagiwara---1.0
+Timothee LESORT---1.0
+David FILLIAT---1.0
+Gyuwan Kim---1.0
+Hayoon Yi---1.0
+Jangho Lee---1.0
+Yunheung Paek---1.0
+Sungroh Yoon---1.0
+Serena Yeung---1.0
+Weidi Xie---1.0
+Alison Noble---1.0
+Junhyuk Oh---1.0
+Satinder Singh---1.0
+Tong Wang---1.0
+Justin Harris---1.0
+Kaheer Suleman---1.0
+Sajid Anwar---1.0
+Wonyong Sung---1.0
+Thomas Trogdon---1.0
+Patrick McClure---1.0
+Nikolaus Kriegeskorte---1.0
+Jonas Gehring---1.0
+Ron Dekel---1.0
+Karol Grzegorczyk---1.0
+Marcin Kurdziel---1.0
+Sahil Garg---1.0
+Guillermo Cecchi---1.0
+Aurelie Lozano---1.0
+Antonio Valerio Miceli Barone---1.0
+Anna C. Gilbert---1.0
+Yuting Zhang---1.0
+Jakob Foerster---1.0
+Jascha Sohl-dickstein---1.0
+Farkhondeh Kiaee---1.0
+Christian Gagné---1.0
+and Mahdieh Abbasi---1.0
+Dragomir Radev---1.0
+Rahul G. Krishnan---1.0
+Karl Aberer---1.0
+Melanie Ducoffe---1.0
+Frederic Precioso---1.0
+Vivek Ramamurthy---1.0
+Nigel Duffy---1.0
+Jernej Kos---1.0
+Miguel Lazaro-Gredilla---1.0
+Yi Liu---1.0
+D. Scott Phoenix---1.0
+Dileep George---1.0
+Evan Racah---1.0
+Christopher Beckham---1.0
+Paul Hongsuck Seo---1.0
+Scott Cohen---1.0
+Xiaohui Shen---1.0
+Bohyung Han---1.0
+Dmitry P. Vetrov---1.0
+Federico Raue---1.0
+Sebastian Palacio---1.0
+Andreas Dengel---1.0
+Marcus Liwicki---1.0
+Hanjun Dai*---1.0
+Yichen Wang*---1.0
+Antonin Raffin---1.0
+Sebastian Höfer---1.0
+Freek Stulp---1.0
+Xiaojun Xu---1.0
+Nadav Bhonker---1.0
+Shai Rozenberg---1.0
+Herve Glotin---1.0
+Ting Yao---1.0
+Yingwei Pan---1.0
+Yehao Li---1.0
+Zhaofan Qiu---1.0
+Tao Mei---1.0
+Nat Dilokthanakul---1.0
+Matthew C.H. Lee---1.0
+Hugh Salimbeni---1.0
+Giambattista Parascandolo---1.0
+Heikki Huttunen---1.0
+Tuomas Virtanen---1.0
+Shota Horiguchi---1.0
+Daiki Ikami---1.0
+Kiyoharu Aizawa---1.0
+Adrian Benton---1.0
+Huda Khayrallah---1.0
+Biman Gujral---1.0
+Drew Reisinger---1.0
+Sheng Zhang---1.0
+Kenton Lee---1.0
+Tom Kwiatkowksi---1.0
+Ankur Parikh---1.0
+Antonia Creswell---1.0
+Anil Anthony Bharath---1.0
+N. Siddharth---1.0
+Jan-Willem van de Meent---1.0
+Frank Wood---1.0
+Noah D. Goodman---1.0
+Alexandros Karatzoglou---1.0
+Vincent Roger---1.0
+Marius Bartcus---1.0
+Faicel Chamroukhi---1.0
+Zhuoyuan Chen---1.0
+Han Zhao---1.0
+Xiao Liu---1.0
+Ankur Taly---1.0
+Nicola Di Mauro---1.0
+Floriana Esposito---1.0
+John Boaz Lee---1.0
+Xiangnan Kong---1.0
+Nir Ailon---1.0
+Marc Goessling---1.0
+Yali Amit---1.0
+Yang Yu---1.0
+Wei Zhang---1.0
+Kazi Hasan---1.0
+Haoran Tang---1.0
+Davis Foote---1.0
+Adam Stooke---1.0
+Filip De Turck---1.0
+Ashwin K Vijayakumar---1.0
+Michael Cogswell---1.0
+Ramprasaath R. Selvaraju---1.0
+Qing Sun---1.0
+David Crandall---1.0
+Avishkar Bhoopchand---1.0
+Earl Barr---1.0
+Elham Khabiri---1.0
+Richard Goodwin---1.0
+Andras Rozsa---1.0
+Manuel Gunther---1.0
+Terrance E. Boult---1.0
+Siamak Ravanbakhsh---1.0
+Mehdi Cherti---1.0
+Balázs Kégl---1.0
+Akın Kazakçı---1.0
+Xin Zheng---1.0
+Zhenzhou Wu---1.0
+Yelong Shen*---1.0
+Po-Sen Huang*---1.0
+Ming-Wei Chang---1.0
+Théodore Bluche---1.0
+Christopher Kermorvant---1.0
+Claude Touzet---1.0
+Michiel van de Panne---1.0
+Linnan Wang---1.0
+Wei Wu---1.0
+George Bosilca---1.0
+Richard Vuduc---1.0
+Hyo-Eun Kim---1.0
+Sangheum Hwang---1.0
+Pranav Shyam---1.0
+Ambedkar Dukkipati---1.0
+Yanghao Li---1.0
+Naiyan Wang---1.0
+Jianping Shi---1.0
+Xiaodi Hou---1.0
+Heeyoul Choi---1.0
+Tanel Parnamaa---1.0
+Shenjian Zhao---1.0
+Karol Kurach---1.0
+Sebastian Ruder---1.0
+Parsa Ghaffari---1.0
+John G. Breslin---1.0
+Jon Kleinberg---1.0
+Etai Littwin---1.0
+Ivet Rafegas---1.0
+Maria Vanrell---1.0
+Luís A. Alexandre---1.0
+Alexander Fonarev---1.0
+Alexey Grinchuk---1.0
+Gleb Gusev---1.0
+Pavel Serdyukov---1.0
+Jose Rozanec---1.0
+Gilad Katz---1.0
+Eui Chul Richard Shin---1.0
+Shayne Longpre---1.0
+Sabeek Pradhan---1.0
+Yannis M. Assael---1.0
+Brendan Shillingford---1.0
+Arash Shahriari---1.0
+Dawei Li---1.0
+Deguang Kong---1.0
+Mooi Choo Chuah---1.0
+Ludovic Dos Santos---1.0
+Ali Ziat---1.0
+Benjamin Piwowarski---1.0
+Rohollah Soltani---1.0
+Hui Jiang---1.0
+Asier Mujika---1.0
+Jose Moreira---1.0
+Masatosi Uehara---1.0
+Issei Sato---1.0
+Youngjoo Seo---1.0
+Pierre Vandergheynst---1.0
+Xavier Bresson---1.0
+Luis Gonzalo Sanchez Giraldo---1.0
+Jianmin Chen*---1.0
+Xinghao Pan*---1.0
+Rajat Monga---1.0
+Rafal Jozefowicz---1.0
+Peter Potash---1.0
+Alexey Romanov---1.0
+Anna Rumshisky---1.0
+Sanjay Ganapathy---1.0
+Swagath Venkataramani---1.0
+Tristan Cazenave---1.0
+Xinchen Yan---1.0
+Liping Jing---1.0
+MiaoMiao Cheng---1.0
+Liu Yang---1.0
+Alex Gittens---1.0
+Michael W. Mahoney---1.0
+Hai Wang---1.0
+Takeshi Onishi---1.0
+David McAllester---1.0
+Chang Xu---1.0
+Gang Wang---1.0
+Bailey Kong---1.0
+Charless C. Fowlkes---1.0
+Christopher Tensmeyer---1.0
+Tony Martinez---1.0
+Stefan Carlsson---1.0
+Hossein Azizpour---1.0
+Ali Razavian---1.0
+Leslie N. Smith---1.0
+Nicholay Topin---1.0
+Haoqi Fan---1.0
+Nir Baram---1.0
+Jaehyung Kim---1.0
+Song Chong---1.0
+Hao Zhao---1.0
+Ming Lu---1.0
+Chris Dongjoo Kim---1.0
+Graham Taylor---1.0
+Jean Harb---1.0
+Doina Precup---1.0
+Peter L. Bartlett---1.0
+Alexandre Allauzen---1.0
+Iulian V. Serban---1.0
+Alexander G. Ororbia II---1.0
+Dimitrios C. Gklezakos---1.0
+Rajesh P. N. Rao---1.0
+Yotam Hechtlinger---1.0
+Purvasha Chakravarti---1.0
+Jining Qin---1.0
+Tom White---1.0
+Yilei Xiong---1.0
+Haoying Niu---1.0
+JIefeng Cheng---1.0
+Zhenguo Li---1.0
+Ludovic Trottier---1.0
+Philippe Giguère---1.0
+Brahim Chaib-draa---1.0
+Makoto Nakatsuji---1.0
+Hisashi Ito---1.0
+Naruhiro Ikeda---1.0
+Shota Sagara---1.0
+Akihisa Fujita---1.0
+Hiroki Kurotaki---1.0
+Alan Mosca---1.0
+George D. Magoulas---1.0
+Mickaël Chen---1.0
+Shyam Upadhyay---1.0
+Matt Taddy---1.0
+Adam Kalai---1.0
+Huayu Li---1.0
+Martin Renqiang Min---1.0
+Yong Ge---1.0
+Roee Aharoni---1.0
+Armen Aghajanyan---1.0
+Saeed Maleki---1.0
+Madanlal Musuvathi---1.0
+Todd Mytkowicz---1.0
+Yufei Ding---1.0
+Onkar Bhardwaj---1.0
+Guojing Cong---1.0
+Soravit Changpinyo---1.0
+Edwin D. de Jong---1.0
+Liwen Zhang---1.0
+John Winn---1.0
+Patrick Putzky---1.0
+Guy L. Steele Jr.---1.0
+Nikolas Wolfe---1.0
+Aditya Sharma---1.0
+Lukas Drude---1.0
+Bhiksha Raj---1.0
+Joji Toyama---1.0
+Masanori Misono---1.0
+Thomas Nedelec---1.0
+Elena Smirnova---1.0
+Flavian Vasile---1.0
+Mingbo Ma---1.0
+Liang Huang---1.0
+Taewan Kim---1.0
+Yoshimasa Tsuruoka---1.0
+Adam Paszke---1.0
+Eugenio Culurciello---1.0
+Jayanth Koushik---1.0
+Hiroaki Hayashi---1.0
+Guillaume Alain---1.0
+Ramesh Nallapati---1.0
+Bowen Zhou and Mingbo Ma---1.0
+Chao-Yuan Wu---1.0
+Amr Ahmed---1.0
+Alex Beutel---1.0
+Alessandro Magnani---1.0
+Abhinandan Krishnan---1.0
+Shengdong Zhang---1.0
+Soheil Bahrampour---1.0
+Naveen Ramakrishnan---1.0
+Mohak Shah---1.0
+Jay Yoon Lee---1.0
+Daniel Berio---1.0
+Memo Akten---1.0
+Frederic Fol Leymarie---1.0
+Mick Grierson---1.0
+Réjean Plamondon---1.0
+Yan Wang---1.0
+Yu Sun---1.0
+Gerald Tesauro---1.0
+Brendan Maginnis---1.0
+Yusuke Iwasawa---1.0
+Anima Anandkumar---1.0
+Guokun Lai---1.0
+Hod Lipson---1.0
+Yiming Yang---1.0
+Stanisław Jastrzębski---1.0
+Jaime Carbonell---1.0
+Ole Winther---1.0
+Pierre H. Richemond---1.0
+Stephan Hoyer---1.0
+Tommi Jaakkola---1.0
+Hiroshi Inoue---1.0
+Biswa Sengupta---1.0
+Giannis Nikolentzos---1.0
+Polykarpos Meladianos---1.0
+Michalis Vazirgiannis---1.0
+Jia Bi---1.0
+Mahdi Azarafrooz---1.0
+Amelie Royer---1.0
+Konstantinos Bousmalis---1.0
+Fred Bertsch---1.0
+Inbar Mosseri---1.0
+Forrester Cole---1.0
+Jianfei Chen---1.0
+Amirata Ghorbani---1.0
+Abubakar Abid---1.0
+Takuro Kutsuna---1.0
+Alasdair Newson---1.0
+Andres Almansa---1.0
+Yann Gousseau---1.0
+Said Ladjal---1.0
+Prannay Khosla---1.0
+Vinay P. Namboodiri---1.0
+Mukundhan Srinivasan---1.0
+Zixin Yao---1.0
+Yu Gai---1.0
+Jialin Mao---1.0
+Zheng Zhang---1.0
+Qiao Liu---1.0
+Xiaohui Yang---1.0
+Rui Wan---1.0
+Shouzhong Tu---1.0
+Zufeng Wu---1.0
+Martin Wattenberg---1.0
+Fernanda Viégas---1.0
+Thilo Strauss---1.0
+Markus Hanselmann---1.0
+Andrej Junginger---1.0
+Holger Ulmer---1.0
+Anderson Y. Zhang---1.0
+Miao Lu---1.0
+Jimmy Yang---1.0
+Akilesh B---1.0
+Francois Fagan---1.0
+Garud Iyengar---1.0
+Silvio Savarese---1.0
+Qizhe Xie---1.0
+Rui Liu---1.0
+Weiguang Mao---1.0
+Maria Chikina---1.0
+Ricky Loynd---1.0
+Hazem A. A. Nomer---1.0
+Abdallah Aboutahoun---1.0
+Ashraf Elsayed---1.0
+Guy Katz---1.0
+Clark Barrett---1.0
+Conor Durkan---1.0
+Yuchen Hou---1.0
+Lawrence B. Holder---1.0
+Anthony Meehan---1.0
+Ryan K L Ko---1.0
+Geoff Holmes---1.0
+Igor Gitman---1.0
+Chris Hettinger---1.0
+Tanner Christensen---1.0
+Jeff Humpherys---1.0
+Tyler J Jarvis---1.0
+Yuchen Lu---1.0
+Surya Bhupatiraju---1.0
+Shane Gu---1.0
+Avinava Dubey---1.0
+Yuhuang Hu---1.0
+Adrian Huber---1.0
+Shih-Chii Liu---1.0
+Raanan Y. Yehezkel Rohekar---1.0
+Guy Koren---1.0
+Shami Nisimov---1.0
+Gal Novik---1.0
+Ioannis Antonoglou---1.0
+Isabella Pozzi---1.0
+Roeland Nusselder---1.0
+Timothée Lesort---1.0
+Jean-Francois Goudou---1.0
+David Filliat---1.0
+Boyuan Chen---1.0
+Warren Mo---1.0
+Ishanu Chattopadhyay---1.0
+Guanhua Zheng---1.0
+Jitao Sang---1.0
+Changsheng Xu---1.0
+Mehran Taghipour-Gorjikolaie---1.0
+Seyyed Mohammad Razavi---1.0
+Javad Sadri---1.0
+Peter Stone---1.0
+Zijun Zhang---1.0
+Lin Ma---1.0
+Zongpeng Li---1.0
+Chuan Wu---1.0
+Vijai Mohan---1.0
+Chin-Wei Huang---1.0
+Ryan Turner---1.0
+Alexandre Lacoste---1.0
+Cho-jui Hsieh---1.0
+Mikolaj Binkowski---1.0
+Gautier Marti---1.0
+Philippe Donnat---1.0
+Ron Levie---1.0
+Michael M. Bronstein---1.0
+Sara Hooker---1.0
+Julius Adebayo---1.0
+Runyao Chen---1.0
+Kun Wu---1.0
+Shuai Tang---1.0
+Hailin Jin---1.0
+Chen Fang---1.0
+Zhaowen Wang---1.0
+Virginia R. de Sa---1.0
+Denis A. Gudovskiy---1.0
+Alec Hodgkinson---1.0
+Luca Rigazio---1.0
+David Macêdo---1.0
+Cleber Zanchettin---1.0
+Adriano L. I. Oliveira---1.0
+Teresa Ludermir---1.0
+Su Young Lee---1.0
+Xuefei Ning---1.0
+Zhuxi Jiang---1.0
+Huazhong Yang---1.0
+Junzhou Huang---1.0
+João Sedoc---1.0
+Dean Foster---1.0
+Lyle Ungar---1.0
+Tom Bosc---1.0
+Sourya Dey---1.0
+Kuan-Wen Huang---1.0
+Peter A. Beerel---1.0
+Keith M. Chugg---1.0
+Mengmi Zhang---1.0
+Keng Teck Ma---1.0
+Joo Hwee Lim---1.0
+Shih-Cheng Yen---1.0
+Qi Zhao---1.0
+Jian Du---1.0
+Shanghang Zhang---1.0
+Guanhang Wu---1.0
+José M. F. Moura---1.0
+Soummya Kar---1.0
+Jinwook Oh---1.0
+Marco Pistoia---1.0
+Gwo Giun (Chris) Lee---1.0
+Ning Miao---1.0
+Hengliang Wang---1.0
+Ran Le---1.0
+Mingyue Shang---1.0
+James Henderson---1.0
+John K. Tsotsos---1.0
+Vitaliy Liptchinsky---1.0
+Ronan Collobert---1.0
+Adly Templeton---1.0
+Jugal Kalita---1.0
+Jarrel Seah---1.0
+Jennifer Tang---1.0
+Andy Kitchen---1.0
+Jonathan Seah---1.0
+Ruo-Chun Tzeng---1.0
+Shan-Hung Wu---1.0
+Ondrej Bajgar---1.0
+and Jan Kleindienst---1.0
+Girish Raguvir J *---1.0
+Srivatsan Ramesh *---1.0
+Marissa Connor---1.0
+Christopher Rozell---1.0
+Katya Gonina---1.0
+Jiezhong Qiu---1.0
+Hao Ma---1.0
+Yuxiao Dong---1.0
+Kuansan Wang---1.0
+Jie Tang---1.0
+Lei Huang---1.0
+Qihang Lin---1.0
+Kushal Chawla---1.0
+Sopan Khosla---1.0
+Niyati Chhaya---1.0
+Kokil Jaidka---1.0
+Zhao Chen---1.0
+Vijay Badrinarayanan---1.0
+Chen-Yu Lee---1.0
+Andrew Rabinovich---1.0
+Shurjo Banerjee---1.0
+Vikas Dhiman---1.0
+Brent Griffin---1.0
+Jason J. Corso---1.0
+Yoel Zeldes---1.0
+Stavros Theodorakis---1.0
+Efrat Solodnik---1.0
+Aviv Rotman---1.0
+Gil Chamiel---1.0
+Dan Friedman---1.0
+Shiqi Liu---1.0
+Qian Zhao---1.0
+Xiangyong Cao---1.0
+Deyu Meng---1.0
+Zilu Ma---1.0
+Tao Yu---1.0
+Timothy Wong---1.0
+Zhiyuan Luo---1.0
+Maryam Fazel---1.0
+Mehran Mesbahi---1.0
+Ari S Benjamin---1.0
+Thanh T. Nguyen---1.0
+Jaesik Choi---1.0
+Ron Amit---1.0
+Ron Meir---1.0
+Enrico Guiraud---1.0
+Jakob Drefs---1.0
+Joerg Luecke---1.0
+jianqi ma---1.0
+hangyu lin---1.0
+yinda zhang---1.0
+yanwei fu---1.0
+xiangyang xue---1.0
+Thiago Serra---1.0
+Srikumar Ramalingam---1.0
+Sneha Kudugunta---1.0
+Adepu Shankar---1.0
+Surya Chavali---1.0
+Vineeth Balasubramanian---1.0
+Purushottam Kar---1.0
+Yanqi Zhou---1.0
+Benjamin Rosman---1.0
+Thomas Lucas---1.0
+Jakob Verbeek---1.0
+Li Yao---1.0
+Eric Poblenz---1.0
+Dmitry Dagunts---1.0
+Ben Covington---1.0
+Devon Bernard---1.0
+Kevin Lyman---1.0
+Masashi Sugiyama---1.0
+Dae Hoon Park---1.0
+Chiu Man Ho---1.0
+Yi Chang---1.0
+Pin Zhang---1.0
+Bibo Shi---1.0
+JundongLiu---1.0
+Olivier Goudet---1.0
+Diviyan Kalainathan---1.0
+Philippe Caillou---1.0
+Isabelle Guyon---1.0
+Michèle Sebag---1.0
+Jonathan Binas---1.0
+Rasmus Berg Palm---1.0
+Ulrich Paquet---1.0
+Max Pflueger---1.0
+Ali Agha---1.0
+Gaurav S. Sukhatme---1.0
+David Held---1.0
+Xinyang Geng---1.0
+Mattias Teye---1.0
+Kevin Smith---1.0
+Xiangyu Kong---1.0
+Bo Xin---1.0
+Zack Chase Lipton---1.0
+Tommaso Furlanello---1.0
+Dufan Wu---1.0
+Kyungsang Kim---1.0
+Quanzheng Li---1.0
+Nevan Wichers---1.0
+Jakub Dutkiewicz---1.0
+Czesław Jędrzejek---1.0
+Shirin Dora---1.0
+Cyriel Pennartz---1.0
+Matthew A. Johnson---1.0
+Alan Lawrence---1.0
+Maik Riechert---1.0
+Dimitrios Vytiniotis---1.0
+Sam Webster---1.0
+Zhaoyuan Gu---1.0
+Zhenzhong Jia---1.0
+Howie Choset---1.0
+Chin-Chia Michael Yeh---1.0
+Yan Zhu---1.0
+Evangelos E. Papalexakis---1.0
+Abdullah Mueen---1.0
+Eamonn Keogh---1.0
+Karim Ahmed---1.0
+Mengying Sun---1.0
+Inci M. Baytas---1.0
+Xi Wu---1.0
+Lingjiao Chen---1.0
+Meng Li---1.0
+Liangzhen Lai---1.0
+Naveen Suda---1.0
+Vikas Chandra---1.0
+David Z. Pan---1.0
+Yueru Chen---1.0
+C.-C. Jay Kuo---1.0
+Yiping Song---1.0
+Cheng-Te Li---1.0
+Huan Wang---1.0
+Pan Zhou---1.0
+Kyle Helfrich---1.0
+Devin Willmott---1.0
+Qiang Ye---1.0
+Guoqing Zheng---1.0
+Yuke Zhu---1.0
+Andrei Rusu---1.0
+Sugandha Doda---1.0
+Vitor Fortes Rey---1.0
+Dr. Nadereh Hatami---1.0
+Prof. Dr. Paul Lukowicz---1.0
+Maja Rudolph---1.0
+Francisco Ruiz---1.0
+David Blei---1.0
+Hae Beom Lee---1.0
+Daniil Polykovskiy---1.0
+Dmitry Soloviev---1.0
+Peiye Zhuang---1.0
+Oluwasanmi Koyejo---1.0
+Jiong Zhang---1.0
+Qi Lei---1.0
+Anton Nemchenko---1.0
+Kartik Ahuja---1.0
+Mihaela Van Der Schaar---1.0
+Joseph Futoma---1.0
+Anthony Lin---1.0
+Mark Sendak---1.0
+Armando Bedoya---1.0
+Meredith Clement---1.0
+Cara O'Brien---1.0
+Katherine Heller---1.0
+Eric Crawford---1.0
+Guillaume Rabusseau---1.0
+Dejiao Zhang---1.0
+Christina Heinze-Deml---1.0
+Nicolai Meinshausen---1.0
+Jason Ramapuram---1.0
+Magda Gregorova---1.0
+Alexandros Kalousis---1.0
+Thanard Kurutach---1.0
+Hanzhang Hu---1.0
+Debadeepta Dey---1.0
+Martial Hebert---1.0
+Jingzhou Liu---1.0
+Graham Neubig---1.0
+Michael O. Vertolli---1.0
+Jim Davies---1.0
+Smitha Milli---1.0
+Cem TARHAN---1.0
+Gözde BOZDAĞI AKAR---1.0
+Fredrik D. Johansson---1.0
+Nathan Kallus---1.0
+Uri Shalit---1.0
+Josh Fromm---1.0
+Shwetak Patel---1.0
+Ronen Talmon---1.0
+Ella M. Gale---1.0
+Nicolas Martin---1.0
+Jeffrey Bowers---1.0
+Julien Audiffren---1.0
+Divya Shanmugam---1.0
+Davis Blalock---1.0
+John Guttag---1.0
+Matthew J. A. Smith---1.0
+Claire Donnat---1.0
+David Hallac---1.0
+Vijay Vasudevan---1.0
+Shikhar Sharma---1.0
+Layla El Asri---1.0
+Hannes Schulz---1.0
+Jeremie Zumer---1.0
+Catherine Wong---1.0
+Songgang Zhao---1.0
+Jianyuan Zhang---1.0
+Zhouyuan Li---1.0
+Emmanuel Daucé---1.0
+Anna Levit---1.0
+ Daniel Crawford---1.0
+Navid Ghadermarzy---1.0
+Jaspreet S. Oberoi---1.0
+Ehsan Zahedinejad---1.0
+Pooya Ronagh---1.0
+Hang Wu---1.0
+Renato Negrinho---1.0
+Geoff Gordon---1.0
+Gil Tabak---1.0
+Minjie Fan---1.0
+Samuel J. Yang---1.0
+Geoff Davis---1.0
+Xiang Zhang---1.0
+Wenbin Li---1.0
+Jeannette Bohg---1.0
+Animesh Karnewar---1.0
+Adi Hayat---1.0
+Mark Kliger---1.0
+Shachar Fleishman---1.0
+Daniel Cohen-Or---1.0
+Linyi Li---1.0
+Rahul Anand Sharma---1.0
+Monojit Choudhury---1.0
+Pranava Madhyastha---1.0
+Josiah Wang---1.0
+Lucia Specia---1.0
+Andrew Hallam---1.0
+Edward Grant---1.0
+Vid Stojevic---1.0
+Simone Severini---1.0
+Andrew G. Green---1.0
+Yao Ma---1.0
+Calin Belta---1.0
+Daiki Kimura---1.0
+Subhajit Chaudhury---1.0
+Ryuki Tachibana---1.0
+Sakyasingha Dasgupta---1.0
+Frederik Ebert---1.0
+Richard Zhang---1.0
+John Quan---1.0
+Riaan Zoetmulder---1.0
+Luke Hewitt---1.0
+Andrea Gane---1.0
+Stephan Zheng---1.0
+Mert Bülent Sarıyıldız---1.0
+Ramazan Gökberk Cinbiş---1.0
+Erman Ayday---1.0
+Danlu Chan---1.0
+Volodymyr Kuleshov---1.0
+Shantanu Thakoor---1.0
+Tingfung Lau---1.0
+Amit Deshpande---1.0
+Sushrut Karmalkar---1.0
+Christopher Grimm---1.0
+Dilip Arumugam---1.0
+Siddharth Karamcheti---1.0
+David Abel---1.0
+Lawson L.S. Wong---1.0
+Michael L. Littman---1.0
+Anuvabh Dutt---1.0
+Denis Pellerin---1.0
+Georges Quénot---1.0
+Daniel Kang---1.0
+Karey Shi---1.0
+Thao Ngyuen---1.0
+Stephanie Mallard---1.0
+Sanjukta Krishnagopal---1.0
+Michelle Girvan---1.0
+Frederic Besse---1.0
+Karol Gregor---1.0
+Po-Chen Hsieh---1.0
+Chia-Ping Chen---1.0
+Dimche Kostadinov---1.0
+Slava Voloshynovskiy---1.0
+Lei Shu---1.0
+Hu Xu---1.0
+Bing Liu---1.0
+Robert Vandermeulen---1.0
+Stephan Mandt---1.0
+Pierre Richemond---1.0
+Cheng Tang---1.0
+Claire Monteleoni---1.0
+Gintare Karolina Dziugaite---1.0
+Daniel M. Roy---1.0
+Vuong Ho Quan---1.0
+Kenny Song---1.0
+Xiao-Yue Gong---1.0
+Zhuo Wang---1.0
+Pierce I-Jen Chuang---1.0
+Vijayalakshmi Srinivasan---1.0
+Tsung-Hsien Wen---1.0
+Dan Svenstrup---1.0
+Jonas Meinertz Hansen---1.0
+JIANXIONG DONG---1.0
+Jim Huang---1.0
+Dmitry Kangin---1.0
+Nicolas Pugeault---1.0
+Vlad Velici---1.0
+Sebastian Urban---1.0
+Jingyi Xu---1.0
+Zilu Zhang---1.0
+Tal Friedman---1.0
+Yitao Liang---1.0
+Guy Van den Broeck---1.0
+Dimitris Kalatzis---1.0
+Konstantia Kotta---1.0
+Ilias Kalamaras---1.0
+Anastasios Vafeiadis---1.0
+Andrew Rawstron---1.0
+Dimitris Tzovaras---1.0
+Kostas Stamatopoulos---1.0
+Balestriero R.---1.0
+Roger V.---1.0
+Glotin H.---1.0
+Baraniuk R.---1.0
+Rey Wiyatno---1.0
+Jeff Orchard---1.0
+Ricardo Pio Monti---1.0
+Sina Tootoonian---1.0
+Robin Cao---1.0
+Siddharth Krishna Kumar---1.0
+Naveen Sai Madiraju---1.0
+Seid M. Sadat---1.0
+Dimitry Fisher---1.0
+Homa Karimabadi---1.0
+Arjun Nitin Bhagoji---1.0
+Ke Tran---1.0
+Hangyu Mao---1.0
+Zhibo Gong---1.0
+Zhen Xiao---1.0
+Vincent W.-S. Tseng---1.0
+Sourav Bhattachary---1.0
+Javier Fernández Marqués---1.0
+Catherine Tong---1.0
+Nicholas Donald Lane---1.0
+Vithursan Thangarasa---1.0
+Ahmed A Aly---1.0
+Joanne Bechta Dugan---1.0
+Emilio Rafael Balda---1.0
+Rudolf Mathar---1.0
+Alex Alemi---1.0
+Josh Dillon---1.0
+Rif A. Saurus---1.0
+Hanock Kwak---1.0
+Jatin Ganhotra---1.0
+Yeu-Chern Harn---1.0
+Benjamin Paul Chamberlain---1.0
+James R Clough---1.0
+Marc Peter Deisenroth---1.0
+Jesse Dodge---1.0
+Noah A. Smith---1.0
+Jan Kukačka---1.0
+Vladimir Golkov---1.0
+Amy Zhang---1.0
+Dirk Weissenborn---1.0
+Benson Chen---1.0
+Connor Coley---1.0
+Ankit Sharma---1.0
+Himanshu Kharkwal---1.0
+Jaideep Srivastava---1.0
+Anish Athalye---1.0
+Logan Engstrom---1.0
+Kevin Kwok---1.0
+Hongyang Gao---1.0
+Zhengyang Wang---1.0
+Shuiwang Ji---1.0
+Juan Sebastian Olier---1.0
+Emilia Barakova---1.0
+Matthias Rauterberg---1.0
+Carlo Regazzoni---1.0
+Cong Xie---1.0
+Oluwasanmi O. Koyejo---1.0
+Indranil Gupta---1.0
+Yibo Yang---1.0
+Nicholas Ruozzi---1.0
+Vibhav Gogate---1.0
+Qiuyu Chen---1.0
+Jun Yu---1.0
+Jianping Fan---1.0
+Bita Darvish Rouhani---1.0
+Mohammad Samragh---1.0
+Tara Javidi---1.0
+Farinaz Koushanfar---1.0
+Sayantan Dasgupta---1.0
+Milan Aggarwal---1.0
+Aarushi Arora---1.0
+Aleksei Triastcyn---1.0
+Boi Faltings---1.0
+Glen Berseth---1.0
+Ben Krause---1.0
+Emmanuel Kahembwe---1.0
+Steve Renals---1.0
+Simon Carbonnelle---1.0
+Christophe De Vleeschouwer---1.0
+Jason Lee---1.0
+Eric Bailey---1.0
+Charles Meyer---1.0
+Shuchin Aeron---1.0
+Pablo M. Olmos---1.0
+Briland Hitaj---1.0
+Paolo Gasti---1.0
+Giuseppe Ateniese---1.0
+Fernando Perez-Cruz---1.0
+Deepak Pathak---1.0
+Evan Shelhamer---1.0
+Olalekan Ogunmolu---1.0
+Nicholas FitzGerald---1.0
+Luke Zettlemoyer---1.0
+Mohamed Ishmael Belghazi---1.0
+Sai Rajeswar---1.0
+Jovana Mitrovic---1.0
+Mateo Rojas-Carulla---1.0
+Jakub Bartłomiej Świątkowski---1.0
+Yau-Shian Wang---1.0
+Yu Wu---1.0
+Zhoujun Li---1.0
+Quentin Grail---1.0
+Julien Perez---1.0
+Noa Garcia---1.0
+George Vogiatzis---1.0
+Dino S. Ratcliffe---1.0
+Luca Citi---1.0
+Udo Kruschwitz---1.0
+Yu Qian---1.0
+Charles H. Martin---1.0
+Shaun Barry---1.0
+Youngmoo Kim---1.0
+Mateo Rojas Carulla---1.0
+Niki Kilbertus---1.0
+Matt Riemer---1.0
+Michele Franceschini---1.0
+and Tim Klinger---1.0
+Ehsan Abbasnejad---1.0
+Javen Shi---1.0
+Anton van den Hengel---1.0
+Anthony Hu---1.0
+Seth Flaxman---1.0
+Yin Liu---1.0
+Vincent Chen---1.0
+Suraj Nandkishor Kothawade---1.0
+Sumit Baburao Tamgale---1.0
+Sohil Atul Shah---1.0
+Hui-Po Wang---1.0
+Wei-Jan Ko---1.0
+Wen-Hsiao Peng---1.0
+Venkatesh Elango*---1.0
+Aashish N Patel*---1.0
+Kai J Miller---1.0
+Vikash Gilja---1.0
+Hanshu Yan---1.0
+Yong-Ho Yoo---1.0
+Kook Han---1.0
+Sanghyun Cho---1.0
+Kyoung-Chul Koh---1.0
+Jong-Hwan Kim---1.0
+Antoine J.-P. Tixier---1.0
+Konrad Groh---1.0
+Joseph J. Lim---1.0
+Niki Parmar---1.0
+Mehdi Fatemi---1.0
+Joshua Romoff---1.0
+Harm van Seijen---1.0
+Balázs Hidasi---1.0
+Dinghan Shen---1.0
+Guoyin Wang---1.0
+Wenlin Wang---1.0
+Qinliang Su---1.0
+Ricardo Henao---1.0
+N dinesh reddy---1.0
+Antoine J-P Tixier---1.0
+Konstantinos Skianis---1.0
+John Blitzer---1.0
+Guandao Yang---1.0
+Marc G. Bellemare---1.0
+Ivo Danihelka---1.0
+Hideki Nakayama---1.0
+Michael Blot---1.0
+Thomas Robert---1.0
+Nicolas Thome---1.0
+Matthieu Cord---1.0
+Martin Simonovsky---1.0
+Anil A. Bharath---1.0
+Hongseok Yang---1.0
+Kiran K. Thekumparampil---1.0
+Dario Garcia-Gasulla---1.0
+Armand Vilalta---1.0
+Ferran Parés---1.0
+Jonatan Moreno---1.0
+Eduard Ayguadé---1.0
+Jesús Labarta---1.0
+Ulises Cortés---1.0
+Toyotaro Suzumura---1.0
+Weiyi Liu---1.0
+Hal Cooper---1.0
+Min-Hwan Oh---1.0
+Li Ding---1.0
+Chenliang Xu---1.0
+Judy Hoffman---1.0
+Eric Tzeng---1.0
+Taesung Park---1.0
+Phillip Isola---1.0
+Alyosha Efros---1.0
+Furong Huang---1.0
+Robert E. Schapire---1.0
+Eleanor Quint---1.0
+Garrett Wirka---1.0
+Jacob Williams---1.0
+Stephen Scott---1.0
+N.V. Vinodchandran---1.0
+Matthew Mirman---1.0
+Dimitar Dimitrov---1.0
+Pavle Djordjevich---1.0
+Yoichi Ishibashi---1.0
+Hisashi Miyamori---1.0
+Andrew Kyle Lampinen---1.0
+James Lloyd McClelland---1.0
+Malte Probst---1.0
+Arezoo Alizadeh---1.0
+Marion Mutter---1.0
+Thomas Münch---1.0
+Stefano Panzeri---1.0
+Callie Federer---1.0
+Joel Zylberberg---1.0
+Naveen Kodali---1.0
+James Hays---1.0
+Jacob Abernethy---1.0
+Mikael Kågebäck---1.0
+Olof Mogren---1.0
+William H. Guss---1.0
+Zac Kenton---1.0
+Asana Neishabouri---1.0
+Michel Desmarais---1.0
+Samira Shabanian---1.0
+Jian Wu---1.0
+Peter I. Frazier---1.0
+Kshiteesh Hegde---1.0
+Malik Magdon-Ismail---1.0
+Ram Ramanathan---1.0
+Bishal Thapa---1.0
+Murad Tukan---1.0
+Vinci Chow---1.0
+Zhihao Jia---1.0
+Sina Lin---1.0
+Charles R. Qi---1.0
+Alex Aiken---1.0
+Joseph Suarez---1.0
+Justin Johnson---1.0
+Fei-Fei Li---1.0
+Eric Undersander---1.0
+Lukas Balles---1.0
+Craig Bakker---1.0
+Michael J. Henry---1.0
+Nathan O. Hodas---1.0
+Francois W. Belletti---1.0
+Alexander Ku---1.0
+Kenny J. Young---1.0
+Shuo Yang---1.0
+Richard S. Sutton---1.0
+
+Brady Neal---1.0
+Sherjil Ozair---1.0
+Ioannis Mitliagkas---1.0
+Yermek Kapushev---1.0
+Zhendong Su---1.0
+Zhanxing Zhu---1.0
+Pasquale Minervini---1.0
+Guy Wolf---1.0
+Smita Krishnaswamy---1.0
+Xinjian Li---1.0
+Diego Klabjan---1.0
+Jacek Tabor---1.0
+Przemysław Spurek---1.0
+Newsha Ardalani---1.0
+Joel Hestness---1.0
+Eric Xing---1.0
+Sandesh Kamath---1.0
+Jose Principe---1.0
+Sarah Adel Bargal---1.0
+Stan Sclaroff---1.0
+Jordan Boyd-Graber---1.0
+Mingtian Zhang---1.0
+Chang D. Yoo---1.0
+Jiawei Zhang---1.0
+Aaron Defazio---1.0
+Zhang-Wei Hong---1.0
+Yi-Hsiang Chang---1.0
+Chun-Yi Lee---1.0
+Nojun Kwak---1.0
+Martin Jaggi---1.0
+Nikita Vemuri---1.0
+Joseph Gonzalez---1.0
+Claire Cardie---1.0
+David van Dijk---1.0
+Mike Rabbat---1.0
+Neale Ratzlaff---1.0
+Rémi Munos---1.0
+Łukasz Maziarka---1.0
+Moin Nabi---1.0
+Siddhartha Brahma---1.0
+Animesh Koratana*---1.0
+Daniel Kang*---1.0
+Brandon Yang---1.0
+Weitang Liu---1.0
+Christian Simon---1.0
+Piotr Koniusz---1.0
+Mehrtash Harandi---1.0
+Adrian Wills---1.0
+Thomas B. Schön---1.0
+Carl Jidling---1.0
+Thomas Breuel---1.0
+Ange tato---1.0
+Roger nkambou---1.0
+Carl-Johann Simon-Gabriel---1.0
+Tao Sun---1.0
+Zhewei Wang---1.0
+C. D. Smith---1.0
+Jundong Liu---1.0
+Sungyeob Han---1.0
+Daeyoung Kim---1.0
+Jungwoo Lee---1.0
+Siddharth Dalmia---1.0
+David R. Mortensen---1.0
+Florian Metze---1.0
+Wanrong Zhu---1.0
+Lu Liu---1.0
+Ben Trevett---1.0
+Donald Reay---1.0
+N. K. Taylor---1.0
+Chao Ma---1.0
+Konstantina Palla---1.0
+Jose Miguel Hernandez Lobato---1.0
+Parvin Nazari---1.0
+Davoud Ataee Tarzanagh---1.0
+George Michailidis---1.0
+Parichay Kapoor---1.0
+Byeongwook Kim---1.0
+Nhat Ho---1.0
+Tan Nguyen---1.0
+Dan Zhang---1.0
+Anna Khoreva---1.0
+Remus Pop---1.0
+Patric Fulop---1.0
+Nathanael Perraudin---1.0
+Yu Li---1.0
+Zhongxiao Li---1.0
+Lizhong Ding---1.0
+Yijie Pan---1.0
+Chao Huang---1.0
+Yuhui Hu---1.0
+Su-Jin Shin---1.0
+Kyungwoo Song---1.0
+Il-Chul Moon---1.0
+Utku Evci---1.0
+Pablo Castro---1.0
+Brandon Tran---1.0
+Hongxiang Chen---1.0
+Leonard Wossnig---1.0
+Hartmut Neven---1.0
+Masoud Mohseni---1.0
+Minah Lee---1.0
+Burhan A. Mudassar---1.0
+Priyabrata Saha---1.0
+Michael Tetelman---1.0
+Sunil Thulasidasan---1.0
+Tanmoy Bhattacharya---1.0
+Jeffrey Bilmes---1.0
+Gopinath Chennupati---1.0
+Jamal Mohd-Yusof---1.0
+Badal Singh---1.0
+Jun Qi---1.0
+Chin-Hui Lee---1.0
+Javier Tejedor---1.0
+Nicholas Roberts---1.0
+Poornav S. Purushothama---1.0
+Vishal T. Vasudevan---1.0
+Siddarth Ravichandran---1.0
+Chen Zhang---1.0
+William H. Gerwick---1.0
+Garrison W. Cottrell---1.0
+Yi-Lin Sung---1.0
+Shufei Zhang---1.0
+Kaizhu Huang---1.0
+Amir Hussain---1.0
+Yanwei Fu---1.0
+Shun Zhang---1.0
+Donghao Li---1.0
+Xinwei Sun---1.0
+Xiangyang Xue---1.0
+Yuan Yao---1.0
+Shupeng Gui---1.0
+Xiangliang Zhang---1.0
+Shuang Qiu---1.0
+Mingrui Wu---1.0
+Jieping Ye---1.0
+Nilesh Kulkarni---1.0
+Ishan Misra---1.0
+Paul Michel---1.0
+Xian Li---1.0
+Boris Oreshkin---1.0
+Wonchang Chung---1.0
+Thomas Boquet---1.0
+Ellis Ratner---1.0
+Larry Wasserman---1.0
+Tianfan Fu*---1.0
+Tian Gao*---1.0
+Cao Xiao*---1.0
+Tengfei Ma*---1.0
+Chad Atalla---1.0
+Bartholomew Tam---1.0
+Amanda Song---1.0
+Gary Cottrell---1.0
+Alexander Stec---1.0
+Jean Utke---1.0
+Darwin Danilo Saire Pilco---1.0
+Adín Ramírez Rivera---1.0
+Ishita Dasgupta---1.0
+Jane Wang---1.0
+Pedro Ortega---1.0
+Zeb Kurth-Nelson---1.0
+Fahad Alhasoun---1.0
+Abduallah Mohamed---1.0
+Xinrui Hua---1.0
+Xianda Zhou---1.0
+Christian Claudel---1.0
+Sarah Tan---1.0
+Giles Hooker---1.0
+Paul Koch---1.0
+Albert Gordo---1.0
+Szymon Knop---1.0
+Marcin Mazur---1.0
+Oliver Goldstein---1.0
+Yuchen Qiao---1.0
+Kenjiro Taura---1.0
+Qing Yang---1.0
+Zuoguan Wang---1.0
+Florent CHIARONI. Mohamed-Cherif RAHAL. Nicolas HUEBER. Frédéric DUFAUX.---1.0
+Saeid Asgari Taghanaki---1.0
+Shekoofeh Azizi---1.0
+Ghassan Hamarneh---1.0
+Bryan McCann---1.0
+Siavash Golkar---1.0
+Kyle Cranmer---1.0
+Sai Kiran Narayanaswami---1.0
+Nandan Sudarsanam---1.0
+Chihiro Watanabe---1.0
+Mahdieh Abbasi---1.0
+Arezoo Rajabi---1.0
+Azadeh Sadat Mozafari---1.0
+Rakesh B. Bobba---1.0
+Jun Haeng Lee---1.0
+Sangwon Ha---1.0
+Saerom Choi---1.0
+Won-Jo Lee---1.0
+Seungwon Lee---1.0
+Farnood Salehi---1.0
+Dhiraj Gandhi---1.0
+Jan Stühmer---1.0
+Eldan Cohen---1.0
+J. Christopher Beck---1.0
+Thomas LUCAS---1.0
+Konstantin SHMELKOV---1.0
+Karteek ALAHARI---1.0
+Cordelia SCHMID---1.0
+Jakob VERBEEK---1.0
+Qianxiao Li---1.0
+Bo Lin---1.0
+Weiqing Ren---1.0
+Matko Bosnjak---1.0
+Ehsan Amid---1.0
+Manfred K. Warmuth---1.0
+Anh Nguyen---1.0
+Ryan Blything---1.0
+Nicholas Martin and Jeffrey S. Bowers---1.0
+Sören Dittmer---1.0
+Pascal Fernsel---1.0
+Peter Maass---1.0
+Matthew Inkawhich---1.0
+Yiming Xu---1.0
+Uwe Dick---1.0
+Maryam Tavakol---1.0
+Ulf Brefeld---1.0
+Adam M. Oberman---1.0
+Jeff Calder---1.0
+Saneem Ahmed Chemmengath---1.0
+Samarth Bharadwaj---1.0
+Suranjana Samanta---1.0
+Karthik Sankaranarayanan---1.0
+Luke Nicholas Darlow---1.0
+Vincent Adam---1.0
+Srinivas C. Turaga---1.0
+Hao Zhu---1.0
+Yankai Lin---1.0
+Zhiyuan Liu---1.0
+Tat-seng Chua and Maosong Sun---1.0
+Donghyeon Han---1.0
+Hoi-jun Yoo---1.0
+Tiange Luo---1.0
+Tianle Cai---1.0
+Mengxiao Zhang---1.0
+Siyu Chen---1.0
+Bo Liu---1.0
+Fengjuan Gao---1.0
+Amin Alipour---1.0
+Linzhang Wang---1.0
+Xuandong Li---1.0
+Steven Bohez---1.0
+Michael Neunert---1.0
+Jonas Buchli---1.0
+Ron Banner---1.0
+Yury Nahshan---1.0
+Wei-Yang Qu---1.0
+Tang-Jie Lv---1.0
+Ying-Feng Chen---1.0
+Chang-Jie Fan---1.0
+Simon Odense---1.0
+Artur d'Avila Garcez---1.0
+Felipe Petroski Such---1.0
+Vashisht Madhavan---1.0
+Edoardo Conti---1.0
+Joel Lehman---1.0
+Joao Henriques---1.0
+Samuel Albanie---1.0
+Myung Seok Shim---1.0
+Peng Li---1.0
+Cían Hughes---1.0
+Utsav Prabhu---1.0
+Hank Liao---1.0
+Hasim Sak---1.0
+Kanishka Rao---1.0
+Lorrayne Bennett---1.0
+Marie Mulville---1.0
+Ben Coppin---1.0
+Andrew Senior---1.0
+Lisa Lee---1.0
+Gal Mishne---1.0
+Eric C. Chi---1.0
+Ronald R. Coifman---1.0
+Luca de Alfaro---1.0
+K V Subrahmanyam---1.0
+Jesse Farebrother---1.0
+Michael Bowling---1.0
+Ravid Shwartz-Ziv---1.0
+Amichai Painsky---1.0
+Naftali Tishby---1.0
+Ugo Tanielian---1.0
+Flavian vasile---1.0
+Mike Gartrell---1.0
+Shiyu Duan---1.0
+Shujian Yu---1.0
+Yunmei Chen---1.0
+Fabio Pardo---1.0
+Vitaly Levdik---1.0
+Petar Kormushev---1.0
+Risto Vuorio---1.0
+Hexiang Hu---1.0
+Afshin Abdi---1.0
+Faramarz Fekri---1.0
+Nanyang Ye---1.0
+Lewis Smith---1.0
+Kate Rakelly*---1.0
+Evan Shelhamer*---1.0
+Jan Hula---1.0
+Raghavendra Pappagari---1.0
+Roma Patel---1.0
+Yinghui Huang---1.0
+Katherin Yu---1.0
+Shuning Jin---1.0
+Jingkai Mao---1.0
+Christos Tsirigotis---1.0
+Donghyun Kim---1.0
+Wenbo Zhao---1.0
+Shahan Ali Memon---1.0
+Morgan Funtowicz---1.0
+Tomi Silander---1.0
+Arnaud Sors---1.0
+Han Liu---1.0
+Fenfei Guo---1.0
+Leah Findlater---1.0
+Sameera Ramasinghe---1.0
+Salman Khan---1.0
+Nick Barnes---1.0
+Chenwei Zhang---1.0
+Nan Du---1.0
+Wei Fan---1.0
+Philip S. Yu---1.0
+Tomas Kocisky‎---1.0
+Yinbo Chen---1.0
+Zhuohan Li---1.0
+Sukarna Barua---1.0
+Sarah Monazam Erfani---1.0
+Michael Houle---1.0
+Mouloud Belbahri---1.0
+Matthieu Courbariaux---1.0
+Vahid Partovi Nia---1.0
+Kevin J Liang---1.0
+Tianxiao Shen---1.0
+Myle Ott---1.0
+Barratt---1.0
+Shane---1.0
+Sharma---1.0
+Rishi---1.0
+Gaëtan Hadjeres---1.0
+Mihai Andries---1.0
+Atabak Dehban---1.0
+Jose Santos-Victor---1.0
+Seong Jin Cho---1.0
+Sunghun Kang---1.0
+Panos Achlioptas---1.0
+Judy E. Fan---1.0
+Robert X.D. Hawkins---1.0
+Leo Guibas---1.0
+Davide Nunes---1.0
+Luis Antunes---1.0
+Zhenhua Chen---1.0
+Chuhua Wang---1.0
+Tiancong Zhao---1.0
+Mayur Mudigonda---1.0
+Blake Tickell---1.0
+Jonathan J Hunt---1.0
+Timothy P Lillicrap---1.0
+Gaurav Malhotra---1.0
+Limeng Cui---1.0
+Fisher B. Gouza---1.0
+John V. Arthur---1.0
+Izzet B. Yildiz---1.0
+Jaspreet Sahota---1.0
+Janahan Ramanan---1.0
+Sepehr Eghbali---1.0
+Marcus Brubaker---1.0
+Guolin Ke---1.0
+Jia Zhang---1.0
+Zhenhui Xu---1.0
+Jiang Bian---1.0
+Heewoo Jun---1.0
+Hassan Kianinejad---1.0
+Md. Mostofa Ali Patwary---1.0
+Gaurav Gupta---1.0
+Mohamed Ridha Znaidi---1.0
+Paul Bogdan---1.0
+Bo Zhao---1.0
+Leonid Sigal---1.0
+Tavi Halperin---1.0
+Ariel Ephrat---1.0
+Jingkang Wang---1.0
+Augustin Žídek---1.0
+André Barreto---1.0
+Ya-Ping Hsieh---1.0
+Chen Liu---1.0
+Volkan Cevher---1.0
+Chihuang Liu---1.0
+Joseph JaJa---1.0
+Matthew Thornton---1.0
+Jithendar Anumula---1.0
+Jeonghyun Lyu---1.0
+Takashi Shinozaki---1.0
+Kaoru Amano---1.0
+Nicholas I.H. Kuo---1.0
+Mehrtash T. Harandi---1.0
+Hanna Suominen---1.0
+Nicolas Fourrier---1.0
+Christian Walder---1.0
+Gabriela Ferraro---1.0
+Kenta Oono---1.0
+Xinlei Chen---1.0
+Harit Pandya---1.0
+Gregor H.W. Gebhardt---1.0
+Cheng Zhao---1.0
+Zhibang Ge---1.0
+Tao Jiang---1.0
+Katherine Lee---1.0
+Orhan Firat---1.0
+Clara Fannjiang---1.0
+Atsushi Suzuki---1.0
+Yosuke Enokida---1.0
+Kenji Yamanishi---1.0
+Kristina Toutanova---1.0
+Lukas Lee---1.0
+Jinwhan Park---1.0
+Yiqun Duan---1.0
+Mingwei Wei---1.0
+James Stokes---1.0
+David J Schwab---1.0
+Mehdi Mirza---1.0
+Rishabh Kabra---1.0
+Sébastien Racanière---1.0
+Théophane Weber---1.0
+Laurent Orseau---1.0
+Tom Eccles---1.0
+Jacob R. Gardner---1.0
+Yurong You---1.0
+Andrew G. Wilson---1.0
+Santiago Gonzalez---1.0
+Joshua Landgraf---1.0
+Piero Molino---1.0
+Yang Wang---1.0
+Ken Nakanishi---1.0
+Shin-ichi Maeda---1.0
+Cheolhyeong Kim---1.0
+Seungtae Park---1.0
+Hyung Ju Hwang---1.0
+Tomasz Kisielewski---1.0
+Maia Pasek---1.0
+Cheng Wang---1.0
+Mathias Niepert---1.0
+Hsin-Wei Yu---1.0
+Po-Yu Wu---1.0
+Chih-An Tsao---1.0
+You-An Shen---1.0
+Shih-Hsuan Lin---1.0
+Karl Stratos---1.0
+Pingbo Pan---1.0
+Yan Yan---1.0
+Shaokai Ye---1.0
+Tianyun Zhang---1.0
+Kaiqi Zhang---1.0
+Jiayu Li---1.0
+Yunfei Yang---1.0
+Fuxun Yu---1.0
+Makan Fardad---1.0
+Xiang Chen---1.0
+Paul Vernaza---1.0
+Junlang Zhan---1.0
+Charles Packer*---1.0
+Katelyn Gao*---1.0
+Philipp Krahenbuhl---1.0
+Jangho Kim---1.0
+Jeesoo Kim---1.0
+Pierre jacob---1.0
+David Picard---1.0
+Aymeric Histace---1.0
+Edouard Klein---1.0
+Zhizhong Li---1.0
+Derek Hoiem---1.0
+Zelda Mariet---1.0
+Yaniv Ovadia---1.0
+Varun Kanade---1.0
+Mehdi Jafarnia-Jahromi---1.0
+Tasmin Chowdhury---1.0
+Hsin-Tai Wu---1.0
+Sayandev Mukherjee---1.0
+Lierni Sestorain---1.0
+Ayan Chakrabarti---1.0
+Benjamin Moseley---1.0
+Yu-Yi Su---1.0
+Yung-Chih Chen---1.0
+Xiang-Xiu Wu---1.0
+Qi Tan---1.0
+Pingzhong Tang---1.0
+Weiran Shen---1.0
+Song Zuo---1.0
+Sidak Pal Singh---1.0
+Andreas Hug---1.0
+Aymeric Dieuleveut---1.0
+Luc van Gool---1.0
+Cosmin I. Bercea---1.0
+Olivier Pauly---1.0
+Andreas K. Maier---1.0
+Florin C. Ghesu---1.0
+Christopher Bourez---1.0
+Aurelien Coquard---1.0
+Leon Weber---1.0
+Ulf Leser---1.0
+Yilin Shen---1.0
+William Wang---1.0
+Hongxia Jin---1.0
+Kristy Choi---1.0
+Kedar Tatwawadi---1.0
+Jumpei Ukita---1.0
+Wensong Chan---1.0
+Zhiqiang Tian---1.0
+Xuguang Lan---1.0
+Lei Cao---1.0
+Yizhou Yan---1.0
+Samuel Madden---1.0
+Elke Rundensteiner---1.0
+Noah Golmant---1.0
+Zhewei Yao---1.0
+Vladimir Feinberg---1.0
+Amir Gholami---1.0
+Kai Rothauge---1.0
+Michael Mahoney---1.0
+Heinrich Jiang---1.0
+Renata Khasanova---1.0
+Damien Sileo---1.0
+Tim Van de Cruys---1.0
+Camille Pradel---1.0
+Philippe Muller---1.0
+Tsu-Jui Fu---1.0
+Tzu-Yun Shann---1.0
+Tongzhou Wang---1.0
+Chin-Yi Cheng---1.0
+Paresh Malalur---1.0
+Tomáš Pevný---1.0
+Vojtěch Kovařík---1.0
+Ning Zhang---1.0
+Qiang Wu---1.0
+Woon Sang Cho---1.0
+Xiujun Li---1.0
+Mengdi Wang---1.0
+R. Lily Hu---1.0
+Chris Lu---1.0
+Philip Isola---1.0
+Martin Loncaric---1.0
+Ryan Weber---1.0
+Bowei Liu---1.0
+Hadi Ghauch---1.0
+Hossein S. Ghadikolaei---1.0
+Mikael Skoglund---1.0
+Carlo Fischione---1.0
+Xiaojie Guo---1.0
+Liang Zhao---1.0
+Rachel A. Lerch---1.0
+Chris R. Sims---1.0
+Aristide Baratin---1.0
+Felix Draxler---1.0
+Min Lin---1.0
+Fred Hamprecht---1.0
+Bowen Tan*---1.0
+Zhiting Hu*---1.0
+Jin-Young Kim---1.0
+Sung-Bae Cho---1.0
+Xilun Chen---1.0
+Ahmed Hassan Awadallah---1.0
+Hany Hassan---1.0
+Scott Gigante---1.0
+Kevin R. Moon---1.0
+Alexander Strzalkowski---1.0
+Katie Ferguson---1.0
+Yingting Wu---1.0
+Rui Wang---1.0
+Sahisnu Mazumder---1.0
+Shuai Wang---1.0
+Yingxuan Zhu---1.0
+Xiaotian Yin---1.0
+Lifeng Liu---1.0
+Yongbing Huang---1.0
+Qingming Tang---1.0
+Mahmoud Assran---1.0
+Nicolas Loizou---1.0
+Doyen Sahoo---1.0
+Chenghao Liu---1.0
+Steven C. H. Hoi---1.0
+Patrick Schwab---1.0
+Lorenz Linhardt---1.0
+Walter Karlen---1.0
+Eliav Buchnik---1.0
+Edith Cohen---1.0
+Avinatan Hassidim---1.0
+Yossi Matias---1.0
+Wenqing Hu---1.0
+Yunchao Zhang---1.0
+Wentao Wang---1.0
+Haoran Shi---1.0
+Alberto Bietti*---1.0
+Grégoire Mialon*---1.0
+Julien Mairal---1.0
+Wei Gao---1.0
+Yi Wei---1.0
+Quanquan Li---1.0
+Hongwei Qin---1.0
+Junjie Yan---1.0
+Kamil Nar---1.0
+Orhan Ocal---1.0
+Kannan Ramchandran---1.0
+Dean P. Foster---1.0
+Günther Schindler---1.0
+Wolfgang Roth---1.0
+Franz Pernkopf---1.0
+Holger Fröning---1.0
+Yu-Guan Hsieh---1.0
+Yassine Benyahia*---1.0
+Kaicheng Yu*---1.0
+Kamil Bennani-Smires---1.0
+Anthony Davison---1.0
+Jiaming Luo---1.0
+Bertrand Charpentier---1.0
+Kui Jia---1.0
+Yifei HUANG---1.0
+Ryan-Rhys Griffiths---1.0
+Sukmin Yun---1.0
+Yoonho Lee---1.0
+Jungtaek Kim---1.0
+Seungjin Choi---1.0
+Jaedong Hwang---1.0
+Shaofan Lai---1.0
+Carl Vondrick---1.0
+Donghoon Lee---1.0
+Wayne Wu---1.0
+Kaidi Cao---1.0
+Cheng Li---1.0
+Chen Qian---1.0
+Ziliang Chen---1.0
+Keze Wang---1.0
+Du Su---1.0
+Ali Yekkehkhany---1.0
+Yi Lu---1.0
+Wenmiao Lu---1.0
+Sidi Lu---1.0
+Lantao Yu---1.0
+Siyuan Feng---1.0
+Yaoming Zhu---1.0
+Jeremy C. Weiss---1.0
+Asli Celikyilmaz---1.0
+Li  Fuxin---1.0
+Shuqian Ye---1.0
+Yanheng Xu---1.0
+Jiechun Liang---1.0
+Hao Xu---1.0
+Shuhong Cai---1.0
+Shixin Liu---1.0
+Xi Zhu---1.0
+Jiongqian Liang---1.0
+Saket Gurukar---1.0
+Srinivasan Parthasarathy---1.0
+Viresh Ranjan---1.0
+Heeyoung Kwon---1.0
+Niranjan Balasubramanian---1.0
+Minh Hoai---1.0
+Xuanyang Zhang---1.0
+Hao liu---1.0
+Jeffrey M Siskind---1.0
+Jason J Corso---1.0
+Rodrigo Nogueira---1.0
+Wonwoong Cho---1.0
+Seunghwan Choi---1.0
+Junwoo Park---1.0
+David Keetae Park---1.0
+Jaegul Choo---1.0
+Marc Khoury---1.0
+Dylan Hadfield-Menell---1.0
+Guido Novati---1.0
+Petros Koumoutsakos---1.0
+Xiaoyun Wang---1.0
+Joe Eaton---1.0
+Jiezhang Cao---1.0
+Yong Guo---1.0
+Langyuan Mo---1.0
+Mingkui Tan---1.0
+Danish Pruthi---1.0
+Mansi Gupta---1.0
+Nitish Kumar Kulkarni---1.0
+Victor Carbune---1.0
+Thierry Coppey---1.0
+Alexander Daryin---1.0
+Thomas Deselaers---1.0
+Nikhil Sarda---1.0
+Jay Yagnik---1.0
+Bastiaan S. Veeling---1.0
+Rianne van den Berg---1.0
+Barun Patra---1.0
+Joel Ruben Antony Moniz---1.0
+Sarthak Garg---1.0
+Matthew R Gormley---1.0
+Shengzhong Zhang---1.0
+Ziang Zhou---1.0
+Zengfeng Huang---1.0
+Lukas Nabergall---1.0
+Justin Toth---1.0
+Leah Cousins---1.0
+Haihao Shen---1.0
+Jiong Gong---1.0
+Xiaoli Liu---1.0
+Guoming Zhang---1.0
+Ge Jin---1.0
+and Eric Lin---1.0
+Julio Cesar Zamora---1.0
+Jesus Adan Cruz Vargas---1.0
+Omesh Tickoo---1.0
+Xin Luo---1.0
+Hankz Hankui Zhuo---1.0
+Ga Wu---1.0
+Justin Domke---1.0
+Scott Sanner---1.0
+Aibek Alanov---1.0
+Max Kochurov---1.0
+Daniil Yashkov---1.0
+Hongyuan Mei---1.0
+Guanghui Qin---1.0
+Jason Eisner---1.0
+Meng Qu---1.0
+Jisoo Jeong---1.0
+Seungeui Lee---1.0
+Jeremy Nixon---1.0
+Daniel Freeman---1.0
+Alireza Makhzani---1.0
+Ying Ma---1.0
+Yunhao Tang---1.0
+Shipra Agrawal---1.0
+Ravichandra Addanki---1.0
+Devavrat Shah---1.0
+Qiaomin Xie---1.0
+Soham De---1.0
+Enayat Ullah---1.0
+Ryuichiro Hataya---1.0
+Adel Bibi---1.0
+Bernard Ghanem---1.0
+Kuan Wang---1.0
+Dawei Sun---1.0
+Vighnesh Leonardo Shiv---1.0
+Chris Quirk---1.0
+Chong Huang---1.0
+Xiao Chen---1.0
+Lalitha Sankar---1.0
+Ram Rajagopal---1.0
+Yilun Du---1.0
+Masataro Asai---1.0
+David Janz---1.0
+Jakub Konečný---1.0
+Brendan McMahan---1.0
+K.V.Subrahmanyam---1.0
+Hongfu Liu---1.0
+Yue Wu---1.0
+Zhangheng Li---1.0
+Jia-Xing Zhong---1.0
+Jingjia Huang---1.0
+Tao Zhang---1.0
+Thomas Li---1.0
+Ge Li---1.0
+Liangbo He---1.0
+Hao Sun---1.0
+Yun-Nung Chen---1.0
+Natasha Jaques---1.0
+Pedro A. Ortega---1.0
+Joel Z. Leibo---1.0
+Oluwatobi O. Olabiyi---1.0
+Anish Khazane---1.0
+Alan Salimov---1.0
+Erik T.Mueller---1.0
+Shani Gamrian---1.0
+Mehadi Hassen---1.0
+Philip K. Chan---1.0
+Danushka Bollegala---1.0
+Huda Hakami---1.0
+Jingfeng Wu---1.0
+Bing Yu---1.0
+Lei Wu---1.0
+Siming Yan*---1.0
+Bowen Xiao*---1.0
+Ran Tian---1.0
+Yash Agrawal---1.0
+Kento Watanabe---1.0
+Hiroya Takamura---1.0
+Suhua Lei---1.0
+Yajie Bao---1.0
+Shao-Lun Huang---1.0
+Lin Zhang---1.0
+Amir R. Zamir---1.0
+Leonidas J. Guibas---1.0
+Chandan Kumar---1.0
+Subrahmanyam Vaddi---1.0
+Aishwarya Sarkar---1.0
+Sergio Gomez---1.0
+Yusuf Aytar---1.0
+Fangzhou Luo---1.0
+Xiaolin Wu---1.0
+Hongyin Luo---1.0
+Yichen Li---1.0
+Zhaohan Daniel Guo---1.0
+Bernardo Avila Pires---1.0
+Agnieszka Pocha---1.0
+Jan Kaczmarczyk---1.0
+Michał Warchoł---1.0
+Junwei Lu---1.0
+Chanakya Malireddy---1.0
+Tirth Maniar---1.0
+Sajal Maheshwari---1.0
+Manish Shrivastava---1.0
+Rohan Taori---1.0
+Amog Kamsetty---1.0
+Brenton Chu---1.0
+Samvit Jain---1.0
+Gary Bécigneul---1.0
+Jay S. Stanley III---1.0
+Xinqi Chen---1.0
+Ming Hou---1.0
+Guoxu Zhou---1.0
+Qibin Zhao---1.0
+David Earl Hostallero---1.0
+Chong Yu---1.0
+Ruishan Liu---1.0
+Nicolo Fusi---1.0
+Lester Mackey---1.0
+Stanislau Semeniuta---1.0
+Aliaksei Severyn---1.0
+Assya Trofimov---1.0
+Francis Dutil---1.0
+Claude Perreault---1.0
+Sebastien Lemieux---1.0
+Joseph Paul Cohen---1.0
+Digvijay Boob---1.0
+Santanu S. Dey---1.0
+Yue Jiao---1.0
+Marvin Zhang*---1.0
+Sharad Vikram*---1.0
+Laura Smith---1.0
+Matthew Johnson---1.0
+Sumanth Dathathri---1.0
+Richard M. Murray---1.0
+Yigitcan Kaya---1.0
+Stuart Nevans Locke---1.0
+Ian Rackow---1.0
+Kevin Kulda---1.0
+Tudor Dumitraș---1.0
+Yuxiang Hu---1.0
+Li Dong---1.0
+Feijun Jiang---1.0
+Zaiqing Nie---1.0
+Ryutaro Tanno---1.0
+Daniel C. Alexander---1.0
+Antonio Criminisi---1.0
+Aditya Nori---1.0
+Alexander Bartler---1.0
+Felix Wiewel---1.0
+Bin Yang---1.0
+Inkit Padhi---1.0
+Pierre Dognin---1.0
+Yumnah Mohamied---1.0
+Anil Bharath---1.0
+Chang Li---1.0
+Setareh Rafatirad---1.0
+Maryam Heidari---1.0
+Xinlei Pan---1.0
+Dawn Song.---1.0
+Yunfu Song---1.0
+Zhijian Ou---1.0
+Alex Irpan---1.0
+James Davidson---1.0
+Carlos Eduardo Rosar Kos Lassance---1.0
+Vincent Gripon---1.0
+Antonio Ortega---1.0
+Hirono Okamoto---1.0
+Shohei Ohsawa---1.0
+Itto Higuchi---1.0
+Haruka Murakami---1.0
+Mizuki Sango---1.0
+Zhenghang Cui---1.0
+Hiroshi Kajino---1.0
+Tolgahan Cakaloglu---1.0
+Xiaowei Xu---1.0
+Beomsu Kim---1.0
+Junghoon Seo---1.0
+Jeongyeol Choe---1.0
+Jamyoung Koo---1.0
+Seunghyeon Jeon---1.0
+Taegyun Jeon---1.0
+Robin C. Geyer---1.0
+Tassilo J. Klein---1.0
+Jielin Qiu---1.0
+Ge Huang---1.0
+Shulong Tan---1.0
+Zhixin Zhou---1.0
+Zhaozhuo Xu---1.0
+Yuangang Pan---1.0
+Avinash K Singh---1.0
+Chin-teng Lin---1.0
+Sung Kim---1.0
+Visvesh Sathe---1.0
+Oleksiy Ostapenko---1.0
+Mihai Puscas---1.0
+Tassilo Klein---1.0
+Brown Wang---1.0
+Hyoungseok Kim---1.0
+Jaekyeom Kim---1.0
+Yeonwoo Jeong---1.0
+Hyun Oh Song---1.0
+Tobias Pohlen---1.0
+Mel Večerík---1.0
+Philip Becker-Ehmck---1.0
+Marvin Teichmann---1.0
+Roberto Cipolla---1.0
+Abhishek Das---1.0
+Theophile Gervet---1.0
+Jun Han---1.0
+Salvator Lombardo---1.0
+Christopher Schroers---1.0
+MohamadAli Torkamani---1.0
+Phillip Wallis---1.0
+Richard Everett---1.0
+Bristy Sikder---1.0
+Ananya Kumar---1.0
+Charlie Beattie---1.0
+Zhaodong Chen---1.0
+Jiawei Sun---1.0
+Ling Liang---1.0
+YufeiDing---1.0
+Daniel Hernandez Diaz---1.0
+Antonio Khalil Moretti---1.0
+Ziqiang Wei---1.0
+Shreya Saxena---1.0
+John Cunningham---1.0
+Nelly Elsayed---1.0
+Anthony S. Maida---1.0
+Magdy Bayoumi---1.0
+Guillaume DOQUET---1.0
+Michèle SEBAG---1.0
+Huizhuo Yuan---1.0
+Chris Junchi Li---1.0
+Yuhao Tang---1.0
+Yuren Zhou---1.0
+Zeyu Sun---1.0
+Pablo Samuel Castro---1.0
+Subhodeep Moitra---1.0
+Carles Gelada---1.0
+Saurabh Kumar---1.0
+Botty Dimanov---1.0
+Eugene Belilovsky---1.0
+Michael Eickenberg---1.0
+Chengzhen Fu---1.0
+Peng Jiang---1.0
+Faisal Mahmood---1.0
+Wenhao Xu---1.0
+Nicholas J. Durr---1.0
+Jeremiah W. Johnson---1.0
+Léonard Blier---1.0
+Pierre Wolinski---1.0
+Guy Lorberbom---1.0
+Tamir Hazan---1.0
+Jason Liang---1.0
+Pascal Mettes---1.0
+Cees G. M. Snoek---1.0
+Tianyang Zhao---1.0
+Xiaoxuan Ma---1.0
+Honglin Ma---1.0
+zhuoyuan@fb.com---1.0
+Andrea Zunino---1.0
+Puyudi Yang---1.0
+Jane-Ling Wang---1.0
+Lu Lu---1.0
+Yanhui Su---1.0
+George Em Karniadakis---1.0
+Edo Collins---1.0
+Siavash Arjomand Bigdeli---1.0
+Sabine Süsstrunk---1.0
+Saavan Patel---1.0
+Sayeef Salahuddin---1.0
+Nozomu Yoshinari---1.0
+Kento Uchida---1.0
+Shota Saito---1.0
+Shinichi Shirakawa---1.0
+Youhei Akimoto---1.0
+Giuseppe Marra---1.0
+Dario Zanca---1.0
+Alessandro Betti---1.0
+Marco Gori---1.0
+Yoshinari Fujinuma---1.0
+Mayank Agarwal---1.0
+Soumya Ghosh---1.0
+Kristjan Greenewald---1.0
+Nghia Hoang---1.0
+Pengfei Chen---1.0
+Guangyong Chen---1.0
+Shengyu Zhang---1.0
+Phi Xuan Nguyen---1.0
+Dong Xu---1.0
+Zeynep Hakguder---1.0
+Haluk Dogan---1.0
+Matthew Dwyer---1.0
+Zahra Ebrahimzadeh---1.0
+Min Zheng---1.0
+
+Selcuk Karakas---1.0
+Samantha Kleinberg---1.0
+S. Hamid Rezatofighi---1.0
+Roman Kaskman---1.0
+Farbod T. Motlagh---1.0
+Qinfeng Shi---1.0
+Laura Leal-Taixé---1.0
+Ian Reid---1.0
+Yutong Bai---1.0
+Jikai Hou---1.0
+Ali Ramezani-Kebrya---1.0
+Ashish Khisti---1.0
+and Ben Liang---1.0
+Chen Ma---1.0
+Dylan R. Ashley---1.0
+Junfeng Wen---1.0
+Muthuraman Chidambaram---1.0
+Yinfei Yang---1.0
+Daniel Cer---1.0
+Steve Yuan---1.0
+Yun-Hsuan Sung---1.0
+Tianlin Xu---1.0
+Pavel Solovev---1.0
+Vladimir Aliev---1.0
+Pavel Ostyakov---1.0
+Gleb Sterkin---1.0
+Elizaveta Logacheva---1.0
+Stepan Troeshestov---1.0
+Roman Suvorov---1.0
+Anton Mashikhin---1.0
+Oleg Khomenko---1.0
+Sergey I. Nikolenko---1.0
+Ruairidh M. Battleday---1.0
+Joshua C. Peterson---1.0
+Xu Zhang---1.0
+Felix Xinnan Yu---1.0
+Svebor Karaman---1.0
+Christoph Mayer---1.0
+Aharon Azulay---1.0
+Yair Weiss---1.0
+Sangchul Hahn---1.0
+Dar Gilboa---1.0
+Sam Buchanan---1.0
+Shixian Wen---1.0
+Laurent Itti---1.0
+Zihang Dai*---1.0
+Zhilin Yang*---1.0
+Thomas Fischbacher---1.0
+Yao Shi---1.0
+Tian Xia---1.0
+Guanjun Zhao---1.0
+Eric Michael Smith---1.0
+Margaret Li---1.0
+Daeyoung Choi---1.0
+Wonjong Rhee---1.0
+Kyungeun Lee---1.0
+Changho Shin---1.0
+Naganand Yadati---1.0
+Madhav Nimishakavi---1.0
+Prateek Yadav---1.0
+Anand Louis---1.0
+Partha Talukdar---1.0
+Victor Boutin---1.0
+Angelo Franciosini---1.0
+Laurent Perrinet---1.0
+Xiaoyu Lu---1.0
+Jan Stuehmer---1.0
+Oren Elisha---1.0
+Ran Gilad-Bachrach---1.0
+catalin ionescu---1.0
+tejas kulkarni---1.0
+aaron van de oord---1.0
+andriy mnih---1.0
+vlad mnih---1.0
+Zhenxing Liu---1.0
+Maoyu Hu---1.0
+Zhangfei Zhang---1.0
+Hojung Lee---1.0
+Jong-Seok Lee---1.0
+Kevin Roth---1.0
+Qi Meng---1.0
+Shuxin Zheng---1.0
+Zhi-Ming Ma---1.0
+Juan Maroñas---1.0
+Roberto Paredes---1.0
+Daniel Ramos---1.0
+Ryan Y Benmalek---1.0
+Madian Khabsa---1.0
+Suma Desu---1.0
+Michele Banko---1.0
+Xingchao Liu---1.0
+Li Fuxin---1.0
+Marek Śmieja---1.0
+Aleksandra Nowak---1.0
+Łukasz Struski---1.0
+Siwei Luo---1.0
+Perttu Hämäläinen---1.0
+Amin Babadi---1.0
+Xiaoxiao Ma---1.0
+Alexander I. Cowen-Rivers---1.0
+Kun Wan---1.0
+Boyuan Feng---1.0
+Lingwei Xie---1.0
+Manan Tomar*---1.0
+Rahul Ramesh*---1.0
+Naman Agarwal---1.0
+Karan Singh---1.0
+Rafael Valle---1.0
+Wilson Cai---1.0
+Anish P. Doshi---1.0
+Adria Ruiz---1.0
+Oriol Martinez---1.0
+Xavier Binefa---1.0
+Irwan Bello---1.0
+Sayali Kulkarni---1.0
+Sagar Jain---1.0
+Elad Eban---1.0
+Xiyang Luo---1.0
+Alan Mackey---1.0
+Ofer Meshi---1.0
+Mohammad K. Ebrahimpour---1.0
+David C. Noelle---1.0
+Guy Hacohen---1.0
+Daphna Weinshall---1.0
+Ke Li*---1.0
+Shichong Peng*---1.0
+Zheng Li---1.0
+Christopher De Sa---1.0
+Alexander Tong---1.0
+Jay Stanley---1.0
+Zhibing Zhao---1.0
+Songtao Lu---1.0
+Rahul Singh---1.0
+Hariharan Ravishankar---1.0
+Rahul Venkataramani---1.0
+Saihareesh Anamandra---1.0
+Prasad Sudhakar---1.0
+Paul Smolensky---1.0
+Vincent Fortuin---1.0
+Dinesh Jayaraman---1.0
+Oleksii Hrinchuk---1.0
+Leonidas Guibas---1.0
+Ari Morcos---1.0
+Dequan Wang---1.0
+Bo Zhang---1.0
+Animesh Garg---1.0
+Bo Han---1.0
+Yizhou Sun---1.0
+Yannis Avrithis---1.0
+Rongjie Lai---1.0
+Se Jung Kwon---1.0
+Gu-Yeon Wei---1.0
+Jakub Świątkowski---1.0
+Linh Tran---1.0
+Rodolphe Jenatton---1.0
+Ian Fox---1.0
+Jenna Wiens---1.0
+Krzysztof Maziarz---1.0
+Juho Kannala---1.0
+Su-In Lee---1.0
+Kun Yuan---1.0
+Shikui Tu---1.0
+Artur Dubrawski---1.0
+Yanyan Lan---1.0
+Markus Wulfmeier---1.0
+Tim Hertweck---1.0
+Abdellatif Zaidi---1.0
+Shiro Takagi---1.0
+Yoshihiro Nagano---1.0
+Yuki Yoshida---1.0
+Masato Okada---1.0
+Xin Zhou---1.0
+Jiacen Xu---1.0
+Ebrahim Songhori---1.0
+Yuan Tian---1.0
+Jose M. Alvarez---1.0
+Megha Nawhal---1.0
+Jianfeng Lu---1.0
+Di Wang---1.0
+Adrian Barbu---1.0
+Peter Richtárik---1.0
+Chris Finlay---1.0
+Prudencio Tossou---1.0
+Ronny Luss---1.0
+Jie Jiang---1.0
+Tong Yang---1.0
+Bin Cui---1.0
+Gong Zhang---1.0
+Matthew Amodio---1.0
+Josif Grabocka---1.0
+Lars Schmidt-Thieme---1.0
+Xiaoyun Li---1.0
+Laura Rieger---1.0
+Fartash Faghri---1.0
+Zhizhong Wang---1.0
+Lei Zhao---1.0
+Qihang Mo---1.0
+Zhiwen Zuo---1.0
+Wei Xing---1.0
+Dongming Lu---1.0
+You Xie---1.0
+Lucas Drumetz---1.0
+Ronan Fablet---1.0
+Yongkweon Jeon---1.0
+Baeseong Park---1.0
+Jeongin Yun---1.0
+Sanghyuk Chun---1.0
+Sangdoo Yun---1.0
+Yuxian Meng---1.0
+Xiaoya Li---1.0
+Fei Wu---1.0
+Konrad P. Kording---1.0
+Qingyang Wu---1.0
+Kevin A. Lai---1.0
+Andre Wibisono---1.0
+Gregor Bachmann---1.0
+Minjie Xu---1.0
+Yunhao Ba---1.0
+Guangyuan Zhao---1.0
+Achuta Kadambi---1.0
+Shoubhik Debhath---1.0
+Anjul Patney---1.0
+Zac Wellmer---1.0
+Sepanta Zeighami---1.0
+James Kwok---1.0
+Trevor Standley---1.0
+Dawn Chen---1.0
+Jinshan ZENG---1.0
+Liu Ziyin---1.0
+Ru Wang---1.0
+Masahito Ueda---1.0
+Kyle Swanson---1.0
+Nicholas I-Hsien Kuo---1.0
+Krishnamurthy Dvijotham---1.0
+Miao Yang and Ke Hu---1.0
+Chongyi Li---1.0
+Zhiqiang Wei---1.0
+Harry Rubin-Falcone---1.0
+Sana Tonekaboni---1.0
+Shalmali Joshi---1.0
+Chris Mingard---1.0
+Joar Skalse---1.0
+Guillermo Valle-Pérez---1.0
+David Martínez-Rubio---1.0
+Vladimir Mikulik---1.0
+Shuangchen Li---1.0
+Jingwei Zhang---1.0
+Yihua Yang---1.0
+Zhenyu Gu---1.0
+Simon Du---1.0
+Andrea Frome---1.0
+Ruizhe Zhao---1.0
+Brian Vogel---1.0
+Tanvir Ahmed---1.0
+Andrey Khorlin---1.0
+Kuang-Yu Samuel Chang---1.0
+Ange Tato---1.0
+Roger Nkambou---1.0
+VSR Veeravasarapu---1.0
+Deepak Mittal---1.0
+Abhishek Goel---1.0
+Maneesh Singh---1.0
+Wenxiao Chen---1.0
+Jinlin Lai---1.0
+Zhihan Li---1.0
+Youjian Zhao---1.0
+Dan Pei---1.0
+Volker Tresp---1.0
+Christoph Aymanns---1.0
+Matthias Weber---1.0
+Co-Pierre Georg---1.0
+Xiaoqi Jiao---1.0
+Yichun Yin---1.0
+Lifeng Shang---1.0
+Linlin Li---1.0
+Fang Wang---1.0
+Qun Liu---1.0
+Zhiyi Chen---1.0
+Tong Lin*---1.0
+Tan M. Nguyen---1.0
+Sebastian Risi---1.0
+Xu Geng---1.0
+Lingyu Zhang---1.0
+Shulin Li---1.0
+Yuanbo Zhang---1.0
+Lulu Zhang---1.0
+Leye Wang---1.0
+Qiang Yang---1.0
+Hongtu Zhu---1.0
+Dara Bahri---1.0
+Maya Gupta---1.0
+Ouyu Lan*---1.0
+Xiao Huang*---1.0
+Bill Yuchen Lin---1.0
+He Jiang---1.0
+Yapeng Tian---1.0
+Dingzeyu Li---1.0
+Michele Donini---1.0
+Luca Franceschi---1.0
+Orchid Majumder---1.0
+Massimiliano Pontil---1.0
+Paolo Frasconi---1.0
+Tianshuo Cong---1.0
+Dan Peng---1.0
+Furui Liu---1.0
+Zhe Dong---1.0
+Leyla Mirvakhabova---1.0
+Devon Graham---1.0
+Kane Zhang---1.0
+Raj Dabre---1.0
+Raphael Rubino---1.0
+Atsushi Fujita---1.0
+Lin Meng---1.0
+Thomas Hartvigsen---1.0
+Cansu Sen---1.0
+Alexander Mathis---1.0
+Mert Yüksekgönül---1.0
+Byron Rogers---1.0
+Mackenzie W. Mathis---1.0
+chun-ting liu---1.0
+Ousmane Dia---1.0
+Christopher  J Pal---1.0
+Terrance DeVries---1.0
+Luis Pineda---1.0
+Michal Drozdzal---1.0
+Antonin Berthon---1.0
+Tongliang Liu---1.0
+Gabriel Erion---1.0
+Joseph D. Janizek---1.0
+Pascal Sturmfels---1.0
+Scott M. Lundberg---1.0
+Yue Xing---1.0
+Qifan Song---1.0
+Guang Cheng---1.0
+Yiming Ding---1.0
+Ernest K. Ryu---1.0
+T. Nathan Mundhenk---1.0
+Barry Chen---1.0
+Gerald Friedland---1.0
+Tianxiao Gao---1.0
+Ruiqin Xiong---1.0
+Zhenhua Liu---1.0
+Siwei ma---1.0
+Feng Wu---1.0
+Wen Gao---1.0
+Laura Manduchi---1.0
+Guanyang Wang---1.0
+Yumeng Zhang---1.0
+Yong Deng---1.0
+Xuxin Huang---1.0
+Lukasz Kidzinski---1.0
+Metehan Yurt---1.0
+Alberto N. Escalante B.---1.0
+Veniamin I. Morgenshtern---1.0
+Girish Joshi---1.0
+Girish Chowdhary---1.0
+Forrest Laine---1.0
+Claire Tomlin---1.0
+Oana-Maria Camburu*---1.0
+Eleonora Giunchiglia*---1.0
+Thomas Lukasiewicz---1.0
+Daniel Tanneberg---1.0
+Elmar Rueckert---1.0
+Henry Gouk---1.0
+Sam Schoenholz---1.0
+Zhihao Xing---1.0
+Heng Chang---1.0
+Somayeh Sojoudi---1.0
+Wenwu Zhu---1.0
+Konstantinos Pitas---1.0
+Kin Gutierrez---1.0
+Cristian Challu---1.0
+Jin Li---1.0
+Ruibin Xiong---1.0
+Yunchang Yang---1.0
+Kai Zheng---1.0
+Wanming Huang---1.0
+Shuai Jiang---1.0
+Xuan Liang---1.0
+Ian Oppermann---1.0
+Richard Yi Da Xu---1.0
+Aidan Curtis---1.0
+Minjian Xin---1.0
+Kevin Feigelis---1.0
+Dan Yamins---1.0
+Dave Van Veen---1.0
+Ajil Jalal---1.0
+Mahdi Soltanolkotabi---1.0
+Yucong Zhou---1.0
+Jing Shao---1.0
+Xueyuan She---1.0
+Daehyun Kim---1.0
+Yun Long---1.0
+Aidan M. Swope---1.0
+Xander H. Rudelis---1.0
+Kyle T. Story---1.0
+Mahdi Namazifar---1.0
+Joost Huizinga---1.0
+Adrien Ecoffet---1.0
+Huaixiu Zheng---1.0
+Alexandros Papangelis---1.0
+Dian Yu---1.0
+Chandra Khatri---1.0
+Gokhan Tur---1.0
+Wei-Hsu Chen---1.0
+Hsueh-Ming Hang---1.0
+Chris Grimm---1.0
+Denis Teplyashin---1.0
+Wei Li---1.0
+Shaogang Gong---1.0
+Xiatian Zhu---1.0
+Qiangxing Tian---1.0
+Jinxin Liu---1.0
+Donglin Wang---1.0
+Francisco M. Garcia---1.0
+Chris Nota---1.0
+Philip S. Thomas---1.0
+Inaki Estella Aguerri---1.0
+Carles Riera---1.0
+Camilo Rey-Torres---1.0
+Eloi Puertas---1.0
+Oriol Pujol---1.0
+Berkay Kicanaoglu---1.0
+Pim de Haan---1.0
+Taco Cohen---1.0
+Chien-Min Yu---1.0
+Hsuan-Tien Lin---1.0
+Mihai Suteu---1.0
+Yi-ke Guo---1.0
+Jinghui Chen---1.0
+Dongruo Zhou---1.0
+Yiqi Tang---1.0
+Ziyan Yang---1.0
+Kense Todo---1.0
+Masayuki Yamamura---1.0
+Jongseok Lee---1.0
+Rudolph Triebel---1.0
+Vitaly Kurin---1.0
+Madan Ravi Ganesh---1.0
+Nan Wang---1.0
+Yabin Zhou---1.0
+Fenglei Han---1.0
+Lichao Wan---1.0
+Haitao Zhu---1.0
+Yaojing Zheng---1.0
+Hartmut Maennel---1.0
+Alexandru Țifrea---1.0
+Shuran Song---1.0
+Pratyush Maini---1.0
+Patrice Castonguay---1.0
+Vitaly Lavrukhin---1.0
+Ryan Leary---1.0
+Jason Li---1.0
+Huyen Nguyen---1.0
+Jonathan M. Cohen---1.0
+Alexandre Lemire Paquin---1.0
+Wenjie Xu---1.0
+Xiuqiong Chen---1.0
+Stephen S.-T. Yau---1.0
+Boyang Li---1.0
+Ekaterina Nikonova---1.0
+Jochen Renz---1.0
+Emmanuel de Bézenac---1.0
+Ibrahim Ayed---1.0
+Jianfei Yang---1.0
+Han Zou---1.0
+Yuxun Zhou---1.0
+Lihua Xie---1.0
+Ruizhi Deng---1.0
+Jaesik Yoon---1.0
+Hyeungill Lee---1.0
+Menglei Zhang---1.0
+Zhou Liu---1.0
+Jingwei He---1.0
+Yash Garg---1.0
+K. Selcuk Candan---1.0
+Michal Rozenwald---1.0
+Aleksandra Galitsyna---1.0
+Ekaterina Khrameeva---1.0
+Grigory Sapunov---1.0
+Mikhail S. Gelfand---1.0
+Sun Minni---1.0
+Li Ji-An---1.0
+Theodore Moskovitz---1.0
+Grace Lindsay---1.0
+Kenneth Miller---1.0
+Mario Dipoppa---1.0
+Guangyu Robert Yang---1.0
+Song Bian---1.0
+Ousmane Amadou Dia---1.0
+Elnaz Barshan---1.0
+Reza Babanezhad---1.0
+Vasco Portilheiro---1.0
+Jianhe Yuan---1.0
+Zhihai He---1.0
+Oriane Siméoni---1.0
+Mateusz Budnik---1.0
+Guillaume Gravier---1.0
+Wonmin Byeon---1.0
+Kazuya Kawakami---1.0
+Long Yang---1.0
+Gang Zheng---1.0
+Zavier Zhang---1.0
+Qian Zheng---1.0
+Jun Wen---1.0
+Gang Pana sample efficient policy gradient method with stochastic mirror descent.---1.0
+Steven Dalton---1.0
+Michael Garland---1.0
+Gregory Plumb---1.0
+Xuehui Sun---1.0
+Ce Zhang---1.0
+Farhan Damani---1.0
+Vishnu Sresht---1.0
+Stephen Ra---1.0
+Yewen Wang---1.0
+Yusong Ye---1.0
+Filippo Maria Bianchi---1.0
+Daniele Grattarola---1.0
+Cesare Alippi---1.0
+Shenzhong Zhang---1.0
+Shuai Zheng---1.0
+Zeyuan Chen---1.0
+Shaoliang Nie---1.0
+Tianfu Wu---1.0
+Christopher G. Healey---1.0
+Samia Mohinta---1.0
+Rui Ponte Costa---1.0
+Stephane Ciocchi---1.0
+Song Wang---1.0
+Xien Liu---1.0
+Ji Wu---1.0
+Tiantian Fang---1.0
+Alex Schwing---1.0
+Yingjing Lu---1.0
+Runde Yang---1.0
+Deepak Babu Sam---1.0
+ABINAYA K---1.0
+Sudharsan K A---1.0
+Venkatesh Babu RADHAKRISHNAN---1.0
+Yu He---1.0
+Shiyang Wen---1.0
+Wenjin Wu---1.0
+Siran Yang---1.0
+Yuan Wei---1.0
+Di Zhang---1.0
+Guojie  Song---1.0
+Wei Lin---1.0
+Liang Wang---1.0
+Bo Zheng---1.0
+John Palowitch---1.0
+Bryan Perozzi---1.0
+Jie Lin---1.0
+Mohamed M. Sabry Aly---1.0
+Sean I Young---1.0
+Bernd Girod---1.0
+Jialin Song---1.0
+Joe Wenjie Jiang---1.0
+Samuel L Smith---1.0
+Claire Gardent---1.0
+Chloe Braud---1.0
+Dustin L. Arendt---1.0
+Matthew Broussard---1.0
+Bala Krishnamoorthy---1.0
+Nathaniel Saul---1.0
+Arushi Gupta---1.0
+Elan Rosenfeld---1.0
+Ezra Winston---1.0
+Piotr Tatarczyk---1.0
+Damian Mrowca---1.0
+Asma Ghandeharioun---1.0
+Judy Hanwen Shen---1.0
+Craig Ferguson---1.0
+Agata Lapedriza---1.0
+Noah Jones---1.0
+Rosalind Picard---1.0
+Yifan Xu---1.0
+Lu Dai---1.0
+Udaikaran Singh---1.0
+Kening Zhang---1.0
+Zhuowen Tu---1.0
+Thomas Lee---1.0
+Erik Kruus---1.0
+Raphael Fettaya---1.0
+Dor Bank---1.0
+Rachel Lemberg---1.0
+Linoy Barel---1.0
+Cheng Peng---1.0
+Zhouwang Yang---1.0
+Pawan M. Kumar---1.0
+Minghao Han---1.0
+Lixian Zhang---1.0
+Benjain Eysenbach---1.0
+Erix Xing---1.0
+Kashyap Chitta---1.0
+Elmar Haussmann---1.0
+Clement Farabet---1.0
+Tianyi Zhang---1.0
+Ethan R. Elenberg---1.0
+Sahin Lale---1.0
+Lovedeep Gondara---1.0
+Ricardo Silva Carvalho---1.0
+Mohammed Abdi---1.0
+Aminat Adebiyi---1.0
+Andrea Fasoli---1.0
+Alberto Mannari---1.0
+Ronald Labby---1.0
+Luisa Bozano---1.0
+Damien Teney---1.0
+Jerrick Hoang---1.0
+Eric Langlois---1.0
+Zhiwei Deng---1.0
+Johan Bjorck---1.0
+Carla Gomes---1.0
+Zi-Niu Li---1.0
+Xiong-Hui Chen---1.0
+Ari Pakman---1.0
+Yueqi Wang---1.0
+Catalin Mitelut---1.0
+JinHyung Lee---1.0
+Rundong Li---1.0
+Rui Fan---1.0
+Aristotelis-Angelos Papadopoulos---1.0
+Nazim Shaikh---1.0
+Jiamian Wang---1.0
+Mohammad Reza Rajati---1.0
+Simon Vandenhende---1.0
+Yinhan Liu---1.0
+Naman Goyal---1.0
+Mandar Joshi---1.0
+Danqi Chen---1.0
+Danilo Vasconcellos Vargas---1.0
+Shashank Kotyan---1.0
+Moe Matsuki---1.0
+Wenjing Huang---1.0
+Lei Xu---1.0
+Uriya Pesso---1.0
+Koby Bibas---1.0
+Meir Feder---1.0
+Taojiannan Yang---1.0
+Sijie Zhu---1.0
+Yan Shen---1.0
+Mi Zhang---1.0
+Andrew Willis---1.0
+Chen Chen---1.0
+Natalia Martinez---1.0
+Martin Bertran---1.0
+Helena Peic Tukuljac---1.0
+Benjamin Ricaud---1.0
+Nicolas Aspert---1.0
+Mingzhe Wang---1.0
+Andrea Agazzi---1.0
+Felix Petersen---1.0
+Christian Borgelt---1.0
+Oliver Deussen---1.0
+Wei-Jen Ko---1.0
+Avik Ray---1.0
+Xujiang Zhao---1.0
+Shu Hu---1.0
+jin-Hee Cho---1.0
+Aysegul Dundar---1.0
+Kevin J Shih---1.0
+Robert Pottorf---1.0
+Andrew Tao---1.0
+Sheng-Iou Hsieh---1.0
+Shieh-Chieh Chang---1.0
+Yufei Li---1.0
+Xiangyu Zhou---1.0
+Jie Ma---1.0
+Yu Long---1.0
+Xuan Wang---1.0
+Chen Li---1.0
+Stefano Spigler---1.0
+Matthieu Wyart---1.0
+Cheng Chen---1.0
+Baptiste Angles---1.0
+Simon Kornblith---1.0
+Shahram Izadi---1.0
+Kwang Moo Yi---1.0
+Tianhang Zheng---1.0
+Baochun Li---1.0
+Jinhui Xu---1.0
+Ziyi Yang---1.0
+Michael Zeng---1.0
+Xuedong Huang---1.0
+Eric Darve---1.0
+Dinghuai Zhang*---1.0
+Mao Ye*---1.0
+Chengyue Gong*---1.0
+Joonhyun Jeong---1.0
+Sung-Ho Bae---1.0
+Abraham J. Fetterman---1.0
+Christina H. Kim---1.0
+Joshua Albrecht---1.0
+Liudmila Prokhorenkova---1.0
+Egor Samosvat---1.0
+Pim van der Hoorn---1.0
+Kacper Piotr Kielak---1.0
+Yangzi Guo---1.0
+Yiyuan She---1.0
+Xinjie Lan---1.0
+Kenneth E. Barner---1.0
+Roy Sadaka---1.0
+Avanti Shrikumar---1.0
+Amr M. Alexandari---1.0
+Anshul Kundaje---1.0
+Michel Aractingi---1.0
+Christopher Dance---1.0
+Theofanis Karaletsos---1.0
+Thang Bui---1.0
+Zhuo Zhi---1.0
+Sélim Chraibi---1.0
+Adil Salim---1.0
+Samuel Horváth---1.0
+Filip Hanzely---1.0
+Varun Suriyanarayana---1.0
+Onur Tavaslioglu---1.0
+Andrew J. Schaefer---1.0
+Lucy H. Lin---1.0
+Matthew Willetts---1.0
+Alexander Camuto---1.0
+Stephen Roberts---1.0
+Chris Holmes---1.0
+Jin-Young  Kim---1.0
+Alexandre Defossez---1.0
+Francis Bach---1.0
+Basile Dura---1.0
+Daniel Cohen---1.0
+Mario Marchand---1.0
+François Laviolette---1.0
+Shucong Zhang---1.0
+Cong-Thanh Do---1.0
+Rama Doddipatla---1.0
+Erfan Loweimi---1.0
+Peter Bell---1.0
+Beidi Chen---1.0
+Zhiding Yu---1.0
+Anshumali Shrivastava---1.0
+Dianbo Liu---1.0
+Tim Miller---1.0
+Kenneth Mandl---1.0
+Eric Arazo---1.0
+Diego Ortego---1.0
+Paul Albert---1.0
+Noel E. O'Connor---1.0
+Kevin McGuinness---1.0
+Clara Huiyi Hu---1.0
+Amit Dhurandhar---1.0
+Karthikeyan Shanmugam---1.0
+Tao Zheng---1.0
+Ivor Tsang---1.0
+Xin Yao---1.0
+Yangyang Sun---1.0
+Shuo Pang---1.0
+Da Yu---1.0
+Tie-yan Liu---1.0
+Jian Yin---1.0
+Maxence Ernoult---1.0
+Julie Grollier---1.0
+Damien Querlioz---1.0
+Benjamin Scellier---1.0
+Rishabh Agarwal---1.0
+Hansi Yang---1.0
+Thomas Flynn---1.0
+Kwang Min Yu---1.0
+Abid Malik---1.0
+Shinjae Yoo---1.0
+Nicholas D'Imperio---1.0
+Junxiang Wang---1.0
+Ted Moskovitz---1.0
+Sanyam Kapoor---1.0
+Jamie Kiros---1.0
+Mher Safaryan---1.0
+Eun saem Lee---1.0
+Xufang Luo---1.0
+Lorenzo Luzi---1.0
+Kaizhi Qian---1.0
+Mark Hasegawa-Johnson---1.0
+Zezhen Zeng---1.0
+Hsuan-Kung Yang---1.0
+Po-Han Chiang---1.0
+Min-Fong Hong---1.0
+Liwei Wu---1.0
+Shuqing Li---1.0
+James Sharpnack---1.0
+Rabeeh Karimi Mahabadi*---1.0
+Florian Mai*---1.0
+Christian Tomani---1.0
+Duc Bui---1.0
+Kshitiz Malik---1.0
+Jack Goetz---1.0
+Seungwhan Moon---1.0
+Honglei Liu---1.0
+Anuj Kumar---1.0
+Kang G. Shin---1.0
+Jiapeng Zhu---1.0
+Deli Zhao---1.0
+Julie Josse---1.0
+Imke Mayer---1.0
+Jean-Philippe Vert---1.0
+Laura Gustafson---1.0
+Teng Li---1.0
+Rodrigo Fonseca---1.0
+Shashanka Ubaru---1.0
+Manu V Nair---1.0
+Giacomo Indiveri---1.0
+Huanshu Wei---1.0
+Erkao Bao---1.0
+Linqi Song---1.0
+Chong Li---1.0
+Dan Shen---1.0
+C.J. Richard Shi---1.0
+Xiaoyan Li---1.0
+Iluju Kiringa---1.0
+Tet Yeap---1.0
+Xiaodan Zhu---1.0
+Yifeng Li---1.0
+Mohammad Firouzi---1.0
+Sadra Boreiri---1.0
+Hamed Firouzi---1.0
+Edgar Duenez-Guzman---1.0
+Fatih Furkan Yilmaz---1.0
+Prabhat Nagarajan---1.0
+Guilherme Maeda---1.0
+Yuyang Shi---1.0
+Yunhui Long---1.0
+Suxin Lin---1.0
+Carl A. Gunter---1.0
+Adam M Oberman---1.0
+Xin Jiang*---1.0
+Kewei Cheng*---1.0
+Song Jiang*---1.0
+Xiaomeng Zhang---1.0
+Xianfeng Liang---1.0
+Shuheng Shen---1.0
+Jingchang Liu---1.0
+Zhen Pan---1.0
+Yifei Cheng---1.0
+Qingtian Zhang---1.0
+Bin Gao---1.0
+Huaqiang Wu---1.0
+Daniel Geng---1.0
+Kiwon Um---1.0
+Yun (Raymond) Fei---1.0
+Ramon Izquierdo Cordova---1.0
+Walterio Mayol Cuevas---1.0
+Feng Ni---1.0
+Haidar Khan---1.0
+Dan Park---1.0
+Azer Khan---1.0
+Bülent Yener---1.0
+Max Bartolo---1.0
+Pontus Stenetorp---1.0
+Mathilde Caron---1.0
+Piotr Bojanowski---1.0
+Linfang Hou---1.0
+Liang Pang---1.0
+Xin Hong---1.0
+Zhiming Ma---1.0
+Dawei Yin---1.0
+Chao Gao---1.0
+Martin Mueller---1.0
+Ryan Hayward---1.0
+Hengshuai Yao---1.0
+Shangling Jui---1.0
+Laurent Besacier---1.0
+Zeyu Zheng---1.0
+Zhongwen Xu---1.0
+Manuel Kroiss---1.0
+Jeff Mitchell---1.0
+Jeff Bowers---1.0
+Shuxuan Guo---1.0
+Katsuki Ohto---1.0
+Haozhe Feng---1.0
+Kezhi Kong---1.0
+Tianye Zhang---1.0
+Siyue Xue---1.0
+Erwan Lecarpentier---1.0
+Kavosh Asadi---1.0
+Emmanuel Rachelson---1.0
+Shitao Tang---1.0
+Xingang Pan---1.0
+Pak Lun Kevin Ding---1.0
+Sarah Martin---1.0
+Sudip Roy---1.0
+Amirali Abdolrashidi---1.0
+Daniel Wong---1.0
+Peter C. Ma---1.0
+Qiumin Xu---1.0
+Ming Zhong---1.0
+James Laudon---1.0
+Yujun Yan---1.0
+Danai Koutra---1.0
+Guillaume Matheron---1.0
+Nicolas Perrin---1.0
+Kyriacos Nikiforou---1.0
+Christos Kaplanis---1.0
+Sachin Vernekar---1.0
+Ashish Gaurav---1.0
+Vahdat Abdelzad---1.0
+Taylor Denouden---1.0
+Rick Salay---1.0
+Krzysztof Czarnecki---1.0
+Tim Repke---1.0
+Ralf Krestel---1.0
+Junjie Sheng---1.0
+Xiangfeng Wang---1.0
+Bo Jin---1.0
+Wenhao Li---1.0
+Tsung-Hui Chang---1.0
+Songzhu Zheng---1.0
+Pengxiang Wu---1.0
+Aman Goswami---1.0
+Mayank Goswami---1.0
+Chenxingyu Zhao---1.0
+Jie Gui---1.0
+Yixiao Guo---1.0
+Glen Jeh---1.0
+Maitreya Patel---1.0
+Mirali Purohit---1.0
+Mihir Parmar---1.0
+Nirmesh J. Shah---1.0
+Hemant A. Patil---1.0
+Li-Ping Liu---1.0
+Ruiyuan Gu---1.0
+Xiaozhe Hu---1.0
+Woo-Young Kang---1.0
+Cheol-Ho Han---1.0
+Paul Barde---1.0
+Julien Roy---1.0
+Félix G. Harvey---1.0
+Yuhong Guo---1.0
+Yifei Wang---1.0
+Wuchen Li---1.0
+Tingran Gao---1.0
+Shahab Asoodeh---1.0
+John Chen---1.0
+Anastasios Kyrillidis---1.0
+Reza Oftadeh---1.0
+Jiayi Shen---1.0
+Dylan Shell---1.0
+Richard P. Wildes---1.0
+Daniel LeJeune---1.0
+Hamid Javadi---1.0
+Ali Sabet---1.0
+Prakhar Gupta---1.0
+Robert West---1.0
+Nanxiang Li---1.0
+Shabnam Ghaffarzadegan---1.0
+Liu Ren---1.0
+Josh Roy---1.0
+Ondrej Kuzelka---1.0
+Yuyi Wang---1.0
+Yiren Lu---1.0
+Yu Lin---1.0
+Yigong Wang---1.0
+Yifan Li---1.0
+Zhuoyi Wang---1.0
+Latifur Khan---1.0
+Yuexin Wu---1.0
+Yichong Xu---1.0
+Trevor Gale---1.0
+Qimai Li---1.0
+Xiaotong Zhang---1.0
+Xiao-Ming Wu---1.0
+Charles Lovering---1.0
+Laurent Sartran---1.0
+Wojciech Stokowiec---1.0
+Zhaoyang Zhang---1.0
+Liran Gispan---1.0
+Qiuling Xu---1.0
+Guanhong Tao---1.0
+Siyuan Cheng---1.0
+Lin Tan---1.0
+Yuting Liu---1.0
+Anit Kumar Sahu---1.0
+Wan-Yi Lin---1.0
+Zhuliang Yao---1.0
+Wei Zhou---1.0
+Yiying Li---1.0
+Huaimin Wang---1.0
+Hossein Sharifi-Noghabi---1.0
+Shuman Peng---1.0
+Olga Zolotareva---1.0
+Colin C. Collins---1.0
+Martin Ester---1.0
+Randolf Scholz---1.0
+Huynh Van Luong---1.0
+Duy Hung Le---1.0
+Nikos Deligiannis---1.0
+Martin Längkvist---1.0
+Andreas Persson---1.0
+Amy Loutfi---1.0
+Kenneth Stanley---1.0
+Aravind Srinivas---1.0
+Thanh V Nguyen---1.0
+Samuel C. Hoffman---1.0
+Giuseppe Romano---1.0
+Chinmay Hegde---1.0
+Emmanuel Noutahi---1.0
+
+Dominique Beani---1.0
+Julien Horwood---1.0
+Devon Jarvis---1.0
+Richard Klein---1.0
+Haiyan Yin---1.0
+Jianda Chen---1.0
+Sinno Jialin Pan---1.0
+Yuhang Zhang---1.0
+Zhenwei Miao---1.0
+Tiebin Mi---1.0
+Robert Caiming Qiu---1.0
+Kaining Zhang---1.0
+Min-Hsiu Hsieh---1.0
+Lawrence Neal---1.0
+Holger Schwenk---1.0
+Vishrav Chaudhary---1.0
+Shuo Sun---1.0
+Hongyu Gong---1.0
+Francisco Guzmán---1.0
+Haotian Fu---1.0
+Hongyao Tang---1.0
+Baiyang Wang---1.0
+Mohammed Amin Abdullah---1.0
+Hang Ren---1.0
+Haitham Bou-Ammar---1.0
+Vladimir Milenkovic---1.0
+Hongting Zhang---1.0
+Qiben Yan---1.0
+Qi Qi---1.0
+Zixuan Wu---1.0
+Xiaoyu Wang---1.0
+Joyce Lee---1.0
+Rodica Busui---1.0
+Ming Ma---1.0
+Stephan Chalup---1.0
+Fayeem Aziz---1.0
+Defu Cheng---1.0
+Zhijian Zhou---1.0
+Moustafa Meshry---1.0
+Yixuan Ren---1.0
+Ricardo Martin-Brualla---1.0
+Larry Davis---1.0
+Louis Faury---1.0
+Clément Calauzènes---1.0
+Olivier Fercoq---1.0
+Jonas Falkner---1.0
+Kara Liu---1.0
+Pushi Zhang---1.0
+Li Zhao---1.0
+Guoqing Liu---1.0
+Minglie Huang---1.0
+Ge Yang---1.0
+Roberto Calandra---1.0
+Manyuan Zhang，Guanglu Song，Yu Liu，Hang Zhou---1.0
+Henry Howard-Jenkins---1.0
+Yiwen Li---1.0
+Victor Adrian Prisacariu---1.0
+Masoud Badiei Khuzani---1.0
+Liyue Shen---1.0
+Shahin Shahrampour---1.0
+Lei Xing---1.0
+Kaiwen Zhou---1.0
+Yanghua Jin---1.0
+Qinghua Ding---1.0
+Samarth Sinha---1.0
+Selam Waktola---1.0
+Laurent Babout---1.0
+Krzysztof Grudzien---1.0
+Seungjun Jung---1.0
+Junyoung Byun---1.0
+Kyujin Shim---1.0
+Changick Kim---1.0
+Yuzhou Chen---1.0
+Yulia R. Gel---1.0
+Konstantin Avrachenkov---1.0
+Aleksei Kuvshinov---1.0
+Stephan Guennemann---1.0
+Zhendong Zhang---1.0
+Cheolkon Jung---1.0
+Kevin Luk---1.0
+Yikai Zhao---1.0
+Peiqing Chen---1.0
+Zidong Zhao---1.0
+Steve Uhlig---1.0
+Hamza Merzic---1.0
+Julian Schrittwieser---1.0
+Thomas Hubert---1.0
+Mitchell A Gordon---1.0
+Kevin Duh---1.0
+Nicholas Andrews---1.0
+Qingru Zhang---1.0
+Tyler James Malloy---1.0
+Stephan Schonsheck---1.0
+Margherita Rosnati---1.0
+Michael Hanselmann---1.0
+Christoph-Nikolas Straehle---1.0
+Mingyang Yi---1.0
+Keyu Nie---1.0
+Zezhong Zhang---1.0
+Ted Tao Yuan---1.0
+Rong Song---1.0
+Pauline Berry Burke---1.0
+Song Liu---1.0
+Tom Diethe---1.0
+Peter Flach---1.0
+Ian Covert---1.0
+Uygar Sumbul---1.0
+N. Joseph Tatro---1.0
+Igor Melnyk---1.0
+Aurko Roy*---1.0
+Mohammad Taghi Saffar*---1.0
+Edo Cohen-Karlik---1.0
+Carl Allen*---1.0
+Ivana Balazevic*---1.0
+Timothy M Hospedales---1.0
+Feng Yan---1.0
+John Osorio---1.0
+Adrià Armejach---1.0
+Eric Petit---1.0
+Marc Casas---1.0
+Hesham Mostafa---1.0
+Fanhua Shang---1.0
+Lin Kong---1.0
+Yuanyuan Liu---1.0
+Hua Huang---1.0
+Hongying Liu---1.0
+James Smith---1.0
+Constantine Dovrolis---1.0
+Qingqing Huang---1.0
+Hadi Salman---1.0
+John Giorgi---1.0
+Xindi Wang---1.0
+Nicola Sahar---1.0
+Won Young Shin---1.0
+Gary Bader---1.0
+Bo Wang---1.0
+Yaza Wainakh---1.0
+Moiz Rauf---1.0
+Michael Pradel---1.0
+Koyel Mukherjee---1.0
+Alind Khare---1.0
+Yogish Sabharwal---1.0
+Ashish Verma---1.0
+Qingzhe Li---1.0
+Negar Etemadyrad---1.0
+Luis Muñoz-González---1.0
+Bjarne Pfitzner---1.0
+Matteo Russo---1.0
+Javier Carnerero-Cano---1.0
+Emil C. Lupu---1.0
+Brian R. Bartoldson---1.0
+Gordon Erlebacher---1.0
+Hugo Silva---1.0
+Shen-Yi Zhao---1.0
+Yin-Peng Xie---1.0
+Hao Gao---1.0
+Wu-Jun Li---1.0
+Ying Da Wang---1.0
+Pawel Swietojanski---1.0
+Ryan T Armstrong---1.0
+Peyman Mostaghimi---1.0
+Ziyun Wang---1.0
+Brenden M. Lake---1.0
+Sihuan Lin---1.0
+Yubo Zhang---1.0
+Hao Tan---1.0
+Mohit Bansal---1.0
+Bowen Weng---1.0
+Huaqing Xiong---1.0
+Meng Dong---1.0
+Jiawei Zhou---1.0
+Sungsoo Ahn---1.0
+Younggyo Seo---1.0
+Motasem Alfarra---1.0
+Hasan Hammoud---1.0
+Mohamed Gaafar---1.0
+Lucas Fidon---1.0
+Sebastien Ourselin---1.0
+Tom Vercauteren---1.0
+Tomer Koren---1.0
+Ivan Ovinnikov---1.0
+Yanyan Liang---1.0
+Yanfeng Zhang---1.0
+Fangjing Wang---1.0
+Qian Xu---1.0
+Joachim Sicking---1.0
+Alexander Kister---1.0
+Matthias Fahrland---1.0
+Stefan Eickeler---1.0
+Fabian Hueger---1.0
+Stefan Rueping---1.0
+Peter Schlicht---1.0
+Tim Wirtz---1.0
+Youngwoo Cho---1.0
+Minwook Chang---1.0
+Gerard Jounghyun Kim---1.0
+Tao Du---1.0
+Yunfei Li---1.0
+Jie Xu---1.0
+Andrew Spielberg---1.0
+Kui Wu---1.0
+Wojciech Matusik---1.0
+Kai Lagemann---1.0
+Gregor Roering---1.0
+Christoph Henke---1.0
+Rene Vossen---1.0
+Frank Hees---1.0
+Andrea Dittadi---1.0
+Hadi Pouransari---1.0
+Oncel Tuzel---1.0
+Salman Alsubaihi---1.0
+Modar Alfadly---1.0
+Abdullah Hamdi---1.0
+Yu Guang Wang---1.0
+Ming Li---1.0
+Guido Montufar---1.0
+Xiaosheng Zhuang---1.0
+Yanan Fan---1.0
+Vasileios Lioutas---1.0
+Ahmad Rashid---1.0
+Krtin Kumar---1.0
+Md Akmal Haidar---1.0
+Mehdi Rezagholizadeh---1.0
+Bryan A. Plummer---1.0
+Mariya I. Vasileva---1.0
+Vitali Petsiuk---1.0
+Gal Elidan---1.0
+Yunhui Guo---1.0
+Tajana Rosing---1.0
+Luca Laurenti---1.0
+Andrea Patane---1.0
+Matthew Wicker---1.0
+Luca Bortolussi---1.0
+Luca Cardelli---1.0
+Marta Kwiatkowska---1.0
+Daniel Li---1.0
+Qiang Ma---1.0
+Andrew Liu---1.0
+Justin Cheung---1.0
+Dana Pe’er---1.0
+Itsik Pe’er---1.0
+Peiqi Wang---1.0
+Yu Ji---1.0
+Xinfeng Xie---1.0
+Yongqiang Lyu---1.0
+Dongsheng Wang---1.0
+Zhichao Han---1.0
+Xu Li---1.0
+Hong Cheng---1.0
+Mengyu Chu---1.0
+Jonas Mayer---1.0
+Zebang Shen---1.0
+Cong Fang---1.0
+Jiahao Xie---1.0
+Ruiying Lu---1.0
+XiaoLiu Mao---1.0
+XinDian Ma---1.0
+BenYou Wang---1.0
+Jing Zhang---1.0
+DaWei Song---1.0
+Bapu Li(*)---1.0
+Yanwen Fan(*)---1.0
+Zhiyu Cheng---1.0
+Yingze Bao (* means equal contribution)---1.0
+Sharan Ramjee---1.0
+Aly El Gamal---1.0
+Nannan Li---1.0
+Zhenzhong Chen---1.0
+Sander M. Bohte---1.0
+Pieter R. Roelfsema---1.0
+Brian Chmiel---1.0
+Chaim Baskin---1.0
+Evgenii Zheltonozhskii---1.0
+Yevgeny Yermolin---1.0
+Alex Karbachevsky---1.0
+Alex M. Bronstein---1.0
+Avi Mendelson---1.0
+Yigit Ugur---1.0
+George Arvanitakis---1.0
+Tal Daniel---1.0
+Andrew Gambardella---1.0
+Jinke He---1.0
+Wendelin Böhmer---1.0
+Yufei Wang*---1.0
+Ziju Shen*---1.0
+Zichao Long---1.0
+Zilong Ji---1.0
+Xiaolong Zou---1.0
+Si Wu---1.0
+Qinxun Bai---1.0
+Ruixiang Zhang---1.0
+Liam Paull---1.0
+Gautier Izacard---1.0
+Said ouala---1.0
+Duong Nguyen---1.0
+Bertrand Chapron---1.0
+Ananda Pascual---1.0
+Fabrice Collard---1.0
+Lucile Gaultier---1.0
+Christopher J. Shallue---1.0
+Zachary Nado---1.0
+Dana Ruiter---1.0
+Cristina España-Bonet---1.0
+Josef van Genabith---1.0
+Jianfeng Chi---1.0
+Charles Hernandez---1.0
+Hungyi Lee---1.0
+Hongchen Liu---1.0
+Cheng Zheng---1.0
+Fei Wang---1.0
+Zhanfu Yang---1.0
+Guannan Wei---1.0
+Tiark Rompf---1.0
+Scott Wen-tau Yih---1.0
+Sinong Wang---1.0
+Mateusz Michalkiewicz---1.0
+Mahsa Baktashmotagh---1.0
+Anders Eriksson---1.0
+Ilya Markov---1.0
+Vitalii Aksenov---1.0
+Liam Li---1.0
+Seoyoung Ahn---1.0
+Gregory Zelinsky---1.0
+Gary Lupyan---1.0
+Ayush Jain*---1.0
+Andrew Szot*---1.0
+Jincheng Zhou---1.0
+Ruobing Shen---1.0
+Bo Tang---1.0
+Ismail Ben Ayed---1.0
+Andrea Lodi---1.0
+Thomas Guthier---1.0
+Jungeum Kim---1.0
+Alex Bird---1.0
+Ahmet Iscen---1.0
+Giorgos Tolias---1.0
+Ondrej Chum---1.0
+Huang Yu-Ting---1.0
+Parameswaran Kamalaruban---1.0
+Ehsan Adeli---1.0
+Qingyu Zhao---1.0
+Adolf Pfefferbaum---1.0
+Edith V. Sullivan---1.0
+Juan Carlos Niebles---1.0
+Kilian M. Pohl---1.0
+Shaohuai Shi---1.0
+Xiaowen Chu---1.0
+Ka Chun Cheung---1.0
+Simon See---1.0
+Thomas Sanchez---1.0
+Igor Krawczuk---1.0
+Zhaodong Sun---1.0
+Chi Thang Duong---1.0
+Dung Hoang---1.0
+Truong Giang Le Ba---1.0
+Thanh Le Cong---1.0
+Hongzhi Yin---1.0
+Matthias Weidlich---1.0
+Quoc Viet Hung Nguyen---1.0
+Pengfei Jin---1.0
+Tianhao Lai---1.0
+Vinenzo Crescimanna---1.0
+Bruce Graham---1.0
+Hyojin Bahng---1.0
+Uthaipon Tantipongpipat---1.0
+Chris Waites---1.0
+Amaresh Siva---1.0
+Rachel Cummings---1.0
+Byeongsu Sim---1.0
+Gyutaek Oh---1.0
+Sungjun Lim---1.0
+and Jong Chul Ye---1.0
+Yann Lifchitz---1.0
+Sylvaine Picard---1.0
+Aditya Bhatt---1.0
+Max Argus---1.0
+Brenden K. Petersen---1.0
+Katsuhito Sudoh---1.0
+Koichiro Yoshino---1.0
+Satoshi Nakamura---1.0
+Yunfei Chu---1.0
+Chunyan Feng---1.0
+Albert Tseng---1.0
+Michael L. Iuzzolino---1.0
+Yin Zhao---1.0
+Longjun Cai---1.0
+Chaoping Tu---1.0
+Wu Wei---1.0
+Zhaocheng Liu---1.0
+Haoli Zhang---1.0
+Amir Ali Moinfar---1.0
+Amirkeivan Mohtashami---1.0
+Mahdieh Soleymani---1.0
+Ali Sharifi-Zarchi---1.0
+Yongheng Zhao---1.0
+Tolga Birdal---1.0
+Jan Eric Lenssen---1.0
+Emanuele Menegatti---1.0
+Muyu Li---1.0
+Shauharda Khadka---1.0
+Somdeb Majumdar---1.0
+Santiago Miret---1.0
+Kagan Tumer---1.0
+Chun-Hsing Lin---1.0
+Alvin Chiang---1.0
+Chi-Liang Liu---1.0
+Chien-Fu Lin---1.0
+Po-Hsien Chu---1.0
+Siang-Ruei Wu---1.0
+Yi-En Tsai---1.0
+Chung-Yang (Ric) Huang---1.0
+Nuri Cingillioglu---1.0
+Alessandra Russo---1.0
+Dmitriy Genzel---1.0
+Xiaohua Zhai---1.0
+Joan Puigcerver---1.0
+Alexander Kolesnikov---1.0
+Pierre Ruyssen---1.0
+Andre Susano Pinto---1.0
+Maxim Neumann---1.0
+Lucas Beyer---1.0
+Marcin Michalski---1.0
+Jalil Taghia---1.0
+Maria Bånkestad---1.0
+Fredrik Lindsten---1.0
+Thomas Schön---1.0
+Paul Kim---1.0
+Robin Winter---1.0
+Djork-Arné Clevert---1.0
+Graham Finlayson---1.0
+Ruth Montgomery---1.0
+Jooyeon Kim---1.0
+Alice Oh---1.0
+Lixin Duan---1.0
+Guowu Yang---1.0
+Rob Cornish---1.0
+Anthony Caterini---1.0
+George Deligiannidis---1.0
+Arnaud Doucet---1.0
+Patrick Kidger---1.0
+Terry Lyons---1.0
+Kezhen Chen---1.0
+Qiuyuan Huang---1.0
+Hamid Palangi---1.0
+Kenneth D. Forbus---1.0
+Benoit Gaujac---1.0
+Ilya Feige---1.0
+Paul Soulos---1.0
+Tom McCoy---1.0
+Shion Honda---1.0
+Hirotaka Akita---1.0
+Katsuhiko Ishiguro---1.0
+Toshiki Nakanishi---1.0
+Elisabeth Salesky---1.0
+Manuel Nonnenmacher---1.0
+David Reeb---1.0
+Ingo Steinwart---1.0
+Kamila Abdiyeva---1.0
+Martin Lukac---1.0
+Kanat Alimanov---1.0
+Bharath Damodaran---1.0
+Kilian Fatras---1.0
+Sylvain Lobry---1.0
+Devis Tuia---1.0
+Ruixuan Zhang---1.0
+Zhuoyu Wei---1.0
+Yu Shi---1.0
+Edward Beeching---1.0
+Jilles Dibangoye---1.0
+Olivier Simonin---1.0
+YoungJoon Yoo---1.0
+Jung Woo Ha---1.0
+Xiangyuan Ren---1.0
+Zijun Sun---1.0
+Arianna Yuan---1.0
+François Rousseau---1.0
+Ephrem Tadesse---1.0
+Rosa Tsegaye---1.0
+Kuulaa Qaqqabaa---1.0
+Ruo Yu Tao---1.0
+Vincent François-Lavet---1.0
+Micha Livne---1.0
+David J. Fleet---1.0
+Huiming Zhang---1.0
+Haibo Chen---1.0
+AiLin Li---1.0
+Lihong Qiu---1.0
+Goran Zuzic---1.0
+Russell Mendonca---1.0
+Hari Prasanna Das---1.0
+Costas J. Spanos---1.0
+Girma Neshir---1.0
+Joe Davison---1.0
+Kristen A. Severson---1.0
+Vlad Pushkarov---1.0
+Yonathan Efroni---1.0
+Mykola Maksymenko---1.0
+Maciej Koch-Janusz---1.0
+Xiao Lin---1.0
+Indranil Sur---1.0
+Samuel A. Nastase---1.0
+Uri Hasson---1.0
+Ajay Divakaran---1.0
+Mohamed R. Amer---1.0
+Seifedin Shifaw Mohamed---1.0
+Solomon Teferra Abate (PhD)---1.0
+Shengding Hu---1.0
+Qipin Chen---1.0
+Wenrui Hao---1.0
+Hossein Hajimirsadeghi---1.0
+Thibaut Durand---1.0
+Amit Boyarski---1.0
+Sanketh Vedula---1.0
+Ting-Wu Chin---1.0
+Diana Marculescu---1.0
+Matthieu Kirchmeyer---1.0
+Alain Rakotomamonjy---1.0
+Amin Mantrach---1.0
+Changmin Wu---1.0
+Giorgi Nadiradze---1.0
+Amirmojtaba Sabour---1.0
+Ilia Markov---1.0
+Vitaly Aksenov---1.0
+Dan Alistarh.---1.0
+Alex A. Alemi---1.0
+Manaal Faruqui---1.0
+Shizheng Qin---1.0
+Yichen Zhu---1.0
+Pengfei Hou---1.0
+Wenqiang Zhang---1.0
+Arraamuthan Arulanantham---1.0
+Ahamed Arshad Ahamed Anzar---1.0
+Gowshalini Rajalingam---1.0
+Krusanth Ingran---1.0
+Prasanna S. Haddela---1.0
+Yu-Xiong Wang---1.0
+Yuki Uchiyama---1.0
+Karteek Alahari---1.0
+Kunal Menda---1.0
+Jean de Becdelièvre---1.0
+Jayesh K Gupta---1.0
+Ilan Kroo---1.0
+Mykel J. Kochenderfer---1.0
+Zachary Manchester---1.0
+Ciprian Chelba---1.0
+Florian Meier---1.0
+Marcelo Gauy---1.0
+Angelika Steger---1.0
+Bart van Merriënboer---1.0
+Xingyuan Chen---1.0
+Ping Cai---1.0
+Peng Jin---1.0
+Haokun Du---1.0
+Hongjun Wang---1.0
+Xinyu Dai---1.0
+Florian Schaefer---1.0
+Hongkai Zheng---1.0
+Dominik Schmidt---1.0
+Georgia Koppe---1.0
+Max Beutelspacher---1.0
+Zuyuan Zhong---1.0
+Martin Mundt---1.0
+Sagnik Majumder---1.0
+Iuliia Pliushch---1.0
+Visvanathan Ramesh---1.0
+Vaishaal Shankar---1.0
+Achal Dave---1.0
+Rebecca Roelofs---1.0
+Ben Recht---1.0
+Cosme Louart---1.0
+Xin WANG---1.0
+SiuMing Yiu---1.0
+Bingyuan Liu---1.0
+Yogesh Balaji---1.0
+Lingzhou Xue---1.0
+Wonryong Ryou---1.0
+Xiyuan Zhang---1.0
+Dilin Wang---1.0
+Lemeng Wu---1.0
+Jonathan Aigrain---1.0
+Marcin Detyniecki---1.0
+Paul M Scherer---1.0
+Najmeh Sadoughi---1.0
+Pengtao Xie---1.0
+Keizo Kato---1.0
+Jing Zhou---1.0
+Akira Nakagawa---1.0
+Benjamin Mitzkus---1.0
+Evgenia Rusak---1.0
+Oliver Bringmann---1.0
+Vijay Veerabadran---1.0
+Jordan Hoffmann---1.0
+Louis Maestrati---1.0
+Yoshihide Sawada---1.0
+Jean Michel Sellier---1.0
+Kuei-Tso Lee---1.0
+Sheng-Jyh Wang---1.0
+Dongsung Huh---1.0
+Ari Heljakka---1.0
+Yuxin Hou---1.0
+Arno Solin---1.0
+Jiun Bae---1.0
+Siavash Bigdeli---1.0
+Geng Lin---1.0
+Tiziano Portenier---1.0
+Andrea Dunbar---1.0
+Matthias Zwicker---1.0
+Israr Ul Haq---1.0
+Yoshinobu Kawahara---1.0
+Haotian Zhang---1.0
+Zongben Xu---1.0
+Kexin Zhao---1.0
+Hongyi Guo---1.0
+Xiongwei Wu---1.0
+Leah Bar---1.0
+Nir Sochen---1.0
+Javier Fernández---1.0
+Luke Bornn---1.0
+Mizanu Zelalem---1.0
+Million Meshesha (PhD)---1.0
+Yizhe Wu---1.0
+Sudhanshu Kasewa---1.0
+Oliver Groth---1.0
+Sasha Salter---1.0
+Li Sun---1.0
+Geraud Nangue Tasse---1.0
+Steven James---1.0
+Sergey A. Shuvaev---1.0
+Ngoc B. Tran---1.0
+Marcus Stephenson-Jones---1.0
+Alexei A. Koulakov---1.0
+Kaitao Song---1.0
+Hongzhi Liu---1.0
+Philip May---1.0
+Vitchyr H. Pong---1.0
+Steven Lin---1.0
+Ashvin Nair---1.0
+Shikhar Bahl---1.0
+Daniel McNamee---1.0
+Jeffrey Ling---1.0
+Zifei Shan---1.0
+Livio Baldini Soares---1.0
+Thibault Févry---1.0
+David Weiss---1.0
+Lisa Schut---1.0
+Qiang Sun---1.0
+Zhinan Cheng---1.0
+Wenxuan Wang---1.0
+Yu-Gang Jiang---1.0
+Hazar Yueksel---1.0
+Kush R. Varshney---1.0
+Brian Kingsbury---1.0
+Ronan Riochet---1.0
+Josef Sivic---1.0
+Ivan Laptev---1.0
+Emmanuel Dupoux---1.0
+Inseop Chung---1.0
+SeongUk Park---1.0
+Jean-Yves Franceschi---1.0
+Edouard Delasalles---1.0
+Sylvain Lamprier---1.0
+Luis A. Perez Rey---1.0
+Dmitri Jarnikov---1.0
+Mike Holenderski---1.0
+Zaccary Alperstein---1.0
+Artem Cherkasov---1.0
+Jason Rolfe---1.0
+Gregoire Morin---1.0
+Ryan Razani---1.0
+Eyyub Sari---1.0
+Erhan Bilal---1.0
+Raphael Gontijo Lopes---1.0
+Dong Yin---1.0
+Xinyue Chen---1.0
+Zijian Zhou---1.0
+Zheng Wang---1.0
+Che Wang---1.0
+Yanqiu Wu---1.0
+Qing Deng---1.0
+Keith Ross---1.0
+Zachary M. Ziegler---1.0
+Luke Melas-Kyriazi---1.0
+Sebastian Gehrmann---1.0
+Andreea Deac---1.0
+Yu-Hsiang Huang---1.0
+Petar Velickovic---1.0
+Lin Yuan---1.0
+Fetulhak Abdurahman---1.0
+Adityanarayanan Radhakrishnan---1.0
+Robin Vogel---1.0
+Mastane Achab---1.0
+Charles Tillier---1.0
+Stéphan Clémençon---1.0
+Nirbhay Modhe---1.0
+Prithvijit Chattopadhyay---1.0
+Sahil Singla---1.0
+Ramana Kumar---1.0
+Daiheng Gao---1.0
+Hehui Zhang---1.0
+Meng Wang---1.0
+Zhenzhi Wu---1.0
+Xuanlin Li---1.0
+Mohammad Hashir---1.0
+Lei Zhu---1.0
+Mei Hui Zhang---1.0
+Beng Chin Ooi---1.0
+Chang Yao---1.0
+Ronan Perry---1.0
+Tyler M. Tomita---1.0
+Jesse Patsolic---1.0
+Benjamin Falk---1.0
+Joshua Vogelstein---1.0
+Jeff A. Bilmes---1.0
+Ning-Chi Huang---1.0
+Huan-Jan Chou---1.0
+Kai-Chiang Wu---1.0
+Jack Parker-Holder---1.0
+Tamas Sarlos---1.0
+Deepali Jain---1.0
+Silviu Paun---1.0
+Juntao Yu---1.0
+Jon Chamberlain---1.0
+Massimo Poesio---1.0
+Akhilan Boopathy---1.0
+Lily Weng---1.0
+Renlong Jie---1.0
+Junbin Gao---1.0
+Andrey Vasnev---1.0
+Minh-Ngoc Tran---1.0
+David Silver---0.8
+Anirudh Goyal---0.8
+Joelle Pineau---0.8
+Eduard Hovy---0.8
+Ian Fischer---0.8
+Alex Lamb---0.8
+Bo Li---0.8
+Jian Tang---0.8
+Honglak Lee---0.75
+Sungjin Ahn---0.75
+John Schulman---0.75
+Tim Salimans---0.75
+Justin Gilmer---0.75
+Nicolas Le Roux---0.75
+Nicolas Usunier---0.75
+Sebastian Riedel---0.75
+Leon Bottou---0.75
+Michael Auli---0.75
+Trevor Darrell---0.75
+Alex X. Lee---0.75
+David Lopez-Paz---0.75
+Yang Liu---0.75
+Yisong Yue---0.75
+Chelsea Finn---0.75
+Jitendra Malik---0.75
+Yuandong Tian---0.75
+Amos Storkey---0.75
+Hai Li---0.75
+Ziyu Wang---0.75
+Fabio Viola---0.75
+Raia Hadsell---0.75
+Nitish Shirish Keskar---0.75
+Qiang Liu---0.75
+George Tucker---0.75
+Hado van Hasselt---0.75
+Matteo Hessel---0.75
+Hanxiao Liu---0.75
+Ivan Oseledets---0.75
+Shimon Whiteson---0.75
+Tao Qin---0.75
+Tie-Yan Liu---0.75
+Jinwoo Shin---0.75
+Boris Ginsburg---0.75
+Jun-Yan Zhu---0.75
+Minh-Thang Luong---0.75
+Jun Zhu---0.75
+Maruan Al-Shedivat---0.75
+Theophane Weber---0.75
+Rui Yan---0.75
+Dongyan Zhao---0.75
+Cho-Jui Hsieh---0.75
+Eunho Yang---0.75
+Sung Ju Hwang---0.75
+Tianyi Zhou---0.75
+Yannic Kilcher---0.75
+Adam Prügel-Bennett---0.75
+Sylvain Gelly---0.75
+Daniel Cremers---0.75
+Negar Rostamzadeh---0.75
+Juho Lee---0.75
+Tuo Zhao---0.75
+Yang Li---0.75
+Kyunghyun Cho---0.71
+Yoshua Bengio---0.67
+Dawn Song---0.67
+Quoc V. Le---0.67
+Levent Sagun---0.67
+Phil Blunsom---0.67
+Chris Dyer---0.67
+Lukasz Kaiser---0.67
+Philip Bachman---0.67
+Bing Xiang---0.67
+Ludovic Denoyer---0.67
+Sanjay Purushotham---0.67
+Raquel Urtasun---0.67
+Tom Schaul---0.67
+David Sussillo---0.67
+Weiran Wang---0.67
+Karen Livescu---0.67
+Anbang Yao---0.67
+Yurong Chen---0.67
+Mo Yu---0.67
+Christopher Pal---0.67
+Yoav Goldberg---0.67
+Edward Choi---0.67
+Itay Hubara---0.67
+Shie Mannor---0.67
+Daniel Jiwoong Im---0.67
+Jörn-Henrik Jacobsen---0.67
+Balaji Krishnamurthy---0.67
+Byoung-Tak Zhang---0.67
+Ishan Durugkar---0.67
+Yee Whye Teh---0.67
+Liam Paninski---0.67
+Abhishek Gupta---0.67
+Lei Yu---0.67
+Dale Schuurmans---0.67
+Zhuang Liu---0.67
+Kilian Q. Weinberger---0.67
+José Miguel Hernández-Lobato---0.67
+Afshin Rostamizadeh---0.67
+Zihang Dai---0.67
+Alexander A. Alemi---0.67
+David Krueger---0.67
+Stephan Gouws---0.67
+Anna Goldie---0.67
+Jiashi Feng---0.67
+Eric Price---0.67
+Chris Pal---0.67
+Yann Dauphin---0.67
+Li Fei-Fei---0.67
+Zichao Yang---0.67
+Andrea Vedaldi---0.67
+Tao Lin---0.67
+Tian Guo---0.67
+Rui Luo---0.67
+Randall Balestriero---0.67
+Marta Garnelo---0.67
+Wei Xu---0.67
+Stefan Lee---0.67
+Barnabas Poczos---0.67
+Po-Sen Huang---0.67
+Edouard Oyallon---0.67
+Zenglin Xu---0.67
+Zhihua Zhang---0.67
+Xiaolong Wang---0.67
+Armando Solar-Lezama---0.67
+Kevin Swersky---0.67
+James Zou---0.67
+Kun He---0.67
+Devansh Arpit---0.67
+Sander Bohte---0.67
+Been Kim---0.67
+Adam Lerer---0.67
+Kamyar Azizzadenesheli---0.67
+Matthew Hausknecht---0.67
+Serkan Cabi---0.67
+Karl Moritz Hermann---0.67
+Eric P. Xing---0.67
+Inderjit S. Dhillon---0.67
+Gregory Diamos---0.67
+Oleksii Kuchaiev---0.67
+Mingyan Liu---0.67
+Yu Wang---0.67
+Olexa Bilaniuk---0.67
+Aviv Tamar---0.67
+Andrea Gesmundo---0.67
+Navin Goyal---0.67
+Dan Horgan---0.67
+David Budden---0.67
+Shiyu Chang---0.67
+Eirikur Agustsson---0.67
+Radu Timofte---0.67
+S. M. Ali Eslami---0.67
+Aurelien Lucchi---0.67
+Olivier Bousquet---0.67
+Felix Wu---0.67
+Kilian Weinberger---0.67
+Alexandros G. Dimakis---0.67
+Mohammad Gheshlaghi Azar---0.67
+Wei Wei---0.67
+Nicholas Carlini---0.67
+J. Zico Kolter---0.67
+Ping Luo---0.67
+Voot Tangkaratt---0.67
+Yizhou Wang---0.67
+Bin Dong---0.67
+Zhangyang Wang---0.67
+Cyril Zhang---0.67
+Huishuai Zhang---0.67
+Ignasi Clavera---0.67
+Oleksandr Shchur---0.67
+Jure Leskovec---0.67
+Xiao Li---0.67
+Dongsoo Lee---0.67
+Peter Bailis---0.67
+Matei Zaharia---0.67
+Lars Buesing---0.67
+Elad Hazan---0.67
+Dami Choi---0.67
+Regina Barzilay---0.67
+Shafiq Joty---0.67
+Yan Zhang---0.67
+Jonathon Hare---0.67
+Shagun Sodhani---0.67
+Aleksander Madry---0.67
+Ludwig Schmidt---0.67
+Dimitris Tsipras---0.67
+Hung-Yi Lee---0.67
+Gregory Farquhar---0.67
+Yuxiong He---0.67
+Ashish Vaswani---0.67
+Yizhe Zhang---0.67
+Lawrence Carin---0.67
+Mike Lewis---0.67
+Bo Chen---0.67
+Mingyuan Zhou---0.67
+Timon Gehr---0.67
+Benjamin Eysenbach---0.67
+Daniela Rus---0.67
+Risto Miikkulainen---0.67
+Massimiliano Ciaramita---0.67
+Ke Wang---0.67
+Jaehong Yoon---0.67
+Saibal Mukhopadhyay---0.67
+Youssef Mroueh---0.67
+Michael Tschannen---0.67
+Ramakrishna Vedantam---0.67
+Bo Chang---0.67
+Lili Meng---0.67
+Jesse Engel---0.67
+Niru Maheswaranathan---0.67
+Jianming Zhang---0.67
+Laurence Aitchison---0.67
+Shaileshh Bojja Venkatakrishnan---0.67
+Mohammad Alizadeh---0.67
+Jinwen Ma---0.67
+Tianchen Zhao---0.67
+Ellie Pavlick---0.67
+Sebastian Tschiatschek---0.67
+Ankit B. Patel---0.67
+Wei Chen---0.67
+Xin Gao---0.67
+Yarin Gal---0.67
+Sajad Darabi---0.67
+Saehoon Kim---0.67
+Igor Podolak---0.67
+Roger B. Grosse---0.67
+Jens Behrmann---0.67
+Jie Fu---0.67
+Ivor W. Tsang---0.67
+Kenneth O. Stanley---0.67
+Jeff Clune---0.67
+Tianbao Yang---0.67
+Si Si---0.67
+Gang Niu---0.67
+Mathieu Salzmann---0.67
+Yuan Cao---0.67
+Aditya Rawal---0.67
+Katja Hofmann---0.67
+Cordelia Schmid---0.67
+Ping Li---0.67
+Jonathan Uesato---0.67
+Jan Peters---0.67
+Lei Deng---0.67
+Zhou Yu---0.67
+Tiejun Huang---0.67
+Jun-Kun Wang---0.67
+Dejing Dou---0.67
+Wenchao Yu---0.67
+Amir Yazdanbakhsh---0.67
+Ekin D. Cubuk---0.67
+Hongxia Yang---0.67
+Yang Gao---0.67
+Xiangyu Zhang---0.67
+Pietro Lio---0.67
+Jie Zhang---0.67
+Jian Sun---0.67
+Kevin Murphy---0.6
+Dhruv Batra---0.6
+Ofir Nachum---0.6
+Mohammad Norouzi---0.6
+Ameet Talwalkar---0.6
+Nicolas Heess---0.6
+Nan Rosemary Ke---0.6
+Adam Trischler---0.6
+Stefano Ermon---0.6
+Warren He---0.6
+Thomas Hofmann---0.6
+Liwei Wang---0.6
+Payel Das---0.6
+
+Jianfeng Gao---0.57
+Yann LeCun---0.57
+Pushmeet Kohli---0.56
+Caiming Xiong---0.56
 Richard Socher---0.5
 Ilya Sutskever---0.5
 Kevin Gimpel---0.5
@@ -1055,4177 +4957,263 @@ Mislav Balunovic---0.5
 Jongbin Ryu---0.5
 Jongwoo Lim---0.5
 Mikhail Belkin---0.5
-Pushmeet Kohli---0.56
-Caiming Xiong---0.56
-Jianfeng Gao---0.57
-Yann LeCun---0.57
-Kevin Murphy---0.6
-Dhruv Batra---0.6
-Ofir Nachum---0.6
-Mohammad Norouzi---0.6
-Ameet Talwalkar---0.6
-Nicolas Heess---0.6
-Nan Rosemary Ke---0.6
-Adam Trischler---0.6
-Stefano Ermon---0.6
-Warren He---0.6
-Thomas Hofmann---0.6
-Liwei Wang---0.6
-Payel Das---0.6
-Yoshua Bengio---0.67
-Dawn Song---0.67
-Quoc V. Le---0.67
-Levent Sagun---0.67
-Phil Blunsom---0.67
-Chris Dyer---0.67
-Lukasz Kaiser---0.67
-Philip Bachman---0.67
-Bing Xiang---0.67
-Ludovic Denoyer---0.67
-Sanjay Purushotham---0.67
-Raquel Urtasun---0.67
-Tom Schaul---0.67
-David Sussillo---0.67
-Weiran Wang---0.67
-Karen Livescu---0.67
-Anbang Yao---0.67
-Yurong Chen---0.67
-Mo Yu---0.67
-Christopher Pal---0.67
-Yoav Goldberg---0.67
-Edward Choi---0.67
-Itay Hubara---0.67
-Shie Mannor---0.67
-Daniel Jiwoong Im---0.67
-Jörn-Henrik Jacobsen---0.67
-Balaji Krishnamurthy---0.67
-Byoung-Tak Zhang---0.67
-Ishan Durugkar---0.67
-Yee Whye Teh---0.67
-Liam Paninski---0.67
-Abhishek Gupta---0.67
-Lei Yu---0.67
-Dale Schuurmans---0.67
-Zhuang Liu---0.67
-Kilian Q. Weinberger---0.67
-José Miguel Hernández-Lobato---0.67
-Afshin Rostamizadeh---0.67
-Zihang Dai---0.67
-Alexander A. Alemi---0.67
-David Krueger---0.67
-Stephan Gouws---0.67
-Anna Goldie---0.67
-Jiashi Feng---0.67
-Eric Price---0.67
-Chris Pal---0.67
-Yann Dauphin---0.67
-Li Fei-Fei---0.67
-Zichao Yang---0.67
-Andrea Vedaldi---0.67
-Tao Lin---0.67
-Tian Guo---0.67
-Rui Luo---0.67
-Randall Balestriero---0.67
-Marta Garnelo---0.67
-Wei Xu---0.67
-Stefan Lee---0.67
-Barnabas Poczos---0.67
-Po-Sen Huang---0.67
-Edouard Oyallon---0.67
-Zenglin Xu---0.67
-Zhihua Zhang---0.67
-Xiaolong Wang---0.67
-Armando Solar-Lezama---0.67
-Kevin Swersky---0.67
-James Zou---0.67
-Kun He---0.67
-Devansh Arpit---0.67
-Sander Bohte---0.67
-Been Kim---0.67
-Adam Lerer---0.67
-Kamyar Azizzadenesheli---0.67
-Matthew Hausknecht---0.67
-Serkan Cabi---0.67
-Karl Moritz Hermann---0.67
-Eric P. Xing---0.67
-Inderjit S. Dhillon---0.67
-Gregory Diamos---0.67
-Oleksii Kuchaiev---0.67
-Mingyan Liu---0.67
-Yu Wang---0.67
-Olexa Bilaniuk---0.67
-Aviv Tamar---0.67
-Andrea Gesmundo---0.67
-Navin Goyal---0.67
-Dan Horgan---0.67
-David Budden---0.67
-Shiyu Chang---0.67
-Eirikur Agustsson---0.67
-Radu Timofte---0.67
-S. M. Ali Eslami---0.67
-Aurelien Lucchi---0.67
-Olivier Bousquet---0.67
-Felix Wu---0.67
-Kilian Weinberger---0.67
-Alexandros G. Dimakis---0.67
-Mohammad Gheshlaghi Azar---0.67
-Wei Wei---0.67
-Nicholas Carlini---0.67
-J. Zico Kolter---0.67
-Ping Luo---0.67
-Voot Tangkaratt---0.67
-Yizhou Wang---0.67
-Bin Dong---0.67
-Zhangyang Wang---0.67
-Cyril Zhang---0.67
-Huishuai Zhang---0.67
-Ignasi Clavera---0.67
-Oleksandr Shchur---0.67
-Jure Leskovec---0.67
-Xiao Li---0.67
-Dongsoo Lee---0.67
-Peter Bailis---0.67
-Matei Zaharia---0.67
-Lars Buesing---0.67
-Elad Hazan---0.67
-Dami Choi---0.67
-Regina Barzilay---0.67
-Shafiq Joty---0.67
-Yan Zhang---0.67
-Jonathon Hare---0.67
-Shagun Sodhani---0.67
-Aleksander Madry---0.67
-Ludwig Schmidt---0.67
-Dimitris Tsipras---0.67
-Hung-Yi Lee---0.67
-Gregory Farquhar---0.67
-Yuxiong He---0.67
-Ashish Vaswani---0.67
-Yizhe Zhang---0.67
-Lawrence Carin---0.67
-Mike Lewis---0.67
-Bo Chen---0.67
-Mingyuan Zhou---0.67
-Timon Gehr---0.67
-Benjamin Eysenbach---0.67
-Daniela Rus---0.67
-Risto Miikkulainen---0.67
-Massimiliano Ciaramita---0.67
-Ke Wang---0.67
-Jaehong Yoon---0.67
-Saibal Mukhopadhyay---0.67
-Youssef Mroueh---0.67
-Michael Tschannen---0.67
-Ramakrishna Vedantam---0.67
-Bo Chang---0.67
-Lili Meng---0.67
-Jesse Engel---0.67
-Niru Maheswaranathan---0.67
-Jianming Zhang---0.67
-Laurence Aitchison---0.67
-Shaileshh Bojja Venkatakrishnan---0.67
-Mohammad Alizadeh---0.67
-Jinwen Ma---0.67
-Tianchen Zhao---0.67
-Ellie Pavlick---0.67
-Sebastian Tschiatschek---0.67
-Ankit B. Patel---0.67
+Sergey Levine---0.44
+Balaraman Ravindran---0.43
+Ben Poole---0.43
+Aaron Courville---0.42
+Pieter Abbeel---0.42
+Yan Duan---0.4
+Xi Chen---0.4
+Daniel Tarlow---0.4
+Yan Liu---0.4
+Pascal Vincent---0.4
+Edward Grefenstette---0.4
+Wang Ling---0.4
+Andrew Zisserman---0.4
+Lihong Li---0.4
+Nicolas Ballas---0.4
+Erich Elsen---0.4
+Moritz Hardt---0.4
+Tim Rocktäschel---0.4
+Xinyun Chen---0.4
+Dumitru Erhan---0.4
+Douwe Kiela---0.4
+Joshua B. Tenenbaum---0.4
+Charles Blundell---0.4
+Sijia Liu---0.4
+Xiao Wang---0.4
+Samy Bengio---0.38
+Abhinav Gupta---0.38
+William W. Cohen---0.33
+Joan Bruna---0.33
+Hugo Larochelle---0.33
+Shakir Mohamed---0.33
+Remi Munos---0.33
+Antoine Bordes---0.33
+Kristin Branson---0.33
+Bhuwan Dhingra---0.33
+Surya Ganguli---0.33
+James Bradbury---0.33
+Geoffrey Hinton---0.33
+Kundan Kumar---0.33
+Oriol Vinyals---0.33
+James Martens---0.33
+Takeru Miyato---0.33
+Barret Zoph---0.33
+Irina Higgins---0.33
+Jiahui Yu---0.33
+Carlos Florensa---0.33
+Angeliki Lazaridou---0.33
+Eric Nalisnick---0.33
+Peter O'Connor---0.33
+David M. Blei---0.33
+Chris J. Maddison---0.33
+Tero Karras---0.33
+Antonio Torralba---0.33
+Brian Cheung---0.33
+Jeff Bilmes---0.33
+Greg Yang---0.33
+Jost Tobias Springenberg---0.33
+Ilya Loshchilov---0.33
+Yuhuai Wu---0.33
+Pulkit Agrawal---0.33
+Tom Erez---0.33
+Adriana Romero---0.33
+Dzmitry Bahdanau---0.33
+Philemon Brakel---0.33
+Emilio Parisotto---0.33
+Tim Klinger---0.33
+Lisha Li---0.33
+Jaime G. Carbonell---0.33
+Samuli Laine---0.33
+Harrison Edwards---0.33
+Noam Shazeer---0.33
+Chong Wang---0.33
+Michael Maire---0.33
+Hao Wang---0.33
+Hubert Soyer---0.33
+Pramod Viswanath---0.33
+Tim Genewein---0.33
+Xuezhe Ma---0.33
+Alexey Dosovitskiy---0.33
+William Chan---0.33
+Christian Szegedy---0.33
+Klaus-Robert Müller---0.33
+Douglas Eck---0.33
+Yann N. Dauphin---0.33
+Rakshit Trivedi---0.33
+Brooks Paige---0.33
+Chun-Liang Li---0.33
+Weizhu Chen---0.33
+Xue Bin Peng---0.33
+Zachary C. Lipton---0.33
+Jianshu Chen---0.33
+Luke Vilnis---0.33
+Jake Snell---0.33
+Richard Zemel---0.33
+Kai-Wei Chang---0.33
+Igor Mordatch---0.33
+Pieter-Jan Kindermans---0.33
+Corentin Tallec---0.33
+Szymon Sidor---0.33
+Dmitriy Serdyuk---0.33
+Maximilian Igl---0.33
+Masanori Koyama---0.33
+Sandeep Subramanian---0.33
+Aleksandar Bojchevski---0.33
+Arno Onken---0.33
+Rong Ge---0.33
+Jean Kossaifi---0.33
+Martin Riedmiller---0.33
+Nicolas Courty---0.33
+Efstratios Gavves---0.33
+David Dohan---0.33
+Zsolt Kira---0.33
+R Devon Hjelm---0.33
+Sainbayar Sukhbaatar---0.33
+John Langford---0.33
+Asja Fischer---0.33
+William Fedus---0.33
+Felix Hill---0.33
+Marlos C. Machado---0.33
+Tom Goldstein---0.33
+Paul Vicol---0.33
+David Rolnick---0.33
+Jiri Hron---0.33
+Chongyang Tao---0.33
+Greg Wayne---0.33
+Devendra Singh Chaplot---0.33
+Valentin Khrulkov---0.33
+Konrad Kording---0.33
+Hervé Jégou---0.33
+Hongyuan Zha---0.33
+Shai Shalev-Shwartz---0.33
+Deva Ramanan---0.33
+Herke van Hoof---0.33
+Yingbin Liang---0.33
+Yao-Hung Hubert Tsai---0.33
+Nebojsa Jojic---0.33
+Sebastien Racaniere---0.33
+Jaehoon Lee---0.33
+Chunyuan Li---0.33
+Jinfeng Yi---0.33
+Milad Alizadeh---0.33
+David Duvenaud---0.33
+Sanjiv Kumar---0.33
+Jakob Uszkoreit---0.33
+Yedid Hoshen---0.33
+Shengjia Zhao---0.33
+Hao Zhang---0.33
+Xingjun Ma---0.33
+James Bailey---0.33
+Cenk Baykal---0.33
+Dan Feldman---0.33
+Neil Houlsby---0.33
+Philipp Hennig---0.33
+Yong Yu---0.33
+Yutian Chen---0.33
+Bin Yu---0.33
+Haichao Zhang---0.33
+Nicholas Rhinehart---0.33
+Tingwu Wang---0.33
+Gábor Melis---0.33
+Seong Joon Oh---0.33
+Bernt Schiele---0.33
+John Miller---0.33
+Alex Wang---0.33
+Samuel R. Bowman---0.33
+Chuan-Sheng Foo---0.33
+Liang Lin---0.33
+Xiangyi Chen---0.33
+Mingyi Hong---0.33
+Chen Sun---0.33
+Cheng Zhang---0.33
+Thien Huu Nguyen---0.33
+Wanli Ouyang---0.33
+Changyou Chen---0.33
+Philip Torr---0.33
+Jun Huan---0.33
+Richard Baraniuk---0.33
+Richard Turner---0.33
+Mohamed Elhoseiny---0.33
+Xu Tan---0.33
+Taiji Suzuki---0.33
+Xue Lin---0.33
+Kurt Shuster---0.33
+Minshuo Chen---0.33
+Yi Yang---0.33
+Kihyuk Sohn---0.33
+Anusha Nagabandi---0.33
+Hung Le---0.33
+Yun Fu---0.33
+Guodong Zhang---0.33
+Krishnamurthy (Dj) Dvijotham---0.33
+Sven Gowal---0.33
+Yingce Xia---0.33
+Ian Simon---0.33
+Curtis Hawthorne---0.33
+Wotao Yin---0.33
+Quanquan Gu---0.33
 
-Wei Chen---0.67
-Xin Gao---0.67
-Yarin Gal---0.67
-Sajad Darabi---0.67
-Saehoon Kim---0.67
-Igor Podolak---0.67
-Roger B. Grosse---0.67
-Jens Behrmann---0.67
-Jie Fu---0.67
-Ivor W. Tsang---0.67
-Kenneth O. Stanley---0.67
-Jeff Clune---0.67
-Tianbao Yang---0.67
-Si Si---0.67
-Gang Niu---0.67
-Mathieu Salzmann---0.67
-Yuan Cao---0.67
-Aditya Rawal---0.67
-Katja Hofmann---0.67
-Cordelia Schmid---0.67
-Ping Li---0.67
-Jonathan Uesato---0.67
-Jan Peters---0.67
-Lei Deng---0.67
-Zhou Yu---0.67
-Tiejun Huang---0.67
-Jun-Kun Wang---0.67
-Dejing Dou---0.67
-Wenchao Yu---0.67
-Amir Yazdanbakhsh---0.67
-Ekin D. Cubuk---0.67
-Hongxia Yang---0.67
-Yang Gao---0.67
-Xiangyu Zhang---0.67
-Pietro Lio---0.67
-Jie Zhang---0.67
-Jian Sun---0.67
-Kyunghyun Cho---0.71
-Honglak Lee---0.75
-Sungjin Ahn---0.75
-John Schulman---0.75
-Tim Salimans---0.75
-Justin Gilmer---0.75
-Nicolas Le Roux---0.75
-Nicolas Usunier---0.75
-Sebastian Riedel---0.75
-Leon Bottou---0.75
-Michael Auli---0.75
-Trevor Darrell---0.75
-Alex X. Lee---0.75
-David Lopez-Paz---0.75
-Yang Liu---0.75
-Yisong Yue---0.75
-Chelsea Finn---0.75
-Jitendra Malik---0.75
-Yuandong Tian---0.75
-Amos Storkey---0.75
-Hai Li---0.75
-Ziyu Wang---0.75
-Fabio Viola---0.75
-Raia Hadsell---0.75
-Nitish Shirish Keskar---0.75
-Qiang Liu---0.75
-George Tucker---0.75
-Hado van Hasselt---0.75
-Matteo Hessel---0.75
-Hanxiao Liu---0.75
-Ivan Oseledets---0.75
-Shimon Whiteson---0.75
-Tao Qin---0.75
-Tie-Yan Liu---0.75
-Jinwoo Shin---0.75
-Boris Ginsburg---0.75
-Jun-Yan Zhu---0.75
-Minh-Thang Luong---0.75
-Jun Zhu---0.75
-Maruan Al-Shedivat---0.75
-Theophane Weber---0.75
-Rui Yan---0.75
-Dongyan Zhao---0.75
-Cho-Jui Hsieh---0.75
-Eunho Yang---0.75
-Sung Ju Hwang---0.75
-Tianyi Zhou---0.75
-Yannic Kilcher---0.75
-Adam Prügel-Bennett---0.75
-Sylvain Gelly---0.75
-Daniel Cremers---0.75
-Negar Rostamzadeh---0.75
-Juho Lee---0.75
-Tuo Zhao---0.75
-Yang Li---0.75
-David Silver---0.8
-Anirudh Goyal---0.8
-Joelle Pineau---0.8
-Eduard Hovy---0.8
-Ian Fischer---0.8
-Alex Lamb---0.8
-Bo Li---0.8
-Jian Tang---0.8
-Kotaro Nakayama---1.0
-Yutaka Matsuo---1.0
-Masahiro Suzuki---1.0
-Li Deng---1.0
-Mohammad Taha Bahadori---1.0
-Walter F. Stewart---1.0
-Jimeng Sun---1.0
-Jan Chorowski---1.0
-David Grangier---1.0
-Rico Jonschkowski---1.0
-Oliver Brock---1.0
-Kai Arulkumaran---1.0
-Hervé Glotin---1.0
-Sarath Chandar---1.0
-Tom Zahavy---1.0
-Jean-Baptiste Tristan---1.0
-Michael L. Wick---1.0
-Tri Nguyen---1.0
-Mir Rosenberg---1.0
-Rangan Majumder---1.0
-Bert De Brabandere---1.0
-Daan Wierstra---1.0
-Sebastian Nowozin---1.0
-Xiaoxiao Guo---1.0
-Kevin Jamieson---1.0
----1.0
-Tai Sing Lee---1.0
-Joshua V. Dillon---1.0
-Johannes Welbl---1.0
-Timothy M. Hospedales---1.0
-Luke Metz---1.0
-Alexander M. Rush---1.0
-Zhiting Hu---1.0
-Louis Shao---1.0
-Denny Britz---1.0
-Brian Strope---1.0
-Ray Kurzweil---1.0
-Franziska Horn---1.0
-Margaret Mitchell---1.0
-Sing Bing Kang---1.0
-Krzysztof Chalupka---1.0
-Robert Chen---1.0
-Mohammad Ali Mehrolhassani---1.0
-Majid Mohammadi---1.0
-Pedro H. P. Savarese---1.0
-Leonardo O. Mazza---1.0
-Daniel R. Figueiredo---1.0
-Bofang Li---1.0
-Tao Liu---1.0
-Zhe Zhao---1.0
-Buzhou Tang---1.0
-Xiaoyong Du---1.0
-Irwan Bello*---1.0
-Hieu Pham*---1.0
-Yihao Feng---1.0
-Tianxiang Gao---1.0
-Vladimir Jojic---1.0
-Xin Wang---1.0
-Joseph E. Gonzalez---1.0
-Sihan Li---1.0
-Jiantao Jiao---1.0
-Yanjun Han---1.0
-Tsachy Weissman---1.0
-Alberto Delmás Lascorz---1.0
-Sayeh Sharify---1.0
-Patrick Judd---1.0
-Andreas Moshovos---1.0
-Yang Lu---1.0
-Song-Chun Zhu---1.0
-Ying Nian Wu---1.0
-Zhengping Che---1.0
-David Sontag---1.0
-Rudolf Kadlec---1.0
-Ondřej Bajgar---1.0
-Peter Hrincar---1.0
-Jan Kleindienst---1.0
-Wenyuan Zeng---1.0
-Wenjie Luo---1.0
-Arthur Guez---1.0
-Gabriel Dulac-Arnold---1.0
-Andre Barreto---1.0
-Thomas Degris---1.0
-Yunpeng Chen---1.0
-Shuicheng Yan---1.0
-Wojciech Zaremba---1.0
-Aurelia Léon---1.0
-Eugene Vorontsov---1.0
-Samuel Kadoury---1.0
-Yuanzhi Ke---1.0
-Masafumi Hagiwara---1.0
-Timothee LESORT---1.0
-David FILLIAT---1.0
-Gyuwan Kim---1.0
-Hayoon Yi---1.0
-Jangho Lee---1.0
-Yunheung Paek---1.0
-Sungroh Yoon---1.0
-Serena Yeung---1.0
-Weidi Xie---1.0
-Alison Noble---1.0
-Junhyuk Oh---1.0
-Satinder Singh---1.0
-Tong Wang---1.0
-Justin Harris---1.0
-Kaheer Suleman---1.0
-Sajid Anwar---1.0
-Wonyong Sung---1.0
-Thomas Trogdon---1.0
-Patrick McClure---1.0
-Nikolaus Kriegeskorte---1.0
-Jonas Gehring---1.0
-Ron Dekel---1.0
-Karol Grzegorczyk---1.0
-Marcin Kurdziel---1.0
-Sahil Garg---1.0
-Guillermo Cecchi---1.0
-Aurelie Lozano---1.0
-Antonio Valerio Miceli Barone---1.0
-Anna C. Gilbert---1.0
-Yuting Zhang---1.0
-Jakob Foerster---1.0
-Jascha Sohl-dickstein---1.0
-Farkhondeh Kiaee---1.0
-Christian Gagné---1.0
-and Mahdieh Abbasi---1.0
-Dragomir Radev---1.0
-Rahul G. Krishnan---1.0
-Karl Aberer---1.0
-Melanie Ducoffe---1.0
-Frederic Precioso---1.0
-Vivek Ramamurthy---1.0
-Nigel Duffy---1.0
-Jernej Kos---1.0
-Miguel Lazaro-Gredilla---1.0
-Yi Liu---1.0
-D. Scott Phoenix---1.0
-Dileep George---1.0
-Evan Racah---1.0
-Christopher Beckham---1.0
-Paul Hongsuck Seo---1.0
-Scott Cohen---1.0
-Xiaohui Shen---1.0
-Bohyung Han---1.0
-Dmitry P. Vetrov---1.0
-Federico Raue---1.0
-Sebastian Palacio---1.0
-Andreas Dengel---1.0
-Marcus Liwicki---1.0
-Hanjun Dai*---1.0
-Yichen Wang*---1.0
-Antonin Raffin---1.0
-Sebastian Höfer---1.0
-Freek Stulp---1.0
-Xiaojun Xu---1.0
-Nadav Bhonker---1.0
-Shai Rozenberg---1.0
-Herve Glotin---1.0
-Ting Yao---1.0
-Yingwei Pan---1.0
-Yehao Li---1.0
-Zhaofan Qiu---1.0
-Tao Mei---1.0
-Nat Dilokthanakul---1.0
-Matthew C.H. Lee---1.0
-Hugh Salimbeni---1.0
-Giambattista Parascandolo---1.0
-Heikki Huttunen---1.0
-Tuomas Virtanen---1.0
-Shota Horiguchi---1.0
-Daiki Ikami---1.0
-Kiyoharu Aizawa---1.0
-Adrian Benton---1.0
-Huda Khayrallah---1.0
-Biman Gujral---1.0
-Drew Reisinger---1.0
-Sheng Zhang---1.0
-Kenton Lee---1.0
-Tom Kwiatkowksi---1.0
-Ankur Parikh---1.0
-Antonia Creswell---1.0
-Anil Anthony Bharath---1.0
-N. Siddharth---1.0
-Jan-Willem van de Meent---1.0
-Frank Wood---1.0
-Noah D. Goodman---1.0
-Alexandros Karatzoglou---1.0
-Vincent Roger---1.0
-Marius Bartcus---1.0
-Faicel Chamroukhi---1.0
-Zhuoyuan Chen---1.0
-Han Zhao---1.0
-Xiao Liu---1.0
-Ankur Taly---1.0
-Nicola Di Mauro---1.0
-Floriana Esposito---1.0
-John Boaz Lee---1.0
-Xiangnan Kong---1.0
-Nir Ailon---1.0
-Marc Goessling---1.0
-Yali Amit---1.0
-Yang Yu---1.0
-Wei Zhang---1.0
-Kazi Hasan---1.0
-Haoran Tang---1.0
-Davis Foote---1.0
-Adam Stooke---1.0
-Filip De Turck---1.0
-Ashwin K Vijayakumar---1.0
-Michael Cogswell---1.0
-Ramprasaath R. Selvaraju---1.0
-Qing Sun---1.0
-David Crandall---1.0
-Avishkar Bhoopchand---1.0
-Earl Barr---1.0
-Elham Khabiri---1.0
-Richard Goodwin---1.0
-Andras Rozsa---1.0
-Manuel Gunther---1.0
-Terrance E. Boult---1.0
-Siamak Ravanbakhsh---1.0
-Mehdi Cherti---1.0
-Balázs Kégl---1.0
-Akın Kazakçı---1.0
-Xin Zheng---1.0
-Zhenzhou Wu---1.0
-Yelong Shen*---1.0
-Po-Sen Huang*---1.0
-Ming-Wei Chang---1.0
-Théodore Bluche---1.0
-Christopher Kermorvant---1.0
-Claude Touzet---1.0
-Michiel van de Panne---1.0
-Linnan Wang---1.0
-Wei Wu---1.0
-George Bosilca---1.0
-Richard Vuduc---1.0
-Hyo-Eun Kim---1.0
-Sangheum Hwang---1.0
-Pranav Shyam---1.0
-Ambedkar Dukkipati---1.0
-Yanghao Li---1.0
-Naiyan Wang---1.0
-Jianping Shi---1.0
-Xiaodi Hou---1.0
-Heeyoul Choi---1.0
-Tanel Parnamaa---1.0
-Shenjian Zhao---1.0
-Karol Kurach---1.0
-Sebastian Ruder---1.0
-Parsa Ghaffari---1.0
-John G. Breslin---1.0
-Jon Kleinberg---1.0
-Etai Littwin---1.0
-Ivet Rafegas---1.0
-Maria Vanrell---1.0
-Luís A. Alexandre---1.0
-Alexander Fonarev---1.0
-Alexey Grinchuk---1.0
-Gleb Gusev---1.0
-Pavel Serdyukov---1.0
-Jose Rozanec---1.0
-Gilad Katz---1.0
-Eui Chul Richard Shin---1.0
-Shayne Longpre---1.0
-Sabeek Pradhan---1.0
-Yannis M. Assael---1.0
-Brendan Shillingford---1.0
-Arash Shahriari---1.0
-Dawei Li---1.0
-Deguang Kong---1.0
-Mooi Choo Chuah---1.0
-Ludovic Dos Santos---1.0
-Ali Ziat---1.0
-Benjamin Piwowarski---1.0
-Rohollah Soltani---1.0
-Hui Jiang---1.0
-Asier Mujika---1.0
-Jose Moreira---1.0
-Masatosi Uehara---1.0
-Issei Sato---1.0
-Youngjoo Seo---1.0
-Pierre Vandergheynst---1.0
-Xavier Bresson---1.0
-Luis Gonzalo Sanchez Giraldo---1.0
-Jianmin Chen*---1.0
-Xinghao Pan*---1.0
-Rajat Monga---1.0
-Rafal Jozefowicz---1.0
-Peter Potash---1.0
-Alexey Romanov---1.0
-Anna Rumshisky---1.0
-Sanjay Ganapathy---1.0
-Swagath Venkataramani---1.0
-Tristan Cazenave---1.0
-Xinchen Yan---1.0
-Liping Jing---1.0
-MiaoMiao Cheng---1.0
-Liu Yang---1.0
-Alex Gittens---1.0
-Michael W. Mahoney---1.0
-Hai Wang---1.0
-Takeshi Onishi---1.0
-David McAllester---1.0
-Chang Xu---1.0
-Gang Wang---1.0
-Bailey Kong---1.0
-Charless C. Fowlkes---1.0
-Christopher Tensmeyer---1.0
-Tony Martinez---1.0
-Stefan Carlsson---1.0
-Hossein Azizpour---1.0
-Ali Razavian---1.0
-Leslie N. Smith---1.0
-Nicholay Topin---1.0
-Haoqi Fan---1.0
-Nir Baram---1.0
-Jaehyung Kim---1.0
-Song Chong---1.0
-Hao Zhao---1.0
-Ming Lu---1.0
-Chris Dongjoo Kim---1.0
-Graham Taylor---1.0
-Jean Harb---1.0
-Doina Precup---1.0
-Peter L. Bartlett---1.0
-Alexandre Allauzen---1.0
-Iulian V. Serban---1.0
-Alexander G. Ororbia II---1.0
-Dimitrios C. Gklezakos---1.0
-Rajesh P. N. Rao---1.0
-Yotam Hechtlinger---1.0
-Purvasha Chakravarti---1.0
-Jining Qin---1.0
-Tom White---1.0
-Yilei Xiong---1.0
-Haoying Niu---1.0
-JIefeng Cheng---1.0
-Zhenguo Li---1.0
-Ludovic Trottier---1.0
-Philippe Giguère---1.0
-Brahim Chaib-draa---1.0
-Makoto Nakatsuji---1.0
-Hisashi Ito---1.0
-Naruhiro Ikeda---1.0
-Shota Sagara---1.0
-Akihisa Fujita---1.0
-Hiroki Kurotaki---1.0
-Alan Mosca---1.0
-George D. Magoulas---1.0
-Mickaël Chen---1.0
-Shyam Upadhyay---1.0
-Matt Taddy---1.0
-Adam Kalai---1.0
-Huayu Li---1.0
-Martin Renqiang Min---1.0
-Yong Ge---1.0
-Roee Aharoni---1.0
-Armen Aghajanyan---1.0
-Saeed Maleki---1.0
-Madanlal Musuvathi---1.0
-Todd Mytkowicz---1.0
-Yufei Ding---1.0
-Onkar Bhardwaj---1.0
-Guojing Cong---1.0
-Soravit Changpinyo---1.0
-Edwin D. de Jong---1.0
-Liwen Zhang---1.0
-John Winn---1.0
-Patrick Putzky---1.0
-Guy L. Steele Jr.---1.0
-Nikolas Wolfe---1.0
-Aditya Sharma---1.0
-Lukas Drude---1.0
-Bhiksha Raj---1.0
-Joji Toyama---1.0
-Masanori Misono---1.0
-Thomas Nedelec---1.0
-Elena Smirnova---1.0
-Flavian Vasile---1.0
-Mingbo Ma---1.0
-Liang Huang---1.0
-Taewan Kim---1.0
-Yoshimasa Tsuruoka---1.0
-Adam Paszke---1.0
-Eugenio Culurciello---1.0
-Jayanth Koushik---1.0
-Hiroaki Hayashi---1.0
-Guillaume Alain---1.0
-Ramesh Nallapati---1.0
-Bowen Zhou and Mingbo Ma---1.0
-Chao-Yuan Wu---1.0
-Amr Ahmed---1.0
-Alex Beutel---1.0
-Alessandro Magnani---1.0
-Abhinandan Krishnan---1.0
-Shengdong Zhang---1.0
-Soheil Bahrampour---1.0
-Naveen Ramakrishnan---1.0
-Mohak Shah---1.0
-Jay Yoon Lee---1.0
-Daniel Berio---1.0
-Memo Akten---1.0
-Frederic Fol Leymarie---1.0
-Mick Grierson---1.0
-Réjean Plamondon---1.0
-Yan Wang---1.0
-Yu Sun---1.0
-Gerald Tesauro---1.0
-Brendan Maginnis---1.0
-Yusuke Iwasawa---1.0
-Anima Anandkumar---1.0
-Guokun Lai---1.0
-Hod Lipson---1.0
-Yiming Yang---1.0
-Stanisław Jastrzębski---1.0
-Jaime Carbonell---1.0
-Ole Winther---1.0
-Pierre H. Richemond---1.0
-Stephan Hoyer---1.0
-Tommi Jaakkola---1.0
-Hiroshi Inoue---1.0
-Biswa Sengupta---1.0
-Giannis Nikolentzos---1.0
-Polykarpos Meladianos---1.0
-Michalis Vazirgiannis---1.0
-Jia Bi---1.0
-Mahdi Azarafrooz---1.0
-Amelie Royer---1.0
-Konstantinos Bousmalis---1.0
-Fred Bertsch---1.0
-Inbar Mosseri---1.0
-Forrester Cole---1.0
-Jianfei Chen---1.0
-Amirata Ghorbani---1.0
-Abubakar Abid---1.0
-Takuro Kutsuna---1.0
-Alasdair Newson---1.0
-Andres Almansa---1.0
-Yann Gousseau---1.0
-Said Ladjal---1.0
-Prannay Khosla---1.0
-Vinay P. Namboodiri---1.0
-Mukundhan Srinivasan---1.0
-Zixin Yao---1.0
-Yu Gai---1.0
-Jialin Mao---1.0
-Zheng Zhang---1.0
-Qiao Liu---1.0
-Xiaohui Yang---1.0
-Rui Wan---1.0
-Shouzhong Tu---1.0
-Zufeng Wu---1.0
-Martin Wattenberg---1.0
-Fernanda Viégas---1.0
-Thilo Strauss---1.0
-Markus Hanselmann---1.0
-Andrej Junginger---1.0
-Holger Ulmer---1.0
-Anderson Y. Zhang---1.0
-Miao Lu---1.0
-Jimmy Yang---1.0
-Akilesh B---1.0
-Francois Fagan---1.0
-Garud Iyengar---1.0
-Silvio Savarese---1.0
-Qizhe Xie---1.0
-Rui Liu---1.0
-Weiguang Mao---1.0
-Maria Chikina---1.0
-Ricky Loynd---1.0
-Hazem A. A. Nomer---1.0
-Abdallah Aboutahoun---1.0
-Ashraf Elsayed---1.0
-Guy Katz---1.0
-Clark Barrett---1.0
-Conor Durkan---1.0
-Yuchen Hou---1.0
-Lawrence B. Holder---1.0
-Anthony Meehan---1.0
-Ryan K L Ko---1.0
-Geoff Holmes---1.0
-Igor Gitman---1.0
-Chris Hettinger---1.0
-Tanner Christensen---1.0
-Jeff Humpherys---1.0
-Tyler J Jarvis---1.0
-Yuchen Lu---1.0
-Surya Bhupatiraju---1.0
-Shane Gu---1.0
-Avinava Dubey---1.0
-Yuhuang Hu---1.0
-Adrian Huber---1.0
-Shih-Chii Liu---1.0
-Raanan Y. Yehezkel Rohekar---1.0
-Guy Koren---1.0
-Shami Nisimov---1.0
-Gal Novik---1.0
-Ioannis Antonoglou---1.0
-Isabella Pozzi---1.0
-Roeland Nusselder---1.0
-Timothée Lesort---1.0
-Jean-Francois Goudou---1.0
-David Filliat---1.0
-Boyuan Chen---1.0
-Warren Mo---1.0
-Ishanu Chattopadhyay---1.0
-Guanhua Zheng---1.0
-Jitao Sang---1.0
-Changsheng Xu---1.0
-Mehran Taghipour-Gorjikolaie---1.0
-Seyyed Mohammad Razavi---1.0
-Javad Sadri---1.0
-Peter Stone---1.0
-Zijun Zhang---1.0
-Lin Ma---1.0
-Zongpeng Li---1.0
-Chuan Wu---1.0
-Vijai Mohan---1.0
-Chin-Wei Huang---1.0
-Ryan Turner---1.0
-Alexandre Lacoste---1.0
-Cho-jui Hsieh---1.0
-Mikolaj Binkowski---1.0
-Gautier Marti---1.0
-Philippe Donnat---1.0
-Ron Levie---1.0
-Michael M. Bronstein---1.0
-Sara Hooker---1.0
-Julius Adebayo---1.0
-Runyao Chen---1.0
-Kun Wu---1.0
-Shuai Tang---1.0
-Hailin Jin---1.0
-Chen Fang---1.0
-Zhaowen Wang---1.0
-Virginia R. de Sa---1.0
-Denis A. Gudovskiy---1.0
-Alec Hodgkinson---1.0
-Luca Rigazio---1.0
-David Macêdo---1.0
-Cleber Zanchettin---1.0
-Adriano L. I. Oliveira---1.0
-Teresa Ludermir---1.0
-Su Young Lee---1.0
-Xuefei Ning---1.0
-Zhuxi Jiang---1.0
-Huazhong Yang---1.0
-Junzhou Huang---1.0
-João Sedoc---1.0
-Dean Foster---1.0
-Lyle Ungar---1.0
-Tom Bosc---1.0
-Sourya Dey---1.0
-Kuan-Wen Huang---1.0
-Peter A. Beerel---1.0
-Keith M. Chugg---1.0
-Mengmi Zhang---1.0
-Keng Teck Ma---1.0
-Joo Hwee Lim---1.0
-Shih-Cheng Yen---1.0
-Qi Zhao---1.0
-Jian Du---1.0
-Shanghang Zhang---1.0
-Guanhang Wu---1.0
-José M. F. Moura---1.0
-Soummya Kar---1.0
-Jinwook Oh---1.0
-Marco Pistoia---1.0
-Gwo Giun (Chris) Lee---1.0
-Ning Miao---1.0
-Hengliang Wang---1.0
-Ran Le---1.0
-Mingyue Shang---1.0
-James Henderson---1.0
-
-John K. Tsotsos---1.0
-Vitaliy Liptchinsky---1.0
-Ronan Collobert---1.0
-Adly Templeton---1.0
-Jugal Kalita---1.0
-Jarrel Seah---1.0
-Jennifer Tang---1.0
-Andy Kitchen---1.0
-Jonathan Seah---1.0
-Ruo-Chun Tzeng---1.0
-Shan-Hung Wu---1.0
-Ondrej Bajgar---1.0
-and Jan Kleindienst---1.0
-Girish Raguvir J *---1.0
-Srivatsan Ramesh *---1.0
-Marissa Connor---1.0
-Christopher Rozell---1.0
-Katya Gonina---1.0
-Jiezhong Qiu---1.0
-Hao Ma---1.0
-Yuxiao Dong---1.0
-Kuansan Wang---1.0
-Jie Tang---1.0
-Lei Huang---1.0
-Qihang Lin---1.0
-Kushal Chawla---1.0
-Sopan Khosla---1.0
-Niyati Chhaya---1.0
-Kokil Jaidka---1.0
-Zhao Chen---1.0
-Vijay Badrinarayanan---1.0
-Chen-Yu Lee---1.0
-Andrew Rabinovich---1.0
-Shurjo Banerjee---1.0
-Vikas Dhiman---1.0
-Brent Griffin---1.0
-Jason J. Corso---1.0
-Yoel Zeldes---1.0
-Stavros Theodorakis---1.0
-Efrat Solodnik---1.0
-Aviv Rotman---1.0
-Gil Chamiel---1.0
-Dan Friedman---1.0
-Shiqi Liu---1.0
-Qian Zhao---1.0
-Xiangyong Cao---1.0
-Deyu Meng---1.0
-Zilu Ma---1.0
-Tao Yu---1.0
-Timothy Wong---1.0
-Zhiyuan Luo---1.0
-Maryam Fazel---1.0
-Mehran Mesbahi---1.0
-Ari S Benjamin---1.0
-Thanh T. Nguyen---1.0
-Jaesik Choi---1.0
-Ron Amit---1.0
-Ron Meir---1.0
-Enrico Guiraud---1.0
-Jakob Drefs---1.0
-Joerg Luecke---1.0
-jianqi ma---1.0
-hangyu lin---1.0
-yinda zhang---1.0
-yanwei fu---1.0
-xiangyang xue---1.0
-Thiago Serra---1.0
-Srikumar Ramalingam---1.0
-Sneha Kudugunta---1.0
-Adepu Shankar---1.0
-Surya Chavali---1.0
-Vineeth Balasubramanian---1.0
-Purushottam Kar---1.0
-Yanqi Zhou---1.0
-Benjamin Rosman---1.0
-Thomas Lucas---1.0
-Jakob Verbeek---1.0
-Li Yao---1.0
-Eric Poblenz---1.0
-Dmitry Dagunts---1.0
-Ben Covington---1.0
-Devon Bernard---1.0
-Kevin Lyman---1.0
-Masashi Sugiyama---1.0
-Dae Hoon Park---1.0
-Chiu Man Ho---1.0
-Yi Chang---1.0
-Pin Zhang---1.0
-Bibo Shi---1.0
-JundongLiu---1.0
-Olivier Goudet---1.0
-Diviyan Kalainathan---1.0
-Philippe Caillou---1.0
-Isabelle Guyon---1.0
-Michèle Sebag---1.0
-Jonathan Binas---1.0
-Rasmus Berg Palm---1.0
-Ulrich Paquet---1.0
-Max Pflueger---1.0
-Ali Agha---1.0
-Gaurav S. Sukhatme---1.0
-David Held---1.0
-Xinyang Geng---1.0
-Mattias Teye---1.0
-Kevin Smith---1.0
-Xiangyu Kong---1.0
-Bo Xin---1.0
-Zack Chase Lipton---1.0
-Tommaso Furlanello---1.0
-Dufan Wu---1.0
-Kyungsang Kim---1.0
-Quanzheng Li---1.0
-Nevan Wichers---1.0
-Jakub Dutkiewicz---1.0
-Czesław Jędrzejek---1.0
-Shirin Dora---1.0
-Cyriel Pennartz---1.0
-Matthew A. Johnson---1.0
-Alan Lawrence---1.0
-Maik Riechert---1.0
-Dimitrios Vytiniotis---1.0
-Sam Webster---1.0
-Zhaoyuan Gu---1.0
-Zhenzhong Jia---1.0
-Howie Choset---1.0
-Chin-Chia Michael Yeh---1.0
-Yan Zhu---1.0
-Evangelos E. Papalexakis---1.0
-Abdullah Mueen---1.0
-Eamonn Keogh---1.0
-Karim Ahmed---1.0
-Mengying Sun---1.0
-Inci M. Baytas---1.0
-Xi Wu---1.0
-Lingjiao Chen---1.0
-Meng Li---1.0
-Liangzhen Lai---1.0
-Naveen Suda---1.0
-Vikas Chandra---1.0
-David Z. Pan---1.0
-Yueru Chen---1.0
-C.-C. Jay Kuo---1.0
-Yiping Song---1.0
-Cheng-Te Li---1.0
-Huan Wang---1.0
-Pan Zhou---1.0
-Kyle Helfrich---1.0
-Devin Willmott---1.0
-Qiang Ye---1.0
-Guoqing Zheng---1.0
-Yuke Zhu---1.0
-Andrei Rusu---1.0
-Sugandha Doda---1.0
-Vitor Fortes Rey---1.0
-Dr. Nadereh Hatami---1.0
-Prof. Dr. Paul Lukowicz---1.0
-Maja Rudolph---1.0
-Francisco Ruiz---1.0
-David Blei---1.0
-Hae Beom Lee---1.0
-Daniil Polykovskiy---1.0
-Dmitry Soloviev---1.0
-Peiye Zhuang---1.0
-Oluwasanmi Koyejo---1.0
-Jiong Zhang---1.0
-Qi Lei---1.0
-Anton Nemchenko---1.0
-Kartik Ahuja---1.0
-Mihaela Van Der Schaar---1.0
-Joseph Futoma---1.0
-Anthony Lin---1.0
-Mark Sendak---1.0
-Armando Bedoya---1.0
-Meredith Clement---1.0
-Cara O'Brien---1.0
-Katherine Heller---1.0
-Eric Crawford---1.0
-Guillaume Rabusseau---1.0
-Dejiao Zhang---1.0
-Christina Heinze-Deml---1.0
-Nicolai Meinshausen---1.0
-Jason Ramapuram---1.0
-Magda Gregorova---1.0
-Alexandros Kalousis---1.0
-Thanard Kurutach---1.0
-Hanzhang Hu---1.0
-Debadeepta Dey---1.0
-Martial Hebert---1.0
-Jingzhou Liu---1.0
-Graham Neubig---1.0
-Michael O. Vertolli---1.0
-Jim Davies---1.0
-Smitha Milli---1.0
-Cem TARHAN---1.0
-Gözde BOZDAĞI AKAR---1.0
-Fredrik D. Johansson---1.0
-Nathan Kallus---1.0
-Uri Shalit---1.0
-Josh Fromm---1.0
-Shwetak Patel---1.0
-Ronen Talmon---1.0
-Ella M. Gale---1.0
-Nicolas Martin---1.0
-Jeffrey Bowers---1.0
-Julien Audiffren---1.0
-Divya Shanmugam---1.0
-Davis Blalock---1.0
-John Guttag---1.0
-Matthew J. A. Smith---1.0
-Claire Donnat---1.0
-David Hallac---1.0
-Vijay Vasudevan---1.0
-Shikhar Sharma---1.0
-Layla El Asri---1.0
-Hannes Schulz---1.0
-Jeremie Zumer---1.0
-Catherine Wong---1.0
-Songgang Zhao---1.0
-Jianyuan Zhang---1.0
-Zhouyuan Li---1.0
-Emmanuel Daucé---1.0
-Anna Levit---1.0
- Daniel Crawford---1.0
-Navid Ghadermarzy---1.0
-Jaspreet S. Oberoi---1.0
-Ehsan Zahedinejad---1.0
-Pooya Ronagh---1.0
-Hang Wu---1.0
-Renato Negrinho---1.0
-Geoff Gordon---1.0
-Gil Tabak---1.0
-Minjie Fan---1.0
-Samuel J. Yang---1.0
-Geoff Davis---1.0
-Xiang Zhang---1.0
-Wenbin Li---1.0
-Jeannette Bohg---1.0
-Animesh Karnewar---1.0
-Adi Hayat---1.0
-Mark Kliger---1.0
-Shachar Fleishman---1.0
-Daniel Cohen-Or---1.0
-Linyi Li---1.0
-Rahul Anand Sharma---1.0
-Monojit Choudhury---1.0
-Pranava Madhyastha---1.0
-Josiah Wang---1.0
-Lucia Specia---1.0
-Andrew Hallam---1.0
-Edward Grant---1.0
-Vid Stojevic---1.0
-Simone Severini---1.0
-Andrew G. Green---1.0
-Yao Ma---1.0
-Calin Belta---1.0
-Daiki Kimura---1.0
-Subhajit Chaudhury---1.0
-Ryuki Tachibana---1.0
-Sakyasingha Dasgupta---1.0
-Frederik Ebert---1.0
-Richard Zhang---1.0
-John Quan---1.0
-Riaan Zoetmulder---1.0
-Luke Hewitt---1.0
-Andrea Gane---1.0
-Stephan Zheng---1.0
-Mert Bülent Sarıyıldız---1.0
-Ramazan Gökberk Cinbiş---1.0
-Erman Ayday---1.0
-Danlu Chan---1.0
-Volodymyr Kuleshov---1.0
-Shantanu Thakoor---1.0
-Tingfung Lau---1.0
-Amit Deshpande---1.0
-Sushrut Karmalkar---1.0
-Christopher Grimm---1.0
-Dilip Arumugam---1.0
-Siddharth Karamcheti---1.0
-David Abel---1.0
-Lawson L.S. Wong---1.0
-Michael L. Littman---1.0
-Anuvabh Dutt---1.0
-Denis Pellerin---1.0
-Georges Quénot---1.0
-Daniel Kang---1.0
-Karey Shi---1.0
-Thao Ngyuen---1.0
-Stephanie Mallard---1.0
-Sanjukta Krishnagopal---1.0
-Michelle Girvan---1.0
-Frederic Besse---1.0
-Karol Gregor---1.0
-Po-Chen Hsieh---1.0
-Chia-Ping Chen---1.0
-Dimche Kostadinov---1.0
-Slava Voloshynovskiy---1.0
-Lei Shu---1.0
-Hu Xu---1.0
-Bing Liu---1.0
-Robert Vandermeulen---1.0
-Stephan Mandt---1.0
-Pierre Richemond---1.0
-Cheng Tang---1.0
-Claire Monteleoni---1.0
-Gintare Karolina Dziugaite---1.0
-Daniel M. Roy---1.0
-Vuong Ho Quan---1.0
-Kenny Song---1.0
-Xiao-Yue Gong---1.0
-Zhuo Wang---1.0
-Pierce I-Jen Chuang---1.0
-Vijayalakshmi Srinivasan---1.0
-Tsung-Hsien Wen---1.0
-Dan Svenstrup---1.0
-Jonas Meinertz Hansen---1.0
-JIANXIONG DONG---1.0
-Jim Huang---1.0
-Dmitry Kangin---1.0
-Nicolas Pugeault---1.0
-Vlad Velici---1.0
-Sebastian Urban---1.0
-Jingyi Xu---1.0
-Zilu Zhang---1.0
-Tal Friedman---1.0
-Yitao Liang---1.0
-Guy Van den Broeck---1.0
-Dimitris Kalatzis---1.0
-Konstantia Kotta---1.0
-Ilias Kalamaras---1.0
-Anastasios Vafeiadis---1.0
-Andrew Rawstron---1.0
-Dimitris Tzovaras---1.0
-Kostas Stamatopoulos---1.0
-Balestriero R.---1.0
-Roger V.---1.0
-Glotin H.---1.0
-Baraniuk R.---1.0
-Rey Wiyatno---1.0
-Jeff Orchard---1.0
-Ricardo Pio Monti---1.0
-Sina Tootoonian---1.0
-Robin Cao---1.0
-Siddharth Krishna Kumar---1.0
-Naveen Sai Madiraju---1.0
-Seid M. Sadat---1.0
-Dimitry Fisher---1.0
-Homa Karimabadi---1.0
-Arjun Nitin Bhagoji---1.0
-Ke Tran---1.0
-Hangyu Mao---1.0
-Zhibo Gong---1.0
-Zhen Xiao---1.0
-Vincent W.-S. Tseng---1.0
-Sourav Bhattachary---1.0
-Javier Fernández Marqués---1.0
-Catherine Tong---1.0
-Nicholas Donald Lane---1.0
-Vithursan Thangarasa---1.0
-Ahmed A Aly---1.0
-Joanne Bechta Dugan---1.0
-Emilio Rafael Balda---1.0
-Rudolf Mathar---1.0
-Alex Alemi---1.0
-Josh Dillon---1.0
-Rif A. Saurus---1.0
-Hanock Kwak---1.0
-Jatin Ganhotra---1.0
-Yeu-Chern Harn---1.0
-Benjamin Paul Chamberlain---1.0
-James R Clough---1.0
-Marc Peter Deisenroth---1.0
-Jesse Dodge---1.0
-Noah A. Smith---1.0
-Jan Kukačka---1.0
-Vladimir Golkov---1.0
-Amy Zhang---1.0
-Dirk Weissenborn---1.0
-Benson Chen---1.0
-Connor Coley---1.0
-Ankit Sharma---1.0
-Himanshu Kharkwal---1.0
-Jaideep Srivastava---1.0
-Anish Athalye---1.0
-Logan Engstrom---1.0
-Kevin Kwok---1.0
-Hongyang Gao---1.0
-Zhengyang Wang---1.0
-Shuiwang Ji---1.0
-Juan Sebastian Olier---1.0
-Emilia Barakova---1.0
-Matthias Rauterberg---1.0
-Carlo Regazzoni---1.0
-Cong Xie---1.0
-Oluwasanmi O. Koyejo---1.0
-Indranil Gupta---1.0
-Yibo Yang---1.0
-Nicholas Ruozzi---1.0
-Vibhav Gogate---1.0
-Qiuyu Chen---1.0
-Jun Yu---1.0
-Jianping Fan---1.0
-Bita Darvish Rouhani---1.0
-Mohammad Samragh---1.0
-Tara Javidi---1.0
-Farinaz Koushanfar---1.0
-Sayantan Dasgupta---1.0
-Milan Aggarwal---1.0
-Aarushi Arora---1.0
-Aleksei Triastcyn---1.0
-Boi Faltings---1.0
-Glen Berseth---1.0
-Ben Krause---1.0
-Emmanuel Kahembwe---1.0
-Steve Renals---1.0
-Simon Carbonnelle---1.0
-Christophe De Vleeschouwer---1.0
-Jason Lee---1.0
-Eric Bailey---1.0
-Charles Meyer---1.0
-Shuchin Aeron---1.0
-Pablo M. Olmos---1.0
-Briland Hitaj---1.0
-Paolo Gasti---1.0
-Giuseppe Ateniese---1.0
-Fernando Perez-Cruz---1.0
-Deepak Pathak---1.0
-Evan Shelhamer---1.0
-Olalekan Ogunmolu---1.0
-Nicholas FitzGerald---1.0
-Luke Zettlemoyer---1.0
-Mohamed Ishmael Belghazi---1.0
-Sai Rajeswar---1.0
-Jovana Mitrovic---1.0
-Mateo Rojas-Carulla---1.0
-Jakub Bartłomiej Świątkowski---1.0
-Yau-Shian Wang---1.0
-Yu Wu---1.0
-Zhoujun Li---1.0
-Quentin Grail---1.0
-Julien Perez---1.0
-Noa Garcia---1.0
-George Vogiatzis---1.0
-Dino S. Ratcliffe---1.0
-Luca Citi---1.0
-Udo Kruschwitz---1.0
-Yu Qian---1.0
-Charles H. Martin---1.0
-Shaun Barry---1.0
-Youngmoo Kim---1.0
-Mateo Rojas Carulla---1.0
-Niki Kilbertus---1.0
-Matt Riemer---1.0
-Michele Franceschini---1.0
-and Tim Klinger---1.0
-Ehsan Abbasnejad---1.0
-Javen Shi---1.0
-Anton van den Hengel---1.0
-Anthony Hu---1.0
-Seth Flaxman---1.0
-Yin Liu---1.0
-Vincent Chen---1.0
-Suraj Nandkishor Kothawade---1.0
-Sumit Baburao Tamgale---1.0
-Sohil Atul Shah---1.0
-Hui-Po Wang---1.0
-Wei-Jan Ko---1.0
-Wen-Hsiao Peng---1.0
-Venkatesh Elango*---1.0
-Aashish N Patel*---1.0
-Kai J Miller---1.0
-Vikash Gilja---1.0
-Hanshu Yan---1.0
-Yong-Ho Yoo---1.0
-Kook Han---1.0
-Sanghyun Cho---1.0
-Kyoung-Chul Koh---1.0
-Jong-Hwan Kim---1.0
-Antoine J.-P. Tixier---1.0
-Konrad Groh---1.0
-Joseph J. Lim---1.0
-Niki Parmar---1.0
-Mehdi Fatemi---1.0
-Joshua Romoff---1.0
-Harm van Seijen---1.0
-Balázs Hidasi---1.0
-Dinghan Shen---1.0
-Guoyin Wang---1.0
-Wenlin Wang---1.0
-Qinliang Su---1.0
-Ricardo Henao---1.0
-N dinesh reddy---1.0
-Antoine J-P Tixier---1.0
-Konstantinos Skianis---1.0
-John Blitzer---1.0
-Guandao Yang---1.0
-Marc G. Bellemare---1.0
-Ivo Danihelka---1.0
-Hideki Nakayama---1.0
-Michael Blot---1.0
-Thomas Robert---1.0
-Nicolas Thome---1.0
-Matthieu Cord---1.0
-Martin Simonovsky---1.0
-Anil A. Bharath---1.0
-Hongseok Yang---1.0
-Kiran K. Thekumparampil---1.0
-Dario Garcia-Gasulla---1.0
-Armand Vilalta---1.0
-Ferran Parés---1.0
-Jonatan Moreno---1.0
-Eduard Ayguadé---1.0
-Jesús Labarta---1.0
-Ulises Cortés---1.0
-Toyotaro Suzumura---1.0
-Weiyi Liu---1.0
-Hal Cooper---1.0
-Min-Hwan Oh---1.0
-Li Ding---1.0
-Chenliang Xu---1.0
-Judy Hoffman---1.0
-Eric Tzeng---1.0
-Taesung Park---1.0
-Phillip Isola---1.0
-Alyosha Efros---1.0
-Furong Huang---1.0
-Robert E. Schapire---1.0
-Eleanor Quint---1.0
-Garrett Wirka---1.0
-Jacob Williams---1.0
-Stephen Scott---1.0
-N.V. Vinodchandran---1.0
-Matthew Mirman---1.0
-Dimitar Dimitrov---1.0
-Pavle Djordjevich---1.0
-Yoichi Ishibashi---1.0
-Hisashi Miyamori---1.0
-Andrew Kyle Lampinen---1.0
-James Lloyd McClelland---1.0
-Malte Probst---1.0
-Arezoo Alizadeh---1.0
-Marion Mutter---1.0
-Thomas Münch---1.0
-Stefano Panzeri---1.0
-Callie Federer---1.0
-Joel Zylberberg---1.0
-Naveen Kodali---1.0
-James Hays---1.0
-Jacob Abernethy---1.0
-Mikael Kågebäck---1.0
-Olof Mogren---1.0
-William H. Guss---1.0
-Zac Kenton---1.0
-Asana Neishabouri---1.0
-Michel Desmarais---1.0
-Samira Shabanian---1.0
-Jian Wu---1.0
-Peter I. Frazier---1.0
-Kshiteesh Hegde---1.0
-Malik Magdon-Ismail---1.0
-Ram Ramanathan---1.0
-Bishal Thapa---1.0
-Murad Tukan---1.0
-Vinci Chow---1.0
-Zhihao Jia---1.0
-Sina Lin---1.0
-Charles R. Qi---1.0
-Alex Aiken---1.0
-Joseph Suarez---1.0
-Justin Johnson---1.0
-Fei-Fei Li---1.0
-Eric Undersander---1.0
-Lukas Balles---1.0
-Craig Bakker---1.0
-Michael J. Henry---1.0
-Nathan O. Hodas---1.0
-Francois W. Belletti---1.0
-Alexander Ku---1.0
-Kenny J. Young---1.0
-Shuo Yang---1.0
-Richard S. Sutton---1.0
-Brady Neal---1.0
-Sherjil Ozair---1.0
-Ioannis Mitliagkas---1.0
-Yermek Kapushev---1.0
-Zhendong Su---1.0
-Zhanxing Zhu---1.0
-Pasquale Minervini---1.0
-Guy Wolf---1.0
-Smita Krishnaswamy---1.0
-Xinjian Li---1.0
-Diego Klabjan---1.0
-Jacek Tabor---1.0
-Przemysław Spurek---1.0
-Newsha Ardalani---1.0
-Joel Hestness---1.0
-Eric Xing---1.0
-Sandesh Kamath---1.0
-Jose Principe---1.0
-Sarah Adel Bargal---1.0
-Stan Sclaroff---1.0
-Jordan Boyd-Graber---1.0
-Mingtian Zhang---1.0
-Chang D. Yoo---1.0
-Jiawei Zhang---1.0
-Aaron Defazio---1.0
-Zhang-Wei Hong---1.0
-Yi-Hsiang Chang---1.0
-Chun-Yi Lee---1.0
-Nojun Kwak---1.0
-Martin Jaggi---1.0
-Nikita Vemuri---1.0
-Joseph Gonzalez---1.0
-Claire Cardie---1.0
-David van Dijk---1.0
-Mike Rabbat---1.0
-Neale Ratzlaff---1.0
-Rémi Munos---1.0
-Łukasz Maziarka---1.0
-Moin Nabi---1.0
-Siddhartha Brahma---1.0
-Animesh Koratana*---1.0
-Daniel Kang*---1.0
-Brandon Yang---1.0
-Weitang Liu---1.0
-Christian Simon---1.0
-Piotr Koniusz---1.0
-Mehrtash Harandi---1.0
-Adrian Wills---1.0
-Thomas B. Schön---1.0
-Carl Jidling---1.0
-Thomas Breuel---1.0
-Ange tato---1.0
-Roger nkambou---1.0
-Carl-Johann Simon-Gabriel---1.0
-Tao Sun---1.0
-Zhewei Wang---1.0
-C. D. Smith---1.0
-Jundong Liu---1.0
-Sungyeob Han---1.0
-Daeyoung Kim---1.0
-Jungwoo Lee---1.0
-Siddharth Dalmia---1.0
-David R. Mortensen---1.0
-Florian Metze---1.0
-Wanrong Zhu---1.0
-Lu Liu---1.0
-Ben Trevett---1.0
-Donald Reay---1.0
-N. K. Taylor---1.0
-Chao Ma---1.0
-Konstantina Palla---1.0
-Jose Miguel Hernandez Lobato---1.0
-Parvin Nazari---1.0
-Davoud Ataee Tarzanagh---1.0
-George Michailidis---1.0
-Parichay Kapoor---1.0
-Byeongwook Kim---1.0
-Nhat Ho---1.0
-Tan Nguyen---1.0
-Dan Zhang---1.0
-Anna Khoreva---1.0
-Remus Pop---1.0
-Patric Fulop---1.0
-Nathanael Perraudin---1.0
-Yu Li---1.0
-Zhongxiao Li---1.0
-Lizhong Ding---1.0
-Yijie Pan---1.0
-Chao Huang---1.0
-Yuhui Hu---1.0
-Su-Jin Shin---1.0
-Kyungwoo Song---1.0
-Il-Chul Moon---1.0
-Utku Evci---1.0
-Pablo Castro---1.0
-Brandon Tran---1.0
-Hongxiang Chen---1.0
-Leonard Wossnig---1.0
-Hartmut Neven---1.0
-Masoud Mohseni---1.0
-Minah Lee---1.0
-Burhan A. Mudassar---1.0
-Priyabrata Saha---1.0
-Michael Tetelman---1.0
-Sunil Thulasidasan---1.0
-Tanmoy Bhattacharya---1.0
-Jeffrey Bilmes---1.0
-Gopinath Chennupati---1.0
-Jamal Mohd-Yusof---1.0
-Badal Singh---1.0
-Jun Qi---1.0
-Chin-Hui Lee---1.0
-Javier Tejedor---1.0
-Nicholas Roberts---1.0
-Poornav S. Purushothama---1.0
-Vishal T. Vasudevan---1.0
-Siddarth Ravichandran---1.0
-Chen Zhang---1.0
-William H. Gerwick---1.0
-Garrison W. Cottrell---1.0
-Yi-Lin Sung---1.0
-Shufei Zhang---1.0
-Kaizhu Huang---1.0
-Amir Hussain---1.0
-Yanwei Fu---1.0
-Shun Zhang---1.0
-Donghao Li---1.0
-Xinwei Sun---1.0
-Xiangyang Xue---1.0
-Yuan Yao---1.0
-Shupeng Gui---1.0
-Xiangliang Zhang---1.0
-Shuang Qiu---1.0
-Mingrui Wu---1.0
-Jieping Ye---1.0
-Nilesh Kulkarni---1.0
-Ishan Misra---1.0
-Paul Michel---1.0
-Xian Li---1.0
-Boris Oreshkin---1.0
-Wonchang Chung---1.0
-Thomas Boquet---1.0
-Ellis Ratner---1.0
-Larry Wasserman---1.0
-Tianfan Fu*---1.0
-Tian Gao*---1.0
-Cao Xiao*---1.0
-Tengfei Ma*---1.0
-Chad Atalla---1.0
-Bartholomew Tam---1.0
-Amanda Song---1.0
-Gary Cottrell---1.0
-Alexander Stec---1.0
-Jean Utke---1.0
-Darwin Danilo Saire Pilco---1.0
-Adín Ramírez Rivera---1.0
-Ishita Dasgupta---1.0
-Jane Wang---1.0
-Pedro Ortega---1.0
-Zeb Kurth-Nelson---1.0
-Fahad Alhasoun---1.0
-Abduallah Mohamed---1.0
-Xinrui Hua---1.0
-Xianda Zhou---1.0
-Christian Claudel---1.0
-Sarah Tan---1.0
-Giles Hooker---1.0
-Paul Koch---1.0
-Albert Gordo---1.0
-Szymon Knop---1.0
-Marcin Mazur---1.0
-Oliver Goldstein---1.0
-Yuchen Qiao---1.0
-Kenjiro Taura---1.0
-Qing Yang---1.0
-Zuoguan Wang---1.0
-Florent CHIARONI. Mohamed-Cherif RAHAL. Nicolas HUEBER. Frédéric DUFAUX.---1.0
-Saeid Asgari Taghanaki---1.0
-Shekoofeh Azizi---1.0
-Ghassan Hamarneh---1.0
-Bryan McCann---1.0
-Siavash Golkar---1.0
-Kyle Cranmer---1.0
-Sai Kiran Narayanaswami---1.0
-Nandan Sudarsanam---1.0
-Chihiro Watanabe---1.0
-Mahdieh Abbasi---1.0
-Arezoo Rajabi---1.0
-Azadeh Sadat Mozafari---1.0
-Rakesh B. Bobba---1.0
-Jun Haeng Lee---1.0
-Sangwon Ha---1.0
-Saerom Choi---1.0
-Won-Jo Lee---1.0
-Seungwon Lee---1.0
-Farnood Salehi---1.0
-Dhiraj Gandhi---1.0
-Jan Stühmer---1.0
-Eldan Cohen---1.0
-J. Christopher Beck---1.0
-Thomas LUCAS---1.0
-Konstantin SHMELKOV---1.0
-Karteek ALAHARI---1.0
-Cordelia SCHMID---1.0
-Jakob VERBEEK---1.0
-Qianxiao Li---1.0
-Bo Lin---1.0
-Weiqing Ren---1.0
-Matko Bosnjak---1.0
-Ehsan Amid---1.0
-Manfred K. Warmuth---1.0
-Anh Nguyen---1.0
-Ryan Blything---1.0
-Nicholas Martin and Jeffrey S. Bowers---1.0
-Sören Dittmer---1.0
-Pascal Fernsel---1.0
-Peter Maass---1.0
-Matthew Inkawhich---1.0
-Yiming Xu---1.0
-Uwe Dick---1.0
-Maryam Tavakol---1.0
-Ulf Brefeld---1.0
-Adam M. Oberman---1.0
-Jeff Calder---1.0
-Saneem Ahmed Chemmengath---1.0
-Samarth Bharadwaj---1.0
-Suranjana Samanta---1.0
-Karthik Sankaranarayanan---1.0
-Luke Nicholas Darlow---1.0
-Vincent Adam---1.0
-Srinivas C. Turaga---1.0
-Hao Zhu---1.0
-Yankai Lin---1.0
-Zhiyuan Liu---1.0
-Tat-seng Chua and Maosong Sun---1.0
-Donghyeon Han---1.0
-Hoi-jun Yoo---1.0
-Tiange Luo---1.0
-Tianle Cai---1.0
-Mengxiao Zhang---1.0
-Siyu Chen---1.0
-Bo Liu---1.0
-Fengjuan Gao---1.0
-Amin Alipour---1.0
-Linzhang Wang---1.0
-Xuandong Li---1.0
-Steven Bohez---1.0
-Michael Neunert---1.0
-Jonas Buchli---1.0
-Ron Banner---1.0
-Yury Nahshan---1.0
-Wei-Yang Qu---1.0
-Tang-Jie Lv---1.0
-Ying-Feng Chen---1.0
-Chang-Jie Fan---1.0
-Simon Odense---1.0
-Artur d'Avila Garcez---1.0
-Felipe Petroski Such---1.0
-Vashisht Madhavan---1.0
-Edoardo Conti---1.0
-Joel Lehman---1.0
-Joao Henriques---1.0
-Samuel Albanie---1.0
-Myung Seok Shim---1.0
-Peng Li---1.0
-Cían Hughes---1.0
-Utsav Prabhu---1.0
-Hank Liao---1.0
-Hasim Sak---1.0
-Kanishka Rao---1.0
-Lorrayne Bennett---1.0
-Marie Mulville---1.0
-Ben Coppin---1.0
-Andrew Senior---1.0
-Lisa Lee---1.0
-Gal Mishne---1.0
-Eric C. Chi---1.0
-Ronald R. Coifman---1.0
-Luca de Alfaro---1.0
-K V Subrahmanyam---1.0
-Jesse Farebrother---1.0
-Michael Bowling---1.0
-Ravid Shwartz-Ziv---1.0
-Amichai Painsky---1.0
-Naftali Tishby---1.0
-Ugo Tanielian---1.0
-Flavian vasile---1.0
-Mike Gartrell---1.0
-Shiyu Duan---1.0
-Shujian Yu---1.0
-Yunmei Chen---1.0
-Fabio Pardo---1.0
-Vitaly Levdik---1.0
-Petar Kormushev---1.0
-Risto Vuorio---1.0
-Hexiang Hu---1.0
-Afshin Abdi---1.0
-Faramarz Fekri---1.0
-Nanyang Ye---1.0
-Lewis Smith---1.0
-Kate Rakelly*---1.0
-Evan Shelhamer*---1.0
-Jan Hula---1.0
-Raghavendra Pappagari---1.0
-Roma Patel---1.0
-Yinghui Huang---1.0
-Katherin Yu---1.0
-Shuning Jin---1.0
-Jingkai Mao---1.0
-Christos Tsirigotis---1.0
-Donghyun Kim---1.0
-Wenbo Zhao---1.0
-Shahan Ali Memon---1.0
-Morgan Funtowicz---1.0
-Tomi Silander---1.0
-Arnaud Sors---1.0
-Han Liu---1.0
-Fenfei Guo---1.0
-Leah Findlater---1.0
-Sameera Ramasinghe---1.0
-Salman Khan---1.0
-Nick Barnes---1.0
-Chenwei Zhang---1.0
-Nan Du---1.0
-Wei Fan---1.0
-Philip S. Yu---1.0
-Tomas Kocisky‎---1.0
-Yinbo Chen---1.0
-Zhuohan Li---1.0
-Sukarna Barua---1.0
-Sarah Monazam Erfani---1.0
-Michael Houle---1.0
-Mouloud Belbahri---1.0
-Matthieu Courbariaux---1.0
-Vahid Partovi Nia---1.0
-Kevin J Liang---1.0
-Tianxiao Shen---1.0
-Myle Ott---1.0
-Barratt---1.0
-Shane---1.0
-Sharma---1.0
-Rishi---1.0
-Gaëtan Hadjeres---1.0
-Mihai Andries---1.0
-Atabak Dehban---1.0
-Jose Santos-Victor---1.0
-Seong Jin Cho---1.0
-Sunghun Kang---1.0
-Panos Achlioptas---1.0
-Judy E. Fan---1.0
-Robert X.D. Hawkins---1.0
-Leo Guibas---1.0
-Davide Nunes---1.0
-Luis Antunes---1.0
-Zhenhua Chen---1.0
-Chuhua Wang---1.0
-Tiancong Zhao---1.0
-Mayur Mudigonda---1.0
-Blake Tickell---1.0
-Jonathan J Hunt---1.0
-Timothy P Lillicrap---1.0
-Gaurav Malhotra---1.0
-Limeng Cui---1.0
-Fisher B. Gouza---1.0
-John V. Arthur---1.0
-Izzet B. Yildiz---1.0
-Jaspreet Sahota---1.0
-Janahan Ramanan---1.0
-Sepehr Eghbali---1.0
-Marcus Brubaker---1.0
-Guolin Ke---1.0
-Jia Zhang---1.0
-Zhenhui Xu---1.0
-Jiang Bian---1.0
-Heewoo Jun---1.0
-Hassan Kianinejad---1.0
-Md. Mostofa Ali Patwary---1.0
-Gaurav Gupta---1.0
-Mohamed Ridha Znaidi---1.0
-Paul Bogdan---1.0
-Bo Zhao---1.0
-Leonid Sigal---1.0
-Tavi Halperin---1.0
-Ariel Ephrat---1.0
-Jingkang Wang---1.0
-Augustin Žídek---1.0
-André Barreto---1.0
-Ya-Ping Hsieh---1.0
-Chen Liu---1.0
-Volkan Cevher---1.0
-Chihuang Liu---1.0
-Joseph JaJa---1.0
-Matthew Thornton---1.0
-Jithendar Anumula---1.0
-Jeonghyun Lyu---1.0
-Takashi Shinozaki---1.0
-Kaoru Amano---1.0
-Nicholas I.H. Kuo---1.0
-Mehrtash T. Harandi---1.0
-Hanna Suominen---1.0
-Nicolas Fourrier---1.0
-Christian Walder---1.0
-Gabriela Ferraro---1.0
-Kenta Oono---1.0
-Xinlei Chen---1.0
-Harit Pandya---1.0
-Gregor H.W. Gebhardt---1.0
-Cheng Zhao---1.0
-Zhibang Ge---1.0
-Tao Jiang---1.0
-Katherine Lee---1.0
-Orhan Firat---1.0
-Clara Fannjiang---1.0
-Atsushi Suzuki---1.0
-Yosuke Enokida---1.0
-Kenji Yamanishi---1.0
-Kristina Toutanova---1.0
-Lukas Lee---1.0
-Jinwhan Park---1.0
-
-Yiqun Duan---1.0
-Mingwei Wei---1.0
-James Stokes---1.0
-David J Schwab---1.0
-Mehdi Mirza---1.0
-Rishabh Kabra---1.0
-Sébastien Racanière---1.0
-Théophane Weber---1.0
-Laurent Orseau---1.0
-Tom Eccles---1.0
-Jacob R. Gardner---1.0
-Yurong You---1.0
-Andrew G. Wilson---1.0
-Santiago Gonzalez---1.0
-Joshua Landgraf---1.0
-Piero Molino---1.0
-Yang Wang---1.0
-Ken Nakanishi---1.0
-Shin-ichi Maeda---1.0
-Cheolhyeong Kim---1.0
-Seungtae Park---1.0
-Hyung Ju Hwang---1.0
-Tomasz Kisielewski---1.0
-Maia Pasek---1.0
-Cheng Wang---1.0
-Mathias Niepert---1.0
-Hsin-Wei Yu---1.0
-Po-Yu Wu---1.0
-Chih-An Tsao---1.0
-You-An Shen---1.0
-Shih-Hsuan Lin---1.0
-Karl Stratos---1.0
-Pingbo Pan---1.0
-Yan Yan---1.0
-Shaokai Ye---1.0
-Tianyun Zhang---1.0
-Kaiqi Zhang---1.0
-Jiayu Li---1.0
-Yunfei Yang---1.0
-Fuxun Yu---1.0
-Makan Fardad---1.0
-Xiang Chen---1.0
-Paul Vernaza---1.0
-Junlang Zhan---1.0
-Charles Packer*---1.0
-Katelyn Gao*---1.0
-Philipp Krahenbuhl---1.0
-Jangho Kim---1.0
-Jeesoo Kim---1.0
-Pierre jacob---1.0
-David Picard---1.0
-Aymeric Histace---1.0
-Edouard Klein---1.0
-Zhizhong Li---1.0
-Derek Hoiem---1.0
-Zelda Mariet---1.0
-Yaniv Ovadia---1.0
-Varun Kanade---1.0
-Mehdi Jafarnia-Jahromi---1.0
-Tasmin Chowdhury---1.0
-Hsin-Tai Wu---1.0
-Sayandev Mukherjee---1.0
-Lierni Sestorain---1.0
-Ayan Chakrabarti---1.0
-Benjamin Moseley---1.0
-Yu-Yi Su---1.0
-Yung-Chih Chen---1.0
-Xiang-Xiu Wu---1.0
-Qi Tan---1.0
-Pingzhong Tang---1.0
-Weiran Shen---1.0
-Song Zuo---1.0
-Sidak Pal Singh---1.0
-Andreas Hug---1.0
-Aymeric Dieuleveut---1.0
-Luc van Gool---1.0
-Cosmin I. Bercea---1.0
-Olivier Pauly---1.0
-Andreas K. Maier---1.0
-Florin C. Ghesu---1.0
-Christopher Bourez---1.0
-Aurelien Coquard---1.0
-Leon Weber---1.0
-Ulf Leser---1.0
-Yilin Shen---1.0
-William Wang---1.0
-Hongxia Jin---1.0
-Kristy Choi---1.0
-Kedar Tatwawadi---1.0
-Jumpei Ukita---1.0
-Wensong Chan---1.0
-Zhiqiang Tian---1.0
-Xuguang Lan---1.0
-Lei Cao---1.0
-Yizhou Yan---1.0
-Samuel Madden---1.0
-Elke Rundensteiner---1.0
-Noah Golmant---1.0
-Zhewei Yao---1.0
-Vladimir Feinberg---1.0
-Amir Gholami---1.0
-Kai Rothauge---1.0
-Michael Mahoney---1.0
-Heinrich Jiang---1.0
-Renata Khasanova---1.0
-Damien Sileo---1.0
-Tim Van de Cruys---1.0
-Camille Pradel---1.0
-Philippe Muller---1.0
-Tsu-Jui Fu---1.0
-Tzu-Yun Shann---1.0
-Tongzhou Wang---1.0
-Chin-Yi Cheng---1.0
-Paresh Malalur---1.0
-Tomáš Pevný---1.0
-Vojtěch Kovařík---1.0
-Ning Zhang---1.0
-Qiang Wu---1.0
-Woon Sang Cho---1.0
-Xiujun Li---1.0
-Mengdi Wang---1.0
-R. Lily Hu---1.0
-Chris Lu---1.0
-Philip Isola---1.0
-Martin Loncaric---1.0
-Ryan Weber---1.0
-Bowei Liu---1.0
-Hadi Ghauch---1.0
-Hossein S. Ghadikolaei---1.0
-Mikael Skoglund---1.0
-Carlo Fischione---1.0
-Xiaojie Guo---1.0
-Liang Zhao---1.0
-Rachel A. Lerch---1.0
-Chris R. Sims---1.0
-Aristide Baratin---1.0
-Felix Draxler---1.0
-Min Lin---1.0
-Fred Hamprecht---1.0
-Bowen Tan*---1.0
-Zhiting Hu*---1.0
-Jin-Young Kim---1.0
-Sung-Bae Cho---1.0
-Xilun Chen---1.0
-Ahmed Hassan Awadallah---1.0
-Hany Hassan---1.0
-Scott Gigante---1.0
-Kevin R. Moon---1.0
-Alexander Strzalkowski---1.0
-Katie Ferguson---1.0
-Yingting Wu---1.0
-Rui Wang---1.0
-Sahisnu Mazumder---1.0
-Shuai Wang---1.0
-Yingxuan Zhu---1.0
-Xiaotian Yin---1.0
-Lifeng Liu---1.0
-Yongbing Huang---1.0
-Qingming Tang---1.0
-Mahmoud Assran---1.0
-Nicolas Loizou---1.0
-Doyen Sahoo---1.0
-Chenghao Liu---1.0
-Steven C. H. Hoi---1.0
-Patrick Schwab---1.0
-Lorenz Linhardt---1.0
-Walter Karlen---1.0
-Eliav Buchnik---1.0
-Edith Cohen---1.0
-Avinatan Hassidim---1.0
-Yossi Matias---1.0
-Wenqing Hu---1.0
-Yunchao Zhang---1.0
-Wentao Wang---1.0
-Haoran Shi---1.0
-Alberto Bietti*---1.0
-Grégoire Mialon*---1.0
-Julien Mairal---1.0
-Wei Gao---1.0
-Yi Wei---1.0
-Quanquan Li---1.0
-Hongwei Qin---1.0
-Junjie Yan---1.0
-Kamil Nar---1.0
-Orhan Ocal---1.0
-Kannan Ramchandran---1.0
-Dean P. Foster---1.0
-Günther Schindler---1.0
-Wolfgang Roth---1.0
-Franz Pernkopf---1.0
-Holger Fröning---1.0
-Yu-Guan Hsieh---1.0
-Yassine Benyahia*---1.0
-Kaicheng Yu*---1.0
-Kamil Bennani-Smires---1.0
-Anthony Davison---1.0
-Jiaming Luo---1.0
-Bertrand Charpentier---1.0
-Kui Jia---1.0
-Yifei HUANG---1.0
-Ryan-Rhys Griffiths---1.0
-Sukmin Yun---1.0
-Yoonho Lee---1.0
-Jungtaek Kim---1.0
-Seungjin Choi---1.0
-Jaedong Hwang---1.0
-Shaofan Lai---1.0
-Carl Vondrick---1.0
-Donghoon Lee---1.0
-Wayne Wu---1.0
-Kaidi Cao---1.0
-Cheng Li---1.0
-Chen Qian---1.0
-Ziliang Chen---1.0
-Keze Wang---1.0
-Du Su---1.0
-Ali Yekkehkhany---1.0
-Yi Lu---1.0
-Wenmiao Lu---1.0
-Sidi Lu---1.0
-Lantao Yu---1.0
-Siyuan Feng---1.0
-Yaoming Zhu---1.0
-Jeremy C. Weiss---1.0
-Asli Celikyilmaz---1.0
-Li  Fuxin---1.0
-Shuqian Ye---1.0
-Yanheng Xu---1.0
-Jiechun Liang---1.0
-Hao Xu---1.0
-Shuhong Cai---1.0
-Shixin Liu---1.0
-Xi Zhu---1.0
-Jiongqian Liang---1.0
-Saket Gurukar---1.0
-Srinivasan Parthasarathy---1.0
-Viresh Ranjan---1.0
-Heeyoung Kwon---1.0
-Niranjan Balasubramanian---1.0
-Minh Hoai---1.0
-Xuanyang Zhang---1.0
-Hao liu---1.0
-Jeffrey M Siskind---1.0
-Jason J Corso---1.0
-Rodrigo Nogueira---1.0
-Wonwoong Cho---1.0
-Seunghwan Choi---1.0
-Junwoo Park---1.0
-David Keetae Park---1.0
-Jaegul Choo---1.0
-Marc Khoury---1.0
-Dylan Hadfield-Menell---1.0
-Guido Novati---1.0
-Petros Koumoutsakos---1.0
-Xiaoyun Wang---1.0
-Joe Eaton---1.0
-Jiezhang Cao---1.0
-Yong Guo---1.0
-Langyuan Mo---1.0
-Mingkui Tan---1.0
-Danish Pruthi---1.0
-Mansi Gupta---1.0
-Nitish Kumar Kulkarni---1.0
-Victor Carbune---1.0
-Thierry Coppey---1.0
-Alexander Daryin---1.0
-Thomas Deselaers---1.0
-Nikhil Sarda---1.0
-Jay Yagnik---1.0
-Bastiaan S. Veeling---1.0
-Rianne van den Berg---1.0
-Barun Patra---1.0
-Joel Ruben Antony Moniz---1.0
-Sarthak Garg---1.0
-Matthew R Gormley---1.0
-Shengzhong Zhang---1.0
-Ziang Zhou---1.0
-Zengfeng Huang---1.0
-Lukas Nabergall---1.0
-Justin Toth---1.0
-Leah Cousins---1.0
-Haihao Shen---1.0
-Jiong Gong---1.0
-Xiaoli Liu---1.0
-Guoming Zhang---1.0
-Ge Jin---1.0
-and Eric Lin---1.0
-Julio Cesar Zamora---1.0
-Jesus Adan Cruz Vargas---1.0
-Omesh Tickoo---1.0
-Xin Luo---1.0
-Hankz Hankui Zhuo---1.0
-Ga Wu---1.0
-Justin Domke---1.0
-Scott Sanner---1.0
-Aibek Alanov---1.0
-Max Kochurov---1.0
-Daniil Yashkov---1.0
-Hongyuan Mei---1.0
-Guanghui Qin---1.0
-Jason Eisner---1.0
-Meng Qu---1.0
-Jisoo Jeong---1.0
-Seungeui Lee---1.0
-Jeremy Nixon---1.0
-Daniel Freeman---1.0
-Alireza Makhzani---1.0
-Ying Ma---1.0
-Yunhao Tang---1.0
-Shipra Agrawal---1.0
-Ravichandra Addanki---1.0
-Devavrat Shah---1.0
-Qiaomin Xie---1.0
-Soham De---1.0
-Enayat Ullah---1.0
-Ryuichiro Hataya---1.0
-Adel Bibi---1.0
-Bernard Ghanem---1.0
-Kuan Wang---1.0
-Dawei Sun---1.0
-Vighnesh Leonardo Shiv---1.0
-Chris Quirk---1.0
-Chong Huang---1.0
-Xiao Chen---1.0
-Lalitha Sankar---1.0
-Ram Rajagopal---1.0
-Yilun Du---1.0
-Masataro Asai---1.0
-David Janz---1.0
-Jakub Konečný---1.0
-Brendan McMahan---1.0
-K.V.Subrahmanyam---1.0
-Hongfu Liu---1.0
-Yue Wu---1.0
-Zhangheng Li---1.0
-Jia-Xing Zhong---1.0
-Jingjia Huang---1.0
-Tao Zhang---1.0
-Thomas Li---1.0
-Ge Li---1.0
-Liangbo He---1.0
-Hao Sun---1.0
-Yun-Nung Chen---1.0
-Natasha Jaques---1.0
-Pedro A. Ortega---1.0
-Joel Z. Leibo---1.0
-Oluwatobi O. Olabiyi---1.0
-Anish Khazane---1.0
-Alan Salimov---1.0
-Erik T.Mueller---1.0
-Shani Gamrian---1.0
-Mehadi Hassen---1.0
-Philip K. Chan---1.0
-Danushka Bollegala---1.0
-Huda Hakami---1.0
-Jingfeng Wu---1.0
-Bing Yu---1.0
-Lei Wu---1.0
-Siming Yan*---1.0
-Bowen Xiao*---1.0
-Ran Tian---1.0
-Yash Agrawal---1.0
-Kento Watanabe---1.0
-Hiroya Takamura---1.0
-Suhua Lei---1.0
-Yajie Bao---1.0
-Shao-Lun Huang---1.0
-Lin Zhang---1.0
-Amir R. Zamir---1.0
-Leonidas J. Guibas---1.0
-Chandan Kumar---1.0
-Subrahmanyam Vaddi---1.0
-Aishwarya Sarkar---1.0
-Sergio Gomez---1.0
-Yusuf Aytar---1.0
-Fangzhou Luo---1.0
-Xiaolin Wu---1.0
-Hongyin Luo---1.0
-Yichen Li---1.0
-Zhaohan Daniel Guo---1.0
-Bernardo Avila Pires---1.0
-Agnieszka Pocha---1.0
-Jan Kaczmarczyk---1.0
-Michał Warchoł---1.0
-Junwei Lu---1.0
-Chanakya Malireddy---1.0
-Tirth Maniar---1.0
-Sajal Maheshwari---1.0
-Manish Shrivastava---1.0
-Rohan Taori---1.0
-Amog Kamsetty---1.0
-Brenton Chu---1.0
-Samvit Jain---1.0
-Gary Bécigneul---1.0
-Jay S. Stanley III---1.0
-Xinqi Chen---1.0
-Ming Hou---1.0
-Guoxu Zhou---1.0
-Qibin Zhao---1.0
-David Earl Hostallero---1.0
-Chong Yu---1.0
-Ruishan Liu---1.0
-Nicolo Fusi---1.0
-Lester Mackey---1.0
-Stanislau Semeniuta---1.0
-Aliaksei Severyn---1.0
-Assya Trofimov---1.0
-Francis Dutil---1.0
-Claude Perreault---1.0
-Sebastien Lemieux---1.0
-Joseph Paul Cohen---1.0
-Digvijay Boob---1.0
-Santanu S. Dey---1.0
-Yue Jiao---1.0
-Marvin Zhang*---1.0
-Sharad Vikram*---1.0
-Laura Smith---1.0
-Matthew Johnson---1.0
-Sumanth Dathathri---1.0
-Richard M. Murray---1.0
-Yigitcan Kaya---1.0
-Stuart Nevans Locke---1.0
-Ian Rackow---1.0
-Kevin Kulda---1.0
-Tudor Dumitraș---1.0
-Yuxiang Hu---1.0
-Li Dong---1.0
-Feijun Jiang---1.0
-Zaiqing Nie---1.0
-Ryutaro Tanno---1.0
-Daniel C. Alexander---1.0
-Antonio Criminisi---1.0
-Aditya Nori---1.0
-Alexander Bartler---1.0
-Felix Wiewel---1.0
-Bin Yang---1.0
-Inkit Padhi---1.0
-Pierre Dognin---1.0
-Yumnah Mohamied---1.0
-Anil Bharath---1.0
-Chang Li---1.0
-Setareh Rafatirad---1.0
-Maryam Heidari---1.0
-Xinlei Pan---1.0
-Dawn Song.---1.0
-Yunfu Song---1.0
-Zhijian Ou---1.0
-Alex Irpan---1.0
-James Davidson---1.0
-Carlos Eduardo Rosar Kos Lassance---1.0
-Vincent Gripon---1.0
-Antonio Ortega---1.0
-Hirono Okamoto---1.0
-Shohei Ohsawa---1.0
-Itto Higuchi---1.0
-Haruka Murakami---1.0
-Mizuki Sango---1.0
-Zhenghang Cui---1.0
-Hiroshi Kajino---1.0
-Tolgahan Cakaloglu---1.0
-Xiaowei Xu---1.0
-Beomsu Kim---1.0
-Junghoon Seo---1.0
-Jeongyeol Choe---1.0
-Jamyoung Koo---1.0
-Seunghyeon Jeon---1.0
-Taegyun Jeon---1.0
-Robin C. Geyer---1.0
-Tassilo J. Klein---1.0
-Jielin Qiu---1.0
-Ge Huang---1.0
-Shulong Tan---1.0
-Zhixin Zhou---1.0
-Zhaozhuo Xu---1.0
-Yuangang Pan---1.0
-Avinash K Singh---1.0
-Chin-teng Lin---1.0
-Sung Kim---1.0
-Visvesh Sathe---1.0
-Oleksiy Ostapenko---1.0
-Mihai Puscas---1.0
-Tassilo Klein---1.0
-Brown Wang---1.0
-Hyoungseok Kim---1.0
-Jaekyeom Kim---1.0
-Yeonwoo Jeong---1.0
-Hyun Oh Song---1.0
-Tobias Pohlen---1.0
-Mel Večerík---1.0
-Philip Becker-Ehmck---1.0
-Marvin Teichmann---1.0
-Roberto Cipolla---1.0
-Abhishek Das---1.0
-Theophile Gervet---1.0
-Jun Han---1.0
-Salvator Lombardo---1.0
-Christopher Schroers---1.0
-MohamadAli Torkamani---1.0
-Phillip Wallis---1.0
-Richard Everett---1.0
-Bristy Sikder---1.0
-Ananya Kumar---1.0
-Charlie Beattie---1.0
-Zhaodong Chen---1.0
-Jiawei Sun---1.0
-Ling Liang---1.0
-YufeiDing---1.0
-Daniel Hernandez Diaz---1.0
-Antonio Khalil Moretti---1.0
-Ziqiang Wei---1.0
-Shreya Saxena---1.0
-John Cunningham---1.0
-Nelly Elsayed---1.0
-Anthony S. Maida---1.0
-Magdy Bayoumi---1.0
-Guillaume DOQUET---1.0
-Michèle SEBAG---1.0
-Huizhuo Yuan---1.0
-Chris Junchi Li---1.0
-Yuhao Tang---1.0
-Yuren Zhou---1.0
-Zeyu Sun---1.0
-Pablo Samuel Castro---1.0
-Subhodeep Moitra---1.0
-Carles Gelada---1.0
-Saurabh Kumar---1.0
-Botty Dimanov---1.0
-Eugene Belilovsky---1.0
-Michael Eickenberg---1.0
-Chengzhen Fu---1.0
-Peng Jiang---1.0
-Faisal Mahmood---1.0
-Wenhao Xu---1.0
-Nicholas J. Durr---1.0
-Jeremiah W. Johnson---1.0
-Léonard Blier---1.0
-Pierre Wolinski---1.0
-Guy Lorberbom---1.0
-Tamir Hazan---1.0
-Jason Liang---1.0
-Pascal Mettes---1.0
-Cees G. M. Snoek---1.0
-Tianyang Zhao---1.0
-Xiaoxuan Ma---1.0
-Honglin Ma---1.0
-zhuoyuan@fb.com---1.0
-Andrea Zunino---1.0
-Puyudi Yang---1.0
-Jane-Ling Wang---1.0
-Lu Lu---1.0
-Yanhui Su---1.0
-George Em Karniadakis---1.0
-Edo Collins---1.0
-Siavash Arjomand Bigdeli---1.0
-Sabine Süsstrunk---1.0
-Saavan Patel---1.0
-Sayeef Salahuddin---1.0
-Nozomu Yoshinari---1.0
-Kento Uchida---1.0
-Shota Saito---1.0
-Shinichi Shirakawa---1.0
-Youhei Akimoto---1.0
-Giuseppe Marra---1.0
-Dario Zanca---1.0
-Alessandro Betti---1.0
-Marco Gori---1.0
-Yoshinari Fujinuma---1.0
-Mayank Agarwal---1.0
-Soumya Ghosh---1.0
-Kristjan Greenewald---1.0
-Nghia Hoang---1.0
-Pengfei Chen---1.0
-Guangyong Chen---1.0
-Shengyu Zhang---1.0
-Phi Xuan Nguyen---1.0
-Dong Xu---1.0
-Zeynep Hakguder---1.0
-Haluk Dogan---1.0
-Matthew Dwyer---1.0
-Zahra Ebrahimzadeh---1.0
-Min Zheng---1.0
-Selcuk Karakas---1.0
-Samantha Kleinberg---1.0
-S. Hamid Rezatofighi---1.0
-Roman Kaskman---1.0
-Farbod T. Motlagh---1.0
-Qinfeng Shi---1.0
-Laura Leal-Taixé---1.0
-Ian Reid---1.0
-Yutong Bai---1.0
-Jikai Hou---1.0
-Ali Ramezani-Kebrya---1.0
-Ashish Khisti---1.0
-and Ben Liang---1.0
-Chen Ma---1.0
-Dylan R. Ashley---1.0
-Junfeng Wen---1.0
-Muthuraman Chidambaram---1.0
-Yinfei Yang---1.0
-Daniel Cer---1.0
-Steve Yuan---1.0
-Yun-Hsuan Sung---1.0
-Tianlin Xu---1.0
-Pavel Solovev---1.0
-Vladimir Aliev---1.0
-Pavel Ostyakov---1.0
-Gleb Sterkin---1.0
-Elizaveta Logacheva---1.0
-Stepan Troeshestov---1.0
-Roman Suvorov---1.0
-Anton Mashikhin---1.0
-Oleg Khomenko---1.0
-Sergey I. Nikolenko---1.0
-Ruairidh M. Battleday---1.0
-Joshua C. Peterson---1.0
-Xu Zhang---1.0
-Felix Xinnan Yu---1.0
-Svebor Karaman---1.0
-Christoph Mayer---1.0
-Aharon Azulay---1.0
-Yair Weiss---1.0
-Sangchul Hahn---1.0
-Dar Gilboa---1.0
-Sam Buchanan---1.0
-Shixian Wen---1.0
-Laurent Itti---1.0
-Zihang Dai*---1.0
-Zhilin Yang*---1.0
-Thomas Fischbacher---1.0
-Yao Shi---1.0
-Tian Xia---1.0
-Guanjun Zhao---1.0
-Eric Michael Smith---1.0
-Margaret Li---1.0
-Daeyoung Choi---1.0
-Wonjong Rhee---1.0
-Kyungeun Lee---1.0
-Changho Shin---1.0
-Naganand Yadati---1.0
-Madhav Nimishakavi---1.0
-Prateek Yadav---1.0
-Anand Louis---1.0
-Partha Talukdar---1.0
-Victor Boutin---1.0
-Angelo Franciosini---1.0
-Laurent Perrinet---1.0
-Xiaoyu Lu---1.0
-Jan Stuehmer---1.0
-Oren Elisha---1.0
-Ran Gilad-Bachrach---1.0
-catalin ionescu---1.0
-tejas kulkarni---1.0
-aaron van de oord---1.0
-andriy mnih---1.0
-vlad mnih---1.0
-Zhenxing Liu---1.0
-Maoyu Hu---1.0
-Zhangfei Zhang---1.0
-Hojung Lee---1.0
-Jong-Seok Lee---1.0
-Kevin Roth---1.0
-Qi Meng---1.0
-Shuxin Zheng---1.0
-Zhi-Ming Ma---1.0
-Juan Maroñas---1.0
-Roberto Paredes---1.0
-Daniel Ramos---1.0
-Ryan Y Benmalek---1.0
-Madian Khabsa---1.0
-Suma Desu---1.0
-Michele Banko---1.0
-Xingchao Liu---1.0
-Li Fuxin---1.0
-Marek Śmieja---1.0
-Aleksandra Nowak---1.0
-Łukasz Struski---1.0
-Siwei Luo---1.0
-Perttu Hämäläinen---1.0
-Amin Babadi---1.0
-Xiaoxiao Ma---1.0
-Alexander I. Cowen-Rivers---1.0
-Kun Wan---1.0
-Boyuan Feng---1.0
-Lingwei Xie---1.0
-Manan Tomar*---1.0
-Rahul Ramesh*---1.0
-Naman Agarwal---1.0
-Karan Singh---1.0
-Rafael Valle---1.0
-Wilson Cai---1.0
-Anish P. Doshi---1.0
-Adria Ruiz---1.0
-Oriol Martinez---1.0
-Xavier Binefa---1.0
-Irwan Bello---1.0
-Sayali Kulkarni---1.0
-Sagar Jain---1.0
-Elad Eban---1.0
-Xiyang Luo---1.0
-Alan Mackey---1.0
-Ofer Meshi---1.0
-Mohammad K. Ebrahimpour---1.0
-David C. Noelle---1.0
-Guy Hacohen---1.0
-Daphna Weinshall---1.0
-Ke Li*---1.0
-Shichong Peng*---1.0
-Zheng Li---1.0
-Christopher De Sa---1.0
-Alexander Tong---1.0
-Jay Stanley---1.0
-Zhibing Zhao---1.0
-Songtao Lu---1.0
-Rahul Singh---1.0
-Hariharan Ravishankar---1.0
-Rahul Venkataramani---1.0
-Saihareesh Anamandra---1.0
-Prasad Sudhakar---1.0
-Paul Smolensky---1.0
-Vincent Fortuin---1.0
-Dinesh Jayaraman---1.0
-Oleksii Hrinchuk---1.0
-Leonidas Guibas---1.0
-Ari Morcos---1.0
-Dequan Wang---1.0
-Bo Zhang---1.0
-Animesh Garg---1.0
-Bo Han---1.0
-Yizhou Sun---1.0
-Yannis Avrithis---1.0
-Rongjie Lai---1.0
-Se Jung Kwon---1.0
-Gu-Yeon Wei---1.0
-Jakub Świątkowski---1.0
-Linh Tran---1.0
-Rodolphe Jenatton---1.0
-Ian Fox---1.0
-Jenna Wiens---1.0
-Krzysztof Maziarz---1.0
-Juho Kannala---1.0
-Su-In Lee---1.0
-Kun Yuan---1.0
-Shikui Tu---1.0
-Artur Dubrawski---1.0
-Yanyan Lan---1.0
-Markus Wulfmeier---1.0
-Tim Hertweck---1.0
-Abdellatif Zaidi---1.0
-Shiro Takagi---1.0
-Yoshihiro Nagano---1.0
-Yuki Yoshida---1.0
-Masato Okada---1.0
-Xin Zhou---1.0
-Jiacen Xu---1.0
-Ebrahim Songhori---1.0
-Yuan Tian---1.0
-Jose M. Alvarez---1.0
-Megha Nawhal---1.0
-Jianfeng Lu---1.0
-Di Wang---1.0
-Adrian Barbu---1.0
-Peter Richtárik---1.0
-Chris Finlay---1.0
-Prudencio Tossou---1.0
-Ronny Luss---1.0
-Jie Jiang---1.0
-Tong Yang---1.0
-Bin Cui---1.0
-Gong Zhang---1.0
-Matthew Amodio---1.0
-Josif Grabocka---1.0
-Lars Schmidt-Thieme---1.0
-Xiaoyun Li---1.0
-Laura Rieger---1.0
-Fartash Faghri---1.0
-Zhizhong Wang---1.0
-Lei Zhao---1.0
-Qihang Mo---1.0
-Zhiwen Zuo---1.0
-Wei Xing---1.0
-Dongming Lu---1.0
-You Xie---1.0
-Lucas Drumetz---1.0
-Ronan Fablet---1.0
-Yongkweon Jeon---1.0
-Baeseong Park---1.0
-Jeongin Yun---1.0
-Sanghyuk Chun---1.0
-Sangdoo Yun---1.0
-Yuxian Meng---1.0
-Xiaoya Li---1.0
-Fei Wu---1.0
-Konrad P. Kording---1.0
-Qingyang Wu---1.0
-Kevin A. Lai---1.0
-Andre Wibisono---1.0
-Gregor Bachmann---1.0
-Minjie Xu---1.0
-Yunhao Ba---1.0
-Guangyuan Zhao---1.0
-Achuta Kadambi---1.0
-Shoubhik Debhath---1.0
-Anjul Patney---1.0
-Zac Wellmer---1.0
-Sepanta Zeighami---1.0
-James Kwok---1.0
-Trevor Standley---1.0
-Dawn Chen---1.0
-Jinshan ZENG---1.0
-Liu Ziyin---1.0
-Ru Wang---1.0
-Masahito Ueda---1.0
-Kyle Swanson---1.0
-Nicholas I-Hsien Kuo---1.0
-Krishnamurthy Dvijotham---1.0
-Miao Yang and Ke Hu---1.0
-Chongyi Li---1.0
-Zhiqiang Wei---1.0
-Harry Rubin-Falcone---1.0
-Sana Tonekaboni---1.0
-Shalmali Joshi---1.0
-Chris Mingard---1.0
-Joar Skalse---1.0
-Guillermo Valle-Pérez---1.0
-David Martínez-Rubio---1.0
-Vladimir Mikulik---1.0
-Shuangchen Li---1.0
-Jingwei Zhang---1.0
-Yihua Yang---1.0
-Zhenyu Gu---1.0
-Simon Du---1.0
-Andrea Frome---1.0
-Ruizhe Zhao---1.0
-Brian Vogel---1.0
-Tanvir Ahmed---1.0
-Andrey Khorlin---1.0
-Kuang-Yu Samuel Chang---1.0
-Ange Tato---1.0
-Roger Nkambou---1.0
-VSR Veeravasarapu---1.0
-Deepak Mittal---1.0
-Abhishek Goel---1.0
-Maneesh Singh---1.0
-Wenxiao Chen---1.0
-Jinlin Lai---1.0
-Zhihan Li---1.0
-Youjian Zhao---1.0
-Dan Pei---1.0
-Volker Tresp---1.0
-Christoph Aymanns---1.0
-Matthias Weber---1.0
-Co-Pierre Georg---1.0
-Xiaoqi Jiao---1.0
-Yichun Yin---1.0
-Lifeng Shang---1.0
-Linlin Li---1.0
-Fang Wang---1.0
-Qun Liu---1.0
-Zhiyi Chen---1.0
-Tong Lin*---1.0
-Tan M. Nguyen---1.0
-Sebastian Risi---1.0
-Xu Geng---1.0
-Lingyu Zhang---1.0
-Shulin Li---1.0
-Yuanbo Zhang---1.0
-Lulu Zhang---1.0
-Leye Wang---1.0
-Qiang Yang---1.0
-Hongtu Zhu---1.0
-Dara Bahri---1.0
-Maya Gupta---1.0
-Ouyu Lan*---1.0
-Xiao Huang*---1.0
-Bill Yuchen Lin---1.0
-He Jiang---1.0
-Yapeng Tian---1.0
-Dingzeyu Li---1.0
-Michele Donini---1.0
-Luca Franceschi---1.0
-Orchid Majumder---1.0
-Massimiliano Pontil---1.0
-Paolo Frasconi---1.0
-Tianshuo Cong---1.0
-Dan Peng---1.0
-Furui Liu---1.0
-Zhe Dong---1.0
-Leyla Mirvakhabova---1.0
-Devon Graham---1.0
-Kane Zhang---1.0
-Raj Dabre---1.0
-Raphael Rubino---1.0
-Atsushi Fujita---1.0
-Lin Meng---1.0
-Thomas Hartvigsen---1.0
-Cansu Sen---1.0
-Alexander Mathis---1.0
-Mert Yüksekgönül---1.0
-Byron Rogers---1.0
-Mackenzie W. Mathis---1.0
-chun-ting liu---1.0
-Ousmane Dia---1.0
-Christopher  J Pal---1.0
-Terrance DeVries---1.0
-Luis Pineda---1.0
-Michal Drozdzal---1.0
-Antonin Berthon---1.0
-Tongliang Liu---1.0
-Gabriel Erion---1.0
-Joseph D. Janizek---1.0
-Pascal Sturmfels---1.0
-Scott M. Lundberg---1.0
-Yue Xing---1.0
-Qifan Song---1.0
-Guang Cheng---1.0
-Yiming Ding---1.0
-Ernest K. Ryu---1.0
-T. Nathan Mundhenk---1.0
-Barry Chen---1.0
-Gerald Friedland---1.0
-Tianxiao Gao---1.0
-Ruiqin Xiong---1.0
-Zhenhua Liu---1.0
-Siwei ma---1.0
-Feng Wu---1.0
-Wen Gao---1.0
-Laura Manduchi---1.0
-Guanyang Wang---1.0
-Yumeng Zhang---1.0
-Yong Deng---1.0
-Xuxin Huang---1.0
-Lukasz Kidzinski---1.0
-Metehan Yurt---1.0
-Alberto N. Escalante B.---1.0
-Veniamin I. Morgenshtern---1.0
-Girish Joshi---1.0
-Girish Chowdhary---1.0
-Forrest Laine---1.0
-Claire Tomlin---1.0
-Oana-Maria Camburu*---1.0
-Eleonora Giunchiglia*---1.0
-Thomas Lukasiewicz---1.0
-Daniel Tanneberg---1.0
-Elmar Rueckert---1.0
-Henry Gouk---1.0
-Sam Schoenholz---1.0
-Zhihao Xing---1.0
-Heng Chang---1.0
-Somayeh Sojoudi---1.0
-Wenwu Zhu---1.0
-Konstantinos Pitas---1.0
-Kin Gutierrez---1.0
-Cristian Challu---1.0
-Jin Li---1.0
-Ruibin Xiong---1.0
-Yunchang Yang---1.0
-Kai Zheng---1.0
-Wanming Huang---1.0
-Shuai Jiang---1.0
-Xuan Liang---1.0
-Ian Oppermann---1.0
-Richard Yi Da Xu---1.0
-Aidan Curtis---1.0
-Minjian Xin---1.0
-Kevin Feigelis---1.0
-Dan Yamins---1.0
-Dave Van Veen---1.0
-Ajil Jalal---1.0
-Mahdi Soltanolkotabi---1.0
-Yucong Zhou---1.0
-Jing Shao---1.0
-Xueyuan She---1.0
-Daehyun Kim---1.0
-Yun Long---1.0
-Aidan M. Swope---1.0
-Xander H. Rudelis---1.0
-Kyle T. Story---1.0
-Mahdi Namazifar---1.0
-Joost Huizinga---1.0
-Adrien Ecoffet---1.0
-Huaixiu Zheng---1.0
-Alexandros Papangelis---1.0
-Dian Yu---1.0
-Chandra Khatri---1.0
-Gokhan Tur---1.0
-Wei-Hsu Chen---1.0
-Hsueh-Ming Hang---1.0
-Chris Grimm---1.0
-Denis Teplyashin---1.0
-Wei Li---1.0
-Shaogang Gong---1.0
-Xiatian Zhu---1.0
-Qiangxing Tian---1.0
-Jinxin Liu---1.0
-Donglin Wang---1.0
-Francisco M. Garcia---1.0
-Chris Nota---1.0
-Philip S. Thomas---1.0
-Inaki Estella Aguerri---1.0
-Carles Riera---1.0
-
-Camilo Rey-Torres---1.0
-Eloi Puertas---1.0
-Oriol Pujol---1.0
-Berkay Kicanaoglu---1.0
-Pim de Haan---1.0
-Taco Cohen---1.0
-Chien-Min Yu---1.0
-Hsuan-Tien Lin---1.0
-Mihai Suteu---1.0
-Yi-ke Guo---1.0
-Jinghui Chen---1.0
-Dongruo Zhou---1.0
-Yiqi Tang---1.0
-Ziyan Yang---1.0
-Kense Todo---1.0
-Masayuki Yamamura---1.0
-Jongseok Lee---1.0
-Rudolph Triebel---1.0
-Vitaly Kurin---1.0
-Madan Ravi Ganesh---1.0
-Nan Wang---1.0
-Yabin Zhou---1.0
-Fenglei Han---1.0
-Lichao Wan---1.0
-Haitao Zhu---1.0
-Yaojing Zheng---1.0
-Hartmut Maennel---1.0
-Alexandru Țifrea---1.0
-Shuran Song---1.0
-Pratyush Maini---1.0
-Patrice Castonguay---1.0
-Vitaly Lavrukhin---1.0
-Ryan Leary---1.0
-Jason Li---1.0
-Huyen Nguyen---1.0
-Jonathan M. Cohen---1.0
-Alexandre Lemire Paquin---1.0
-Wenjie Xu---1.0
-Xiuqiong Chen---1.0
-Stephen S.-T. Yau---1.0
-Boyang Li---1.0
-Ekaterina Nikonova---1.0
-Jochen Renz---1.0
-Emmanuel de Bézenac---1.0
-Ibrahim Ayed---1.0
-Jianfei Yang---1.0
-Han Zou---1.0
-Yuxun Zhou---1.0
-Lihua Xie---1.0
-Ruizhi Deng---1.0
-Jaesik Yoon---1.0
-Hyeungill Lee---1.0
-Menglei Zhang---1.0
-Zhou Liu---1.0
-Jingwei He---1.0
-Yash Garg---1.0
-K. Selcuk Candan---1.0
-Michal Rozenwald---1.0
-Aleksandra Galitsyna---1.0
-Ekaterina Khrameeva---1.0
-Grigory Sapunov---1.0
-Mikhail S. Gelfand---1.0
-Sun Minni---1.0
-Li Ji-An---1.0
-Theodore Moskovitz---1.0
-Grace Lindsay---1.0
-Kenneth Miller---1.0
-Mario Dipoppa---1.0
-Guangyu Robert Yang---1.0
-Song Bian---1.0
-Ousmane Amadou Dia---1.0
-Elnaz Barshan---1.0
-Reza Babanezhad---1.0
-Vasco Portilheiro---1.0
-Jianhe Yuan---1.0
-Zhihai He---1.0
-Oriane Siméoni---1.0
-Mateusz Budnik---1.0
-Guillaume Gravier---1.0
-Wonmin Byeon---1.0
-Kazuya Kawakami---1.0
-Long Yang---1.0
-Gang Zheng---1.0
-Zavier Zhang---1.0
-Qian Zheng---1.0
-Jun Wen---1.0
-Gang Pana sample efficient policy gradient method with stochastic mirror descent.---1.0
-Steven Dalton---1.0
-Michael Garland---1.0
-Gregory Plumb---1.0
-Xuehui Sun---1.0
-Ce Zhang---1.0
-Farhan Damani---1.0
-Vishnu Sresht---1.0
-Stephen Ra---1.0
-Yewen Wang---1.0
-Yusong Ye---1.0
-Filippo Maria Bianchi---1.0
-Daniele Grattarola---1.0
-Cesare Alippi---1.0
-Shenzhong Zhang---1.0
-Shuai Zheng---1.0
-Zeyuan Chen---1.0
-Shaoliang Nie---1.0
-Tianfu Wu---1.0
-Christopher G. Healey---1.0
-Samia Mohinta---1.0
-Rui Ponte Costa---1.0
-Stephane Ciocchi---1.0
-Song Wang---1.0
-Xien Liu---1.0
-Ji Wu---1.0
-Tiantian Fang---1.0
-Alex Schwing---1.0
-Yingjing Lu---1.0
-Runde Yang---1.0
-Deepak Babu Sam---1.0
-ABINAYA K---1.0
-Sudharsan K A---1.0
-Venkatesh Babu RADHAKRISHNAN---1.0
-Yu He---1.0
-Shiyang Wen---1.0
-Wenjin Wu---1.0
-Siran Yang---1.0
-Yuan Wei---1.0
-Di Zhang---1.0
-Guojie  Song---1.0
-Wei Lin---1.0
-Liang Wang---1.0
-Bo Zheng---1.0
-John Palowitch---1.0
-Bryan Perozzi---1.0
-Jie Lin---1.0
-Mohamed M. Sabry Aly---1.0
-Sean I Young---1.0
-Bernd Girod---1.0
-Jialin Song---1.0
-Joe Wenjie Jiang---1.0
-Samuel L Smith---1.0
-Claire Gardent---1.0
-Chloe Braud---1.0
-Dustin L. Arendt---1.0
-Matthew Broussard---1.0
-Bala Krishnamoorthy---1.0
-Nathaniel Saul---1.0
-Arushi Gupta---1.0
-Elan Rosenfeld---1.0
-Ezra Winston---1.0
-Piotr Tatarczyk---1.0
-Damian Mrowca---1.0
-Asma Ghandeharioun---1.0
-Judy Hanwen Shen---1.0
-Craig Ferguson---1.0
-Agata Lapedriza---1.0
-Noah Jones---1.0
-Rosalind Picard---1.0
-Yifan Xu---1.0
-Lu Dai---1.0
-Udaikaran Singh---1.0
-Kening Zhang---1.0
-Zhuowen Tu---1.0
-Thomas Lee---1.0
-Erik Kruus---1.0
-Raphael Fettaya---1.0
-Dor Bank---1.0
-Rachel Lemberg---1.0
-Linoy Barel---1.0
-Cheng Peng---1.0
-Zhouwang Yang---1.0
-Pawan M. Kumar---1.0
-Minghao Han---1.0
-Lixian Zhang---1.0
-Benjain Eysenbach---1.0
-Erix Xing---1.0
-Kashyap Chitta---1.0
-Elmar Haussmann---1.0
-Clement Farabet---1.0
-Tianyi Zhang---1.0
-Ethan R. Elenberg---1.0
-Sahin Lale---1.0
-Lovedeep Gondara---1.0
-Ricardo Silva Carvalho---1.0
-Mohammed Abdi---1.0
-Aminat Adebiyi---1.0
-Andrea Fasoli---1.0
-Alberto Mannari---1.0
-Ronald Labby---1.0
-Luisa Bozano---1.0
-Damien Teney---1.0
-Jerrick Hoang---1.0
-Eric Langlois---1.0
-Zhiwei Deng---1.0
-Johan Bjorck---1.0
-Carla Gomes---1.0
-Zi-Niu Li---1.0
-Xiong-Hui Chen---1.0
-Ari Pakman---1.0
-Yueqi Wang---1.0
-Catalin Mitelut---1.0
-JinHyung Lee---1.0
-Rundong Li---1.0
-Rui Fan---1.0
-Aristotelis-Angelos Papadopoulos---1.0
-Nazim Shaikh---1.0
-Jiamian Wang---1.0
-Mohammad Reza Rajati---1.0
-Simon Vandenhende---1.0
-Yinhan Liu---1.0
-Naman Goyal---1.0
-Mandar Joshi---1.0
-Danqi Chen---1.0
-Danilo Vasconcellos Vargas---1.0
-Shashank Kotyan---1.0
-Moe Matsuki---1.0
-Wenjing Huang---1.0
-Lei Xu---1.0
-Uriya Pesso---1.0
-Koby Bibas---1.0
-Meir Feder---1.0
-Taojiannan Yang---1.0
-Sijie Zhu---1.0
-Yan Shen---1.0
-Mi Zhang---1.0
-Andrew Willis---1.0
-Chen Chen---1.0
-Natalia Martinez---1.0
-Martin Bertran---1.0
-Helena Peic Tukuljac---1.0
-Benjamin Ricaud---1.0
-Nicolas Aspert---1.0
-Mingzhe Wang---1.0
-Andrea Agazzi---1.0
-Felix Petersen---1.0
-Christian Borgelt---1.0
-Oliver Deussen---1.0
-Wei-Jen Ko---1.0
-Avik Ray---1.0
-Xujiang Zhao---1.0
-Shu Hu---1.0
-jin-Hee Cho---1.0
-Aysegul Dundar---1.0
-Kevin J Shih---1.0
-Robert Pottorf---1.0
-Andrew Tao---1.0
-Sheng-Iou Hsieh---1.0
-Shieh-Chieh Chang---1.0
-Yufei Li---1.0
-Xiangyu Zhou---1.0
-Jie Ma---1.0
-Yu Long---1.0
-Xuan Wang---1.0
-Chen Li---1.0
-Stefano Spigler---1.0
-Matthieu Wyart---1.0
-Cheng Chen---1.0
-Baptiste Angles---1.0
-Simon Kornblith---1.0
-Shahram Izadi---1.0
-Kwang Moo Yi---1.0
-Tianhang Zheng---1.0
-Baochun Li---1.0
-Jinhui Xu---1.0
-Ziyi Yang---1.0
-Michael Zeng---1.0
-Xuedong Huang---1.0
-Eric Darve---1.0
-Dinghuai Zhang*---1.0
-Mao Ye*---1.0
-Chengyue Gong*---1.0
-Joonhyun Jeong---1.0
-Sung-Ho Bae---1.0
-Abraham J. Fetterman---1.0
-Christina H. Kim---1.0
-Joshua Albrecht---1.0
-Liudmila Prokhorenkova---1.0
-Egor Samosvat---1.0
-Pim van der Hoorn---1.0
-Kacper Piotr Kielak---1.0
-Yangzi Guo---1.0
-Yiyuan She---1.0
-Xinjie Lan---1.0
-Kenneth E. Barner---1.0
-Roy Sadaka---1.0
-Avanti Shrikumar---1.0
-Amr M. Alexandari---1.0
-Anshul Kundaje---1.0
-Michel Aractingi---1.0
-Christopher Dance---1.0
-Theofanis Karaletsos---1.0
-Thang Bui---1.0
-Zhuo Zhi---1.0
-Sélim Chraibi---1.0
-Adil Salim---1.0
-Samuel Horváth---1.0
-Filip Hanzely---1.0
-Varun Suriyanarayana---1.0
-Onur Tavaslioglu---1.0
-Andrew J. Schaefer---1.0
-Lucy H. Lin---1.0
-Matthew Willetts---1.0
-Alexander Camuto---1.0
-Stephen Roberts---1.0
-Chris Holmes---1.0
-Jin-Young  Kim---1.0
-Alexandre Defossez---1.0
-Francis Bach---1.0
-Basile Dura---1.0
-Daniel Cohen---1.0
-Mario Marchand---1.0
-François Laviolette---1.0
-Shucong Zhang---1.0
-Cong-Thanh Do---1.0
-Rama Doddipatla---1.0
-Erfan Loweimi---1.0
-Peter Bell---1.0
-Beidi Chen---1.0
-Zhiding Yu---1.0
-Anshumali Shrivastava---1.0
-Dianbo Liu---1.0
-Tim Miller---1.0
-Kenneth Mandl---1.0
-Eric Arazo---1.0
-Diego Ortego---1.0
-Paul Albert---1.0
-Noel E. O'Connor---1.0
-Kevin McGuinness---1.0
-Clara Huiyi Hu---1.0
-Amit Dhurandhar---1.0
-Karthikeyan Shanmugam---1.0
-Tao Zheng---1.0
-Ivor Tsang---1.0
-Xin Yao---1.0
-Yangyang Sun---1.0
-Shuo Pang---1.0
-Da Yu---1.0
-Tie-yan Liu---1.0
-Jian Yin---1.0
-Maxence Ernoult---1.0
-Julie Grollier---1.0
-Damien Querlioz---1.0
-Benjamin Scellier---1.0
-Rishabh Agarwal---1.0
-Hansi Yang---1.0
-Thomas Flynn---1.0
-Kwang Min Yu---1.0
-Abid Malik---1.0
-Shinjae Yoo---1.0
-Nicholas D'Imperio---1.0
-Junxiang Wang---1.0
-Ted Moskovitz---1.0
-Sanyam Kapoor---1.0
-Jamie Kiros---1.0
-Mher Safaryan---1.0
-Eun saem Lee---1.0
-Xufang Luo---1.0
-Lorenzo Luzi---1.0
-Kaizhi Qian---1.0
-Mark Hasegawa-Johnson---1.0
-Zezhen Zeng---1.0
-Hsuan-Kung Yang---1.0
-Po-Han Chiang---1.0
-Min-Fong Hong---1.0
-Liwei Wu---1.0
-Shuqing Li---1.0
-James Sharpnack---1.0
-Rabeeh Karimi Mahabadi*---1.0
-Florian Mai*---1.0
-Christian Tomani---1.0
-Duc Bui---1.0
-Kshitiz Malik---1.0
-Jack Goetz---1.0
-Seungwhan Moon---1.0
-Honglei Liu---1.0
-Anuj Kumar---1.0
-Kang G. Shin---1.0
-Jiapeng Zhu---1.0
-Deli Zhao---1.0
-Julie Josse---1.0
-Imke Mayer---1.0
-Jean-Philippe Vert---1.0
-Laura Gustafson---1.0
-Teng Li---1.0
-Rodrigo Fonseca---1.0
-Shashanka Ubaru---1.0
-Manu V Nair---1.0
-Giacomo Indiveri---1.0
-Huanshu Wei---1.0
-Erkao Bao---1.0
-Linqi Song---1.0
-Chong Li---1.0
-Dan Shen---1.0
-C.J. Richard Shi---1.0
-Xiaoyan Li---1.0
-Iluju Kiringa---1.0
-Tet Yeap---1.0
-Xiaodan Zhu---1.0
-Yifeng Li---1.0
-Mohammad Firouzi---1.0
-Sadra Boreiri---1.0
-Hamed Firouzi---1.0
-Edgar Duenez-Guzman---1.0
-Fatih Furkan Yilmaz---1.0
-Prabhat Nagarajan---1.0
-Guilherme Maeda---1.0
-Yuyang Shi---1.0
-Yunhui Long---1.0
-Suxin Lin---1.0
-Carl A. Gunter---1.0
-Adam M Oberman---1.0
-Xin Jiang*---1.0
-Kewei Cheng*---1.0
-Song Jiang*---1.0
-Xiaomeng Zhang---1.0
-Xianfeng Liang---1.0
-Shuheng Shen---1.0
-Jingchang Liu---1.0
-Zhen Pan---1.0
-Yifei Cheng---1.0
-Qingtian Zhang---1.0
-Bin Gao---1.0
-Huaqiang Wu---1.0
-Daniel Geng---1.0
-Kiwon Um---1.0
-Yun (Raymond) Fei---1.0
-Ramon Izquierdo Cordova---1.0
-Walterio Mayol Cuevas---1.0
-Feng Ni---1.0
-Haidar Khan---1.0
-Dan Park---1.0
-Azer Khan---1.0
-Bülent Yener---1.0
-Max Bartolo---1.0
-Pontus Stenetorp---1.0
-Mathilde Caron---1.0
-Piotr Bojanowski---1.0
-Linfang Hou---1.0
-Liang Pang---1.0
-Xin Hong---1.0
-Zhiming Ma---1.0
-Dawei Yin---1.0
-Chao Gao---1.0
-Martin Mueller---1.0
-Ryan Hayward---1.0
-Hengshuai Yao---1.0
-Shangling Jui---1.0
-Laurent Besacier---1.0
-Zeyu Zheng---1.0
-Zhongwen Xu---1.0
-Manuel Kroiss---1.0
-Jeff Mitchell---1.0
-Jeff Bowers---1.0
-Shuxuan Guo---1.0
-Katsuki Ohto---1.0
-Haozhe Feng---1.0
-Kezhi Kong---1.0
-Tianye Zhang---1.0
-Siyue Xue---1.0
-Erwan Lecarpentier---1.0
-Kavosh Asadi---1.0
-Emmanuel Rachelson---1.0
-Shitao Tang---1.0
-Xingang Pan---1.0
-Pak Lun Kevin Ding---1.0
-Sarah Martin---1.0
-Sudip Roy---1.0
-Amirali Abdolrashidi---1.0
-Daniel Wong---1.0
-Peter C. Ma---1.0
-Qiumin Xu---1.0
-Ming Zhong---1.0
-James Laudon---1.0
-Yujun Yan---1.0
-Danai Koutra---1.0
-Guillaume Matheron---1.0
-Nicolas Perrin---1.0
-Kyriacos Nikiforou---1.0
-Christos Kaplanis---1.0
-Sachin Vernekar---1.0
-Ashish Gaurav---1.0
-Vahdat Abdelzad---1.0
-Taylor Denouden---1.0
-Rick Salay---1.0
-Krzysztof Czarnecki---1.0
-Tim Repke---1.0
-Ralf Krestel---1.0
-Junjie Sheng---1.0
-Xiangfeng Wang---1.0
-Bo Jin---1.0
-Wenhao Li---1.0
-Tsung-Hui Chang---1.0
-Songzhu Zheng---1.0
-Pengxiang Wu---1.0
-Aman Goswami---1.0
-Mayank Goswami---1.0
-Chenxingyu Zhao---1.0
-Jie Gui---1.0
-Yixiao Guo---1.0
-Glen Jeh---1.0
-Maitreya Patel---1.0
-Mirali Purohit---1.0
-Mihir Parmar---1.0
-Nirmesh J. Shah---1.0
-Hemant A. Patil---1.0
-Li-Ping Liu---1.0
-Ruiyuan Gu---1.0
-Xiaozhe Hu---1.0
-Woo-Young Kang---1.0
-Cheol-Ho Han---1.0
-Paul Barde---1.0
-Julien Roy---1.0
-Félix G. Harvey---1.0
-Yuhong Guo---1.0
-Yifei Wang---1.0
-Wuchen Li---1.0
-Tingran Gao---1.0
-Shahab Asoodeh---1.0
-John Chen---1.0
-Anastasios Kyrillidis---1.0
-Reza Oftadeh---1.0
-Jiayi Shen---1.0
-Dylan Shell---1.0
-Richard P. Wildes---1.0
-Daniel LeJeune---1.0
-Hamid Javadi---1.0
-Ali Sabet---1.0
-Prakhar Gupta---1.0
-Robert West---1.0
-Nanxiang Li---1.0
-Shabnam Ghaffarzadegan---1.0
-Liu Ren---1.0
-Josh Roy---1.0
-Ondrej Kuzelka---1.0
-Yuyi Wang---1.0
-Yiren Lu---1.0
-Yu Lin---1.0
-Yigong Wang---1.0
-Yifan Li---1.0
-Zhuoyi Wang---1.0
-Latifur Khan---1.0
-Yuexin Wu---1.0
-Yichong Xu---1.0
-Trevor Gale---1.0
-Qimai Li---1.0
-Xiaotong Zhang---1.0
-Xiao-Ming Wu---1.0
-Charles Lovering---1.0
-Laurent Sartran---1.0
-Wojciech Stokowiec---1.0
-Zhaoyang Zhang---1.0
-Liran Gispan---1.0
-Qiuling Xu---1.0
-Guanhong Tao---1.0
-Siyuan Cheng---1.0
-Lin Tan---1.0
-Yuting Liu---1.0
-Anit Kumar Sahu---1.0
-Wan-Yi Lin---1.0
-Zhuliang Yao---1.0
-Wei Zhou---1.0
-Yiying Li---1.0
-Huaimin Wang---1.0
-Hossein Sharifi-Noghabi---1.0
-Shuman Peng---1.0
-Olga Zolotareva---1.0
-Colin C. Collins---1.0
-Martin Ester---1.0
-Randolf Scholz---1.0
-Huynh Van Luong---1.0
-Duy Hung Le---1.0
-Nikos Deligiannis---1.0
-Martin Längkvist---1.0
-Andreas Persson---1.0
-Amy Loutfi---1.0
-Kenneth Stanley---1.0
-Aravind Srinivas---1.0
-Thanh V Nguyen---1.0
-Samuel C. Hoffman---1.0
-Giuseppe Romano---1.0
-Chinmay Hegde---1.0
-Emmanuel Noutahi---1.0
-Dominique Beani---1.0
-Julien Horwood---1.0
-Devon Jarvis---1.0
-Richard Klein---1.0
-Haiyan Yin---1.0
-Jianda Chen---1.0
-Sinno Jialin Pan---1.0
-Yuhang Zhang---1.0
-Zhenwei Miao---1.0
-Tiebin Mi---1.0
-Robert Caiming Qiu---1.0
-Kaining Zhang---1.0
-Min-Hsiu Hsieh---1.0
-Lawrence Neal---1.0
-Holger Schwenk---1.0
-Vishrav Chaudhary---1.0
-Shuo Sun---1.0
-Hongyu Gong---1.0
-Francisco Guzmán---1.0
-Haotian Fu---1.0
-Hongyao Tang---1.0
-Baiyang Wang---1.0
-Mohammed Amin Abdullah---1.0
-Hang Ren---1.0
-Haitham Bou-Ammar---1.0
-Vladimir Milenkovic---1.0
-Hongting Zhang---1.0
-Qiben Yan---1.0
-Qi Qi---1.0
-Zixuan Wu---1.0
-Xiaoyu Wang---1.0
-Joyce Lee---1.0
-Rodica Busui---1.0
-Ming Ma---1.0
-Stephan Chalup---1.0
-Fayeem Aziz---1.0
-Defu Cheng---1.0
-Zhijian Zhou---1.0
-Moustafa Meshry---1.0
-Yixuan Ren---1.0
-Ricardo Martin-Brualla---1.0
-Larry Davis---1.0
-Louis Faury---1.0
-Clément Calauzènes---1.0
-Olivier Fercoq---1.0
-Jonas Falkner---1.0
-Kara Liu---1.0
-Pushi Zhang---1.0
-Li Zhao---1.0
-Guoqing Liu---1.0
-Minglie Huang---1.0
-Ge Yang---1.0
-Roberto Calandra---1.0
-Manyuan Zhang，Guanglu Song，Yu Liu，Hang Zhou---1.0
-Henry Howard-Jenkins---1.0
-Yiwen Li---1.0
-Victor Adrian Prisacariu---1.0
-Masoud Badiei Khuzani---1.0
-Liyue Shen---1.0
-Shahin Shahrampour---1.0
-Lei Xing---1.0
-Kaiwen Zhou---1.0
-Yanghua Jin---1.0
-Qinghua Ding---1.0
-Samarth Sinha---1.0
-Selam Waktola---1.0
-Laurent Babout---1.0
-Krzysztof Grudzien---1.0
-Seungjun Jung---1.0
-Junyoung Byun---1.0
-Kyujin Shim---1.0
-Changick Kim---1.0
-Yuzhou Chen---1.0
-Yulia R. Gel---1.0
-Konstantin Avrachenkov---1.0
-Aleksei Kuvshinov---1.0
-Stephan Guennemann---1.0
-Zhendong Zhang---1.0
-Cheolkon Jung---1.0
-Kevin Luk---1.0
-Yikai Zhao---1.0
-Peiqing Chen---1.0
-Zidong Zhao---1.0
-Steve Uhlig---1.0
-Hamza Merzic---1.0
-Julian Schrittwieser---1.0
-Thomas Hubert---1.0
-Mitchell A Gordon---1.0
-Kevin Duh---1.0
-Nicholas Andrews---1.0
-Qingru Zhang---1.0
-Tyler James Malloy---1.0
-Stephan Schonsheck---1.0
-Margherita Rosnati---1.0
-Michael Hanselmann---1.0
-Christoph-Nikolas Straehle---1.0
-Mingyang Yi---1.0
-Keyu Nie---1.0
-Zezhong Zhang---1.0
-Ted Tao Yuan---1.0
-Rong Song---1.0
-Pauline Berry Burke---1.0
-Song Liu---1.0
-Tom Diethe---1.0
-Peter Flach---1.0
-Ian Covert---1.0
-Uygar Sumbul---1.0
-N. Joseph Tatro---1.0
-Igor Melnyk---1.0
-Aurko Roy*---1.0
-Mohammad Taghi Saffar*---1.0
-Edo Cohen-Karlik---1.0
-Carl Allen*---1.0
-Ivana Balazevic*---1.0
-Timothy M Hospedales---1.0
-Feng Yan---1.0
-John Osorio---1.0
-Adrià Armejach---1.0
-Eric Petit---1.0
-Marc Casas---1.0
-Hesham Mostafa---1.0
-Fanhua Shang---1.0
-Lin Kong---1.0
-Yuanyuan Liu---1.0
-Hua Huang---1.0
-Hongying Liu---1.0
-James Smith---1.0
-Constantine Dovrolis---1.0
-Qingqing Huang---1.0
-Hadi Salman---1.0
-John Giorgi---1.0
-Xindi Wang---1.0
-Nicola Sahar---1.0
-Won Young Shin---1.0
-Gary Bader---1.0
-Bo Wang---1.0
-Yaza Wainakh---1.0
-Moiz Rauf---1.0
-Michael Pradel---1.0
-Koyel Mukherjee---1.0
-Alind Khare---1.0
-Yogish Sabharwal---1.0
-Ashish Verma---1.0
-Qingzhe Li---1.0
-Negar Etemadyrad---1.0
-Luis Muñoz-González---1.0
-Bjarne Pfitzner---1.0
-Matteo Russo---1.0
-Javier Carnerero-Cano---1.0
-Emil C. Lupu---1.0
-Brian R. Bartoldson---1.0
-Gordon Erlebacher---1.0
-Hugo Silva---1.0
-Shen-Yi Zhao---1.0
-Yin-Peng Xie---1.0
-Hao Gao---1.0
-Wu-Jun Li---1.0
-Ying Da Wang---1.0
-Pawel Swietojanski---1.0
-Ryan T Armstrong---1.0
-Peyman Mostaghimi---1.0
-Ziyun Wang---1.0
-Brenden M. Lake---1.0
-Sihuan Lin---1.0
-Yubo Zhang---1.0
-Hao Tan---1.0
-Mohit Bansal---1.0
-Bowen Weng---1.0
-Huaqing Xiong---1.0
-Meng Dong---1.0
-Jiawei Zhou---1.0
-Sungsoo Ahn---1.0
-Younggyo Seo---1.0
-Motasem Alfarra---1.0
-Hasan Hammoud---1.0
-Mohamed Gaafar---1.0
-Lucas Fidon---1.0
-Sebastien Ourselin---1.0
-Tom Vercauteren---1.0
-Tomer Koren---1.0
-Ivan Ovinnikov---1.0
-Yanyan Liang---1.0
-Yanfeng Zhang---1.0
-Fangjing Wang---1.0
-Qian Xu---1.0
-Joachim Sicking---1.0
-Alexander Kister---1.0
-Matthias Fahrland---1.0
-Stefan Eickeler---1.0
-Fabian Hueger---1.0
-Stefan Rueping---1.0
-Peter Schlicht---1.0
-Tim Wirtz---1.0
-Youngwoo Cho---1.0
-Minwook Chang---1.0
-Gerard Jounghyun Kim---1.0
-Tao Du---1.0
-Yunfei Li---1.0
-Jie Xu---1.0
-Andrew Spielberg---1.0
-Kui Wu---1.0
-Wojciech Matusik---1.0
-Kai Lagemann---1.0
-Gregor Roering---1.0
-Christoph Henke---1.0
-Rene Vossen---1.0
-Frank Hees---1.0
-Andrea Dittadi---1.0
-Hadi Pouransari---1.0
-Oncel Tuzel---1.0
-Salman Alsubaihi---1.0
-Modar Alfadly---1.0
-Abdullah Hamdi---1.0
-Yu Guang Wang---1.0
-Ming Li---1.0
-Guido Montufar---1.0
-Xiaosheng Zhuang---1.0
-Yanan Fan---1.0
-Vasileios Lioutas---1.0
-Ahmad Rashid---1.0
-Krtin Kumar---1.0
-Md Akmal Haidar---1.0
-Mehdi Rezagholizadeh---1.0
-Bryan A. Plummer---1.0
-Mariya I. Vasileva---1.0
-Vitali Petsiuk---1.0
-Gal Elidan---1.0
-Yunhui Guo---1.0
-Tajana Rosing---1.0
-Luca Laurenti---1.0
-Andrea Patane---1.0
-Matthew Wicker---1.0
-Luca Bortolussi---1.0
-Luca Cardelli---1.0
-Marta Kwiatkowska---1.0
-Daniel Li---1.0
-Qiang Ma---1.0
-Andrew Liu---1.0
-Justin Cheung---1.0
-Dana Pe’er---1.0
-Itsik Pe’er---1.0
-Peiqi Wang---1.0
-Yu Ji---1.0
-Xinfeng Xie---1.0
-Yongqiang Lyu---1.0
-Dongsheng Wang---1.0
-Zhichao Han---1.0
-Xu Li---1.0
-Hong Cheng---1.0
-Mengyu Chu---1.0
-Jonas Mayer---1.0
-Zebang Shen---1.0
-Cong Fang---1.0
-Jiahao Xie---1.0
-Ruiying Lu---1.0
-XiaoLiu Mao---1.0
-XinDian Ma---1.0
-BenYou Wang---1.0
-Jing Zhang---1.0
-DaWei Song---1.0
-Bapu Li(*)---1.0
-Yanwen Fan(*)---1.0
-Zhiyu Cheng---1.0
-Yingze Bao (* means equal contribution)---1.0
-Sharan Ramjee---1.0
-Aly El Gamal---1.0
-Nannan Li---1.0
-Zhenzhong Chen---1.0
-Sander M. Bohte---1.0
-Pieter R. Roelfsema---1.0
-Brian Chmiel---1.0
-Chaim Baskin---1.0
-Evgenii Zheltonozhskii---1.0
-Yevgeny Yermolin---1.0
-Alex Karbachevsky---1.0
-Alex M. Bronstein---1.0
-Avi Mendelson---1.0
-Yigit Ugur---1.0
-George Arvanitakis---1.0
-Tal Daniel---1.0
-Andrew Gambardella---1.0
-Jinke He---1.0
-Wendelin Böhmer---1.0
-Yufei Wang*---1.0
-Ziju Shen*---1.0
-Zichao Long---1.0
-Zilong Ji---1.0
-Xiaolong Zou---1.0
-Si Wu---1.0
-Qinxun Bai---1.0
-Ruixiang Zhang---1.0
-Liam Paull---1.0
-Gautier Izacard---1.0
-Said ouala---1.0
-Duong Nguyen---1.0
-Bertrand Chapron---1.0
-Ananda Pascual---1.0
-Fabrice Collard---1.0
-Lucile Gaultier---1.0
-Christopher J. Shallue---1.0
-Zachary Nado---1.0
-Dana Ruiter---1.0
-Cristina España-Bonet---1.0
-Josef van Genabith---1.0
-Jianfeng Chi---1.0
-Charles Hernandez---1.0
-Hungyi Lee---1.0
-Hongchen Liu---1.0
-Cheng Zheng---1.0
-Fei Wang---1.0
-Zhanfu Yang---1.0
-Guannan Wei---1.0
-Tiark Rompf---1.0
-Scott Wen-tau Yih---1.0
-Sinong Wang---1.0
-Mateusz Michalkiewicz---1.0
-Mahsa Baktashmotagh---1.0
-Anders Eriksson---1.0
-Ilya Markov---1.0
-Vitalii Aksenov---1.0
-Liam Li---1.0
-Seoyoung Ahn---1.0
-Gregory Zelinsky---1.0
-Gary Lupyan---1.0
-Ayush Jain*---1.0
-Andrew Szot*---1.0
-Jincheng Zhou---1.0
-Ruobing Shen---1.0
-Bo Tang---1.0
-Ismail Ben Ayed---1.0
-Andrea Lodi---1.0
-Thomas Guthier---1.0
-Jungeum Kim---1.0
-Alex Bird---1.0
-Ahmet Iscen---1.0
-Giorgos Tolias---1.0
-Ondrej Chum---1.0
-Huang Yu-Ting---1.0
-Parameswaran Kamalaruban---1.0
-Ehsan Adeli---1.0
-Qingyu Zhao---1.0
-Adolf Pfefferbaum---1.0
-Edith V. Sullivan---1.0
-Juan Carlos Niebles---1.0
-Kilian M. Pohl---1.0
-Shaohuai Shi---1.0
-Xiaowen Chu---1.0
-Ka Chun Cheung---1.0
-Simon See---1.0
-Thomas Sanchez---1.0
-Igor Krawczuk---1.0
-Zhaodong Sun---1.0
-Chi Thang Duong---1.0
-Dung Hoang---1.0
-Truong Giang Le Ba---1.0
-Thanh Le Cong---1.0
-Hongzhi Yin---1.0
-Matthias Weidlich---1.0
-Quoc Viet Hung Nguyen---1.0
-Pengfei Jin---1.0
-Tianhao Lai---1.0
-Vinenzo Crescimanna---1.0
-Bruce Graham---1.0
-Hyojin Bahng---1.0
-Uthaipon Tantipongpipat---1.0
-Chris Waites---1.0
-Amaresh Siva---1.0
-Rachel Cummings---1.0
-Byeongsu Sim---1.0
-Gyutaek Oh---1.0
-Sungjun Lim---1.0
-and Jong Chul Ye---1.0
-Yann Lifchitz---1.0
-Sylvaine Picard---1.0
-Aditya Bhatt---1.0
-Max Argus---1.0
-Brenden K. Petersen---1.0
-Katsuhito Sudoh---1.0
-Koichiro Yoshino---1.0
-Satoshi Nakamura---1.0
-Yunfei Chu---1.0
-Chunyan Feng---1.0
-Albert Tseng---1.0
-Michael L. Iuzzolino---1.0
-Yin Zhao---1.0
-Longjun Cai---1.0
-Chaoping Tu---1.0
-Wu Wei---1.0
-Zhaocheng Liu---1.0
-Haoli Zhang---1.0
-Amir Ali Moinfar---1.0
-Amirkeivan Mohtashami---1.0
-Mahdieh Soleymani---1.0
-Ali Sharifi-Zarchi---1.0
-Yongheng Zhao---1.0
-Tolga Birdal---1.0
-Jan Eric Lenssen---1.0
-Emanuele Menegatti---1.0
-Muyu Li---1.0
-Shauharda Khadka---1.0
-Somdeb Majumdar---1.0
-Santiago Miret---1.0
-Kagan Tumer---1.0
-Chun-Hsing Lin---1.0
-Alvin Chiang---1.0
-Chi-Liang Liu---1.0
-Chien-Fu Lin---1.0
-Po-Hsien Chu---1.0
-Siang-Ruei Wu---1.0
-Yi-En Tsai---1.0
-Chung-Yang (Ric) Huang---1.0
-Nuri Cingillioglu---1.0
-Alessandra Russo---1.0
-Dmitriy Genzel---1.0
-Xiaohua Zhai---1.0
-Joan Puigcerver---1.0
-Alexander Kolesnikov---1.0
-Pierre Ruyssen---1.0
-Andre Susano Pinto---1.0
-
-Maxim Neumann---1.0
-Lucas Beyer---1.0
-Marcin Michalski---1.0
-Jalil Taghia---1.0
-Maria Bånkestad---1.0
-Fredrik Lindsten---1.0
-Thomas Schön---1.0
-Paul Kim---1.0
-Robin Winter---1.0
-Djork-Arné Clevert---1.0
-Graham Finlayson---1.0
-Ruth Montgomery---1.0
-Jooyeon Kim---1.0
-Alice Oh---1.0
-Lixin Duan---1.0
-Guowu Yang---1.0
-Rob Cornish---1.0
-Anthony Caterini---1.0
-George Deligiannidis---1.0
-Arnaud Doucet---1.0
-Patrick Kidger---1.0
-Terry Lyons---1.0
-Kezhen Chen---1.0
-Qiuyuan Huang---1.0
-Hamid Palangi---1.0
-Kenneth D. Forbus---1.0
-Benoit Gaujac---1.0
-Ilya Feige---1.0
-Paul Soulos---1.0
-Tom McCoy---1.0
-Shion Honda---1.0
-Hirotaka Akita---1.0
-Katsuhiko Ishiguro---1.0
-Toshiki Nakanishi---1.0
-Elisabeth Salesky---1.0
-Manuel Nonnenmacher---1.0
-David Reeb---1.0
-Ingo Steinwart---1.0
-Kamila Abdiyeva---1.0
-Martin Lukac---1.0
-Kanat Alimanov---1.0
-Bharath Damodaran---1.0
-Kilian Fatras---1.0
-Sylvain Lobry---1.0
-Devis Tuia---1.0
-Ruixuan Zhang---1.0
-Zhuoyu Wei---1.0
-Yu Shi---1.0
-Edward Beeching---1.0
-Jilles Dibangoye---1.0
-Olivier Simonin---1.0
-YoungJoon Yoo---1.0
-Jung Woo Ha---1.0
-Xiangyuan Ren---1.0
-Zijun Sun---1.0
-Arianna Yuan---1.0
-François Rousseau---1.0
-Ephrem Tadesse---1.0
-Rosa Tsegaye---1.0
-Kuulaa Qaqqabaa---1.0
-Ruo Yu Tao---1.0
-Vincent François-Lavet---1.0
-Micha Livne---1.0
-David J. Fleet---1.0
-Huiming Zhang---1.0
-Haibo Chen---1.0
-AiLin Li---1.0
-Lihong Qiu---1.0
-Goran Zuzic---1.0
-Russell Mendonca---1.0
-Hari Prasanna Das---1.0
-Costas J. Spanos---1.0
-Girma Neshir---1.0
-Joe Davison---1.0
-Kristen A. Severson---1.0
-Vlad Pushkarov---1.0
-Yonathan Efroni---1.0
-Mykola Maksymenko---1.0
-Maciej Koch-Janusz---1.0
-Xiao Lin---1.0
-Indranil Sur---1.0
-Samuel A. Nastase---1.0
-Uri Hasson---1.0
-Ajay Divakaran---1.0
-Mohamed R. Amer---1.0
-Seifedin Shifaw Mohamed---1.0
-Solomon Teferra Abate (PhD)---1.0
-Shengding Hu---1.0
-Qipin Chen---1.0
-Wenrui Hao---1.0
-Hossein Hajimirsadeghi---1.0
-Thibaut Durand---1.0
-Amit Boyarski---1.0
-Sanketh Vedula---1.0
-Ting-Wu Chin---1.0
-Diana Marculescu---1.0
-Matthieu Kirchmeyer---1.0
-Alain Rakotomamonjy---1.0
-Amin Mantrach---1.0
-Changmin Wu---1.0
-Giorgi Nadiradze---1.0
-Amirmojtaba Sabour---1.0
-Ilia Markov---1.0
-Vitaly Aksenov---1.0
-Dan Alistarh.---1.0
-Alex A. Alemi---1.0
-Manaal Faruqui---1.0
-Shizheng Qin---1.0
-Yichen Zhu---1.0
-Pengfei Hou---1.0
-Wenqiang Zhang---1.0
-Arraamuthan Arulanantham---1.0
-Ahamed Arshad Ahamed Anzar---1.0
-Gowshalini Rajalingam---1.0
-Krusanth Ingran---1.0
-Prasanna S. Haddela---1.0
-Yu-Xiong Wang---1.0
-Yuki Uchiyama---1.0
-Karteek Alahari---1.0
-Kunal Menda---1.0
-Jean de Becdelièvre---1.0
-Jayesh K Gupta---1.0
-Ilan Kroo---1.0
-Mykel J. Kochenderfer---1.0
-Zachary Manchester---1.0
-Ciprian Chelba---1.0
-Florian Meier---1.0
-Marcelo Gauy---1.0
-Angelika Steger---1.0
-Bart van Merriënboer---1.0
-Xingyuan Chen---1.0
-Ping Cai---1.0
-Peng Jin---1.0
-Haokun Du---1.0
-Hongjun Wang---1.0
-Xinyu Dai---1.0
-Florian Schaefer---1.0
-Hongkai Zheng---1.0
-Dominik Schmidt---1.0
-Georgia Koppe---1.0
-Max Beutelspacher---1.0
-Zuyuan Zhong---1.0
-Martin Mundt---1.0
-Sagnik Majumder---1.0
-Iuliia Pliushch---1.0
-Visvanathan Ramesh---1.0
-Vaishaal Shankar---1.0
-Achal Dave---1.0
-Rebecca Roelofs---1.0
-Ben Recht---1.0
-Cosme Louart---1.0
-Xin WANG---1.0
-SiuMing Yiu---1.0
-Bingyuan Liu---1.0
-Yogesh Balaji---1.0
-Lingzhou Xue---1.0
-Wonryong Ryou---1.0
-Xiyuan Zhang---1.0
-Dilin Wang---1.0
-Lemeng Wu---1.0
-Jonathan Aigrain---1.0
-Marcin Detyniecki---1.0
-Paul M Scherer---1.0
-Najmeh Sadoughi---1.0
-Pengtao Xie---1.0
-Keizo Kato---1.0
-Jing Zhou---1.0
-Akira Nakagawa---1.0
-Benjamin Mitzkus---1.0
-Evgenia Rusak---1.0
-Oliver Bringmann---1.0
-Vijay Veerabadran---1.0
-Jordan Hoffmann---1.0
-Louis Maestrati---1.0
-Yoshihide Sawada---1.0
-Jean Michel Sellier---1.0
-Kuei-Tso Lee---1.0
-Sheng-Jyh Wang---1.0
-Dongsung Huh---1.0
-Ari Heljakka---1.0
-Yuxin Hou---1.0
-Arno Solin---1.0
-Jiun Bae---1.0
-Siavash Bigdeli---1.0
-Geng Lin---1.0
-Tiziano Portenier---1.0
-Andrea Dunbar---1.0
-Matthias Zwicker---1.0
-Israr Ul Haq---1.0
-Yoshinobu Kawahara---1.0
-Haotian Zhang---1.0
-Zongben Xu---1.0
-Kexin Zhao---1.0
-Hongyi Guo---1.0
-Xiongwei Wu---1.0
-Leah Bar---1.0
-Nir Sochen---1.0
-Javier Fernández---1.0
-Luke Bornn---1.0
-Mizanu Zelalem---1.0
-Million Meshesha (PhD)---1.0
-Yizhe Wu---1.0
-Sudhanshu Kasewa---1.0
-Oliver Groth---1.0
-Sasha Salter---1.0
-Li Sun---1.0
-Geraud Nangue Tasse---1.0
-Steven James---1.0
-Sergey A. Shuvaev---1.0
-Ngoc B. Tran---1.0
-Marcus Stephenson-Jones---1.0
-Alexei A. Koulakov---1.0
-Kaitao Song---1.0
-Hongzhi Liu---1.0
-Philip May---1.0
-Vitchyr H. Pong---1.0
-Steven Lin---1.0
-Ashvin Nair---1.0
-Shikhar Bahl---1.0
-Daniel McNamee---1.0
-Jeffrey Ling---1.0
-Zifei Shan---1.0
-Livio Baldini Soares---1.0
-Thibault Févry---1.0
-David Weiss---1.0
-Lisa Schut---1.0
-Qiang Sun---1.0
-Zhinan Cheng---1.0
-Wenxuan Wang---1.0
-Yu-Gang Jiang---1.0
-Hazar Yueksel---1.0
-Kush R. Varshney---1.0
-Brian Kingsbury---1.0
-Ronan Riochet---1.0
-Josef Sivic---1.0
-Ivan Laptev---1.0
-Emmanuel Dupoux---1.0
-Inseop Chung---1.0
-SeongUk Park---1.0
-Jean-Yves Franceschi---1.0
-Edouard Delasalles---1.0
-Sylvain Lamprier---1.0
-Luis A. Perez Rey---1.0
-Dmitri Jarnikov---1.0
-Mike Holenderski---1.0
-Zaccary Alperstein---1.0
-Artem Cherkasov---1.0
-Jason Rolfe---1.0
-Gregoire Morin---1.0
-Ryan Razani---1.0
-Eyyub Sari---1.0
-Erhan Bilal---1.0
-Raphael Gontijo Lopes---1.0
-Dong Yin---1.0
-Xinyue Chen---1.0
-Zijian Zhou---1.0
-Zheng Wang---1.0
-Che Wang---1.0
-Yanqiu Wu---1.0
-Qing Deng---1.0
-Keith Ross---1.0
-Zachary M. Ziegler---1.0
-Luke Melas-Kyriazi---1.0
-Sebastian Gehrmann---1.0
-Andreea Deac---1.0
-Yu-Hsiang Huang---1.0
-Petar Velickovic---1.0
-Lin Yuan---1.0
-Fetulhak Abdurahman---1.0
-Adityanarayanan Radhakrishnan---1.0
-Robin Vogel---1.0
-Mastane Achab---1.0
-Charles Tillier---1.0
-Stéphan Clémençon---1.0
-Nirbhay Modhe---1.0
-Prithvijit Chattopadhyay---1.0
-Sahil Singla---1.0
-Ramana Kumar---1.0
-Daiheng Gao---1.0
-Hehui Zhang---1.0
-Meng Wang---1.0
-Zhenzhi Wu---1.0
-Xuanlin Li---1.0
-Mohammad Hashir---1.0
-Lei Zhu---1.0
-Mei Hui Zhang---1.0
-Beng Chin Ooi---1.0
-Chang Yao---1.0
-Ronan Perry---1.0
-Tyler M. Tomita---1.0
-Jesse Patsolic---1.0
-Benjamin Falk---1.0
-Joshua Vogelstein---1.0
-Jeff A. Bilmes---1.0
-Ning-Chi Huang---1.0
-Huan-Jan Chou---1.0
-Kai-Chiang Wu---1.0
-Jack Parker-Holder---1.0
-Tamas Sarlos---1.0
-Deepali Jain---1.0
-Silviu Paun---1.0
-Juntao Yu---1.0
-Jon Chamberlain---1.0
-Massimo Poesio---1.0
-Akhilan Boopathy---1.0
-Lily Weng---1.0
-Renlong Jie---1.0
-Junbin Gao---1.0
-Andrey Vasnev---1.0
-Minh-Ngoc Tran---1.0
-David Barber---1.33
-Pin-Yu Chen---1.33
-Alexei A. Efros---1.33
-Azalia Mirhoseini---1.5
-Jie Chen---1.5
-Sercan O. Arik---1.5
-Nils Thuerey---1.5
-Yang Zhang---1.5
-Tomas Pfister---1.5
-Liu Liu---1.5
-Greg Mori---1.5
-Devi Parikh---2.0
+Ruosong Wang---0.33
+Xiang Ren---0.33
+Zhe Wang---0.33
+Pradeep Ravikumar---0.33
+Mingrui Liu---0.33
+Kun Xu---0.33
+Baoxin Li---0.33
+Josip Djolonga---0.33
+Jifeng Dai---0.33
+Guillaume Obozinski---0.33
+Jascha Sohl-Dickstein---0.25
+Zhilin Yang---0.25
+Alexander L. Gaunt---0.25
+Jing Jiang---0.25
+Timo Aila---0.25
+Sanjeev Arora---0.25
+Matthew Botvinick---0.25
+Jian Peng---0.25
+Josh Merel---0.25
+Bo Dai---0.25
+Samuel S. Schoenholz---0.25
+Nicolas Papernot---0.25
+Kelvin Xu---0.25
+Leonard Berrada---0.25
+W. James Murdoch---0.25
+Rishabh Singh---0.25
+James T. Kwok---0.25
+Zeming Lin---0.25
+Richard E. Turner---0.25
+Alan Yuille---0.25
+Adam Roberts---0.25
+Sanja Fidler---0.25
+Roman Novak---0.25
+Kris M. Kitani---0.25
+Stephen Clark---0.25
+Karen Simonyan---0.25
+Daniel Soudry---0.25
+Yi Zhou---0.25
+Jeffrey Pennington---0.25
+Percy Liang---0.25
+Daniel J. Mankowitz---0.25
+Angela Fan---0.25
+Dmitry Vetrov---0.25
+James Glass---0.25
+Wieland Brendel---0.25
+Zhuoran Yang---0.25
+Xingyou Song---0.25
+Max Welling---0.22
+Tengyu Ma---0.2
+Marc Brockschmidt---0.2
+Lior Wolf---0.2
+Stefano Soatto---0.2
+Arthur Szlam---0.2
+Frank Hutter---0.2
+Roger Grosse---0.2
+Shixiang Gu---0.2
+Demis Hassabis---0.2
+Will Dabney---0.2
+Huan Zhang---0.2
+Adam Santoro---0.2
+Razvan Pascanu---0.17
+Jason Weston---0.14
