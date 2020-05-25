@@ -8,6 +8,7 @@ output:
 layout: page
 
 ---
+
 <style>
 
 	@-webkit-keyframes slide {
@@ -51,7 +52,7 @@ layout: page
 ##### **About Me**
 
 <img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
-<img class="pad-2" align="right" width="200" height="170" src="/images/rsc_guwahati-3.jpeg">I'm a first-year Ph.D. student under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in  IIT Gandhinagar. I'm interested in solving societal problems with Machine Learning and IoT. I did my schooling from Shillong and grew up there, although I was born in Assam. [*Why am I doing a PhD?*](https://rishi-a.github.io/2019/05/23/why-phd-and-not-a-job.html)
+<img class="pad-2" align="right" width="200" height="170" src="/images/rsc_guwahati-3.jpeg">I'm a first-year Ph.D. student under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in  IIT Gandhinagar. I'm interested in solving societal problems with Machine Learning and IoT. I did my schooling from Shillong and grew up there, although I was born in Assam.
 
 
 <div style="margin-top: 100px"></div>
