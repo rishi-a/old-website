@@ -52,30 +52,35 @@ layout: page
 ##### **About Me**
 
 <img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
-<img class="pad-2" align="right" width="200" height="170" src="/images/rsc_guwahati-3.jpeg">I'm a first-year Ph.D. student under **[Prof. Nipun Batra](http://nipunbatra.github.io)** in  IIT Gandhinagar. I'm interested in solving societal problems with Machine Learning and IoT. I did my schooling from Shillong and grew up there, although I was born in Assam.
-
-
-<div style="margin-top: 100px"></div>
-
-##### **Teaching**
-
-- Teaching Assistant and Guest Lecturer For [Operating Systems](https://nipunbatra.github.io/teaching/os-fall-19/index.html) (Fall 2019, CS301)
-	- Lecture Slides: [Free Space Management][1]
-	- Lecture Slides: [Begineers Guide To Assembly][2] (for someone with a C background)
+<img class="pad-2" align="right" width="200" height="170" src="/images/rsc_guwahati-3.jpeg">I'm a Ph.D. student  in  IIT Gandhinagar, and I'm supervised by **[Prof. Nipun Batra](http://nipunbatra.github.io)**. I'm interested in developing computational tools for Air Pollution using Machine Learning and IoT. I did my schooling from Shillong and grew up there, although I was born in Assam.
 
 
 
 <div style="margin-top: 50px"></div>
 
 ##### **Updates**
-- **04th January'20**: Attended CoDS COMAD 2020 in ISB Hyderabad 
-- **05th December'19**: Joined [CEEW](https://www.ceew.in) as a Visiting Fellow
-- **01st December'19**: Attended workshop on "Priorities for Advancing Research on Health Effects of Air Pollution in India" in AIIMS, New Delhi. [Poster Presented][3]
-- **04th November'19**: Attended [AI For Social Good](https://sites.google.com/view/aiforsocialgoodworkshop/home) Workshop in Google Research Bangalore.
-- **22nd August'19**: Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP.
-- **29th July'19** Joined IIT Gandhinagar as a Ph.D. student
-- **24th July'19**: Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI in Delhi. 
-- Past updates are in the blog page. 
+**2020**
+- **28th July**: Two posters/short papers got accepted at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020). Detials coming soon! 
+- **25th July**: Position Paper got accepted for presentation at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020) Doctoral Colloquium. Detials coming soon!
+- **4th January**: Attended CoDS COMAD 2020 in ISB Hyderabad with ACM travel grant.
+
+**2019**
+- **5th December**: Joined [CEEW](https://www.ceew.in) as a Visiting Fellow
+- **1st December**: Attended workshop on "Priorities for Advancing Research on Health Effects of Air Pollution in India" in AIIMS, New Delhi. [Poster Presented][3]
+- **4th November**: Attended [AI For Social Good](https://sites.google.com/view/aiforsocialgoodworkshop/home) Workshop in Google Research Bangalore.
+- **22nd August**: Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP.
+- **29th July**: Joined IIT Gandhinagar as a Ph.D. student
+- **24th July**: Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI in Delhi. 
+- **1st March**: Joined IIT Gandhinagar as a Research Assistant.
+
+<div style="margin-top: 80px"></div>
+
+##### **Teaching**
+
+- Teaching Assistant and Guest Lecturer For [Operating Systems](https://nipunbatra.github.io/teaching/os-fall-19/index.html) (Fall 2019 and Fall 2020, CS301)
+	- Lecture Slides: [Free Space Management][1]
+	- Lecture Slides: [Begineers Guide To Assembly][2] (for someone with a C background)
+
 
 <div style="margin-top: 50px"></div>
 
