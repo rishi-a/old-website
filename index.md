@@ -66,7 +66,7 @@ layout: page
 
 **2019**
 - **5th December**: Joined [CEEW](https://www.ceew.in) as a Visiting Fellow
-- **1st December**: Attended workshop on "Priorities for Advancing Research on Health Effects of Air Pollution in India" in AIIMS, New Delhi. [Poster Presented][3]
+- **1st December**: Attended workshop on "Priorities for Advancing Research on Health Effects of Air Pollution in India" in AIIMS, New Delhi. [Poster Presented][4]
 - **4th November**: Attended [AI For Social Good](https://sites.google.com/view/aiforsocialgoodworkshop/home) Workshop in Google Research Bangalore.
 - **22nd August**: Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP.
 - **29th July**: Joined IIT Gandhinagar as a Ph.D. student
@@ -77,11 +77,11 @@ layout: page
 
 ##### **Teaching**
 
-- Teaching Assistant and Guest Lecturer For [Operating Systems](https://nipunbatra.github.io/teaching/os-fall-19/index.html) (Fall 2019 and Fall 2020, CS301)
+- Teaching Assistant and Guest Lecturer For [Operating Systems](https://nipunbatra.github.io/os2020/) (Fall 2020 CS301)
+	- Lecture Slides: [Begineers Guide To Assembly, Clang, Debugger and GDB][3] (co-taught with Tom Glint)
+- Teaching Assistant and Guest Lecturer For [Operating Systems](https://nipunbatra.github.io/os2019/) (Fall 2019 CS301)
 	- Lecture Slides: [Free Space Management][1]
 	- Lecture Slides: [Begineers Guide To Assembly][2] (for someone with a C background)
-
-
 <div style="margin-top: 50px"></div>
 
 ##### **Past Roles**
@@ -94,7 +94,8 @@ layout: page
 
 [1]:{{ site.url }}/downloads/free-space-management-1.pdf
 [2]:{{ site.url }}/downloads/machine-language-c.pdf
-[3]:{{ site.url }}/downloads/poster-aiims.pdf
+[3]:{{ site.url }}/downloads/machine-language-c-2020.pdf
+[4]:{{ site.url }}/downloads/poster-aiims.pdf
 
 
 <script>
