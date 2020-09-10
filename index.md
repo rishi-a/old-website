@@ -60,8 +60,8 @@ layout: page
 
 ##### **Updates**
 **2020**
-- **28th July**: Two posters/short papers got accepted at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020). Detials coming soon! 
-- **25th July**: Position Paper got accepted for presentation at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020) Doctoral Colloquium. Detials coming soon!
+- **28th July**: Two posters/short papers got accepted at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020). [Paper 1][5], [Paper 2][6] 
+- **25th July**: Position Paper got accepted for presentation at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020) Doctoral Colloquium. [Paper][7].
 - **4th January**: Attended CoDS COMAD 2020 in ISB Hyderabad with ACM travel grant.
 
 **2019**
@@ -73,8 +73,8 @@ layout: page
 - **24th July**: Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI in Delhi. 
 - **1st March**: Joined IIT Gandhinagar as a Research Assistant.
 
-<div style="margin-top: 80px"></div>
 
+<div style="margin-top: 80px"></div>
 ##### **Teaching**
 
 - Teaching Assistant and Guest Lecturer For [Operating Systems](https://nipunbatra.github.io/os2020/) (Fall 2020 CS301)
@@ -96,6 +96,9 @@ layout: page
 [2]:{{ site.url }}/downloads/machine-language-c.pdf
 [3]:{{ site.url }}/downloads/machine-language-c-2020.pdf
 [4]:{{ site.url }}/downloads/poster-aiims.pdf
+[5]:{{ site.url }}/downloads/publications/2020_Ubicomp_Breathe_Poster.pdf
+[6]:{{ site.url }}/downloads/publications/2020_Ubicomp_Breathe_Poster.pdf
+[7]:{{ site.url }}/downloads/publications/Ubicomp-DC2020_Revised.pdf
 
 
 <script>
