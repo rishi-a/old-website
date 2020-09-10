@@ -60,8 +60,8 @@ layout: page
 
 ##### **Updates**
 **2020**
-- **28th July**: Two posters/short papers got accepted at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020). [Paper 1][5], [Paper 2][6] 
-- **25th July**: Position Paper got accepted for presentation at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020) Doctoral Colloquium. [Paper][7].
+- **28th July**: Two posters/short papers got accepted at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020).
+- **25th July**: Position Paper got accepted for presentation at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020)
 - **4th January**: Attended CoDS COMAD 2020 in ISB Hyderabad with ACM travel grant.
 
 **2019**
