@@ -73,6 +73,8 @@ layout: page
 - **24th July**: Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI in Delhi. 
 - **1st March**: Joined IIT Gandhinagar as a Research Assistant.
 
+<div style="margin-top: 80px"></div>
+
 
 <div style="margin-top: 80px"></div>
 ##### **Teaching**
