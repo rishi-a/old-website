@@ -7,12 +7,22 @@ permalink: /publications/
 title: Publications
 
 ---
+<style type="text/css">
+	
+	a {
+		color: #626964
+	}
+	a:visited {
+		color: #626964
+	}
+
+</style>
 
 ###### **Publications**
 
-- <span style="color:#626964"><b>Naqaab: Towards health sensing and persuasion via masks</b></span><br>Rishiraj Adhikary, Tanmay Srivastava, Prerna Khanna, Aabhas Senapati, Nipun Batra. <br>In UbiComp/ISWC 2020
-- <span style="color:#626964"><b>[Do We Breathe The Same Air?][1]</b></span><br>Rishiraj Adhikary, Nipun Batra <br>In UbiComp/ISWC 2020
-- <span style="color:#626964"><b>[Computational Tools for Understanding Air Pollution][2]</b></span><br>Rishiraj Adhikary, Nipun Batra <br>In UbiComp/ISWC 2020
+- <span style="color:#626964; text-decoration:underline;"><b>Naqaab: Towards health sensing and persuasion via masks[3]</b></span> [[Video](https://www.youtube.com/watch?v=r1itT2J1iks)]<br>Rishiraj Adhikary, Tanmay Srivastava, Prerna Khanna, Aabhas Senapati, Nipun Batra. <br>In UbiComp/ISWC 2020
+- <span style="color:#626964; text-decoration:underline;"><b>[Do We Breathe The Same Air?][1]</b></span> [[Video](https://www.youtube.com/watch?v=eRHxXTMms3w)]<br>Rishiraj Adhikary, Nipun Batra <br>In UbiComp/ISWC 2020
+- <span style="color:#626964; text-decoration:underline;"><b>[Computational Tools for Understanding Air Pollution][2]</b></span><br>Rishiraj Adhikary, Nipun Batra <br>In UbiComp/ISWC 2020
 
 [1]:{{ site.url }}/downloads/publications/2020_Ubicomp_Breathe_Poster.pdf
 [2]:{{ site.url }}/downloads/publications/Ubicomp-DC2020_Revised.pdf
