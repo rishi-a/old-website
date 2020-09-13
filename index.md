@@ -29,7 +29,7 @@ layout: page
 	  	}
 	  	.pad-2 {
 	   		 padding:10px;
-	   		 border-radius: 8%
+	   		 border-radius: 50%
 	  	}
 
   	}
@@ -40,7 +40,7 @@ layout: page
 	  	}
 	  	.pad-2 {
 	   		 padding-left:10px; padding-right: 10px;
-	   		 border-radius: 8%
+	   		 border-radius: 50%
 	  	}
   	
 	}
@@ -53,7 +53,7 @@ layout: page
 
 ##### **About Me**
 
-<img class="pad-2" align="right" width="150" height="150" src="/images/RISHIRAJ.jpg">
+<img class="pad-2" align="right" width="110" height="110" src="/images/RISHIRAJ.jpg">
 <!--<img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
 -->I'm a Ph.D. student  in  IIT Gandhinagar, and I'm supervised by **[Prof. Nipun Batra](http://nipunbatra.github.io)**. I'm interested in developing computational tools for Air Pollution using Machine Learning and IoT. I did my schooling from Shillong and grew up there, although I was born in Assam.
 
