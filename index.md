@@ -63,8 +63,10 @@ layout: page
 
 ##### **Updates**
 **2020**
-- **28th July**: Two posters/short papers got accepted at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020).
-- **25th July**: Position Paper got accepted for presentation at [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020)
+- **20th October**: Deployment paper got accepted in the 3rd workshop on [DATA'20](https://workshopdata.github.io/DATA2020/)
+- **14th October**: Poster abstract got accepted in [Sensys 2020](http://sensys.acm.org/2020/)
+- **28th July**: Two posters/short papers got accepted in [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020).
+- **25th July**: Position Paper got accepted for presentation in [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020)
 - **4th January**: Attended CoDS COMAD 2020 in ISB Hyderabad with ACM travel grant.
 
 **2019**
