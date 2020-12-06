@@ -81,73 +81,33 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <h5>The idea is to generate summaries for each facet. Then combine these summaries to develop the full summary of a research paper</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
           <div class="card mb-4 shadow-sm">
+            
+            <img src="images/NLPProject.png" class="card-img-top" alt="...">
+            <!--
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
             <div class="card-body">
-              <p class="card-text">The figure above shows the summarisation technique using linear regression</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">9 mins</small>
-              </div>
+            -->
+            
+              <p class="card-text" style="text-align: center;"><strong>The figure above shows the approach of summarisation of a facet using linear regression</strong></p>
+              
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <h5>Pivot words for each facets from the entire training set</h5>
-          <hr>
-        </div>
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">[ Facets ]</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Method</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Result</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Aim</a>
-          </div>
-        </div>
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-              <p>
-                Select a facet on the left to view its pivot words.
-                
-              </p>
-            </div>
-            <div class="tab-pane fade show" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-              <p>
-                build,segmentation,representations,representation,gender,100,confidence,
-                manual,matching,role,etc,propose,selection,ranked,pair,lists,unsupervised,
-                roles,assignments,success,drawn,combining,coreference,mention,antecedent,contextual,
-                keyword,babar,anaphor,transliteration,foma,drss,iob,dictionary-based,zone,initcaps,wfst
-              </p>
-            </div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-              <p>
-                _PAD,syntactic,existing,parsing,show,arabic,treebank,remains,settings,gold,segmentation,
-                performance,f1,easily,morphology,collins,dependency,2004,investigate,major,variety,vp,sbar,
-                shows,gender,np,parser,level,≤,70,lengths,phrasal,rate,23,dev,german,rates,label,chunking,tree,
-                errors,95,confidence,increased,recent,heuristics,parse,next,pp,berkeley,parts,able,r,07,08,99,72,29,
-                maximum,response,discussion,adjp,achieves,tagging,dependencies,13,
-              </p>   
-            </div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-              <p>
-                literature,arabic,grammar,build,application,linguistic,factors,1993,msa,representation,
-                influence,next,comparison,evaluate,knowledge,created,present,four,machine,corpora,whole,
-                paper,analyze,discourse,phrases,instead,new,propose,approach,1990,morphological,important,
-                method,n-grams,manual,recent,named,entities,give,role,texts,another,include,processing,
-                estimated,chose,goal,condition,comparable,question-focused,retrieval,understanding,importance,
-                topic-sensitive,hypothesize,states,ofthe,lexrank,applied,considers,selection,1992
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
+        <br><br>
 
+      </div>
+
+      <div class="container">
+        
       <div class="row">
         <div class="col-12">
-          <h5>Summaries for each facets from a particular research paper [N09-1001]</h5>
+          <h5>Summaries for each facets from a particular research paper <span class="badge badge-secondary">[N09-1001]</span></h5>
           <hr>
         </div>
         <div class="col-4">
@@ -183,29 +143,207 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-6">
-          <hr>
-          <div class="card text-white bg-success mb-3">
-            <div class="card-header">Paper ID: N09-1001</div>
-            <div class="card-body">
-              <h5 class="card-title">Generated Summary [N09-1001]</h5>
-              <p class="card-text" style="text-align: justify;">We propose a semi-supervised minimum cut framework that makes use of both WordNet definitions and its relation structure. This is important as the problem of subjectivity-ambiguity is frequent: We (Su and Markert, 2008) find that over 30% of words in our dataset are subjectivity-ambiguous. Qc 2009 Association for Computational Linguistics We propose a semi-supervised approach based on minimum cut in a lexical relation graph to assign subjectivity (subjective/objective) labels to word senses.2 Our algorithm outperforms supervised minimum cuts and standard supervised, non-graph classification algorithms (like SVM), reducing the error rate by up to 40%. Section 3 describes our proposed semi-supervised minimum cut framework in detail. There has been a large and diverse body of research in opinion mining, with most research at the text (Pang et al., 2002; Pang and Lee, 2004; Popescu and Etzioni, 2005; Ounis et al., 2006), sentence (Kim and Hovy, 2005; Kudo and Matsumoto, 2004; Riloff et al., 2003; Yu and Hatzivassiloglou, 2003) or word (Hatzivassiloglou and McKeown, 1997; Turney and Littman, 2003; Kim and Hovy, 2004; Takamura et al., 2005; Andreevskaia and Bergler, 2006; Kaji and Kitsuregawa, 2007) level.</p>
+      <br><br>
+      <div class="row">
+        <div class="col-12">
+          <h5>Click below to display and compare summaries</h5>
+          <a class="btn btn-primary" data-toggle="collapse" href="#n09001" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Paper: N09-1001
+          </a>
+          <a class="btn btn-primary" data-toggle="collapse" href="#n091025" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Paper: N09-1025
+          </a>
+          <a class="btn btn-primary" data-toggle="collapse" href="#c981097" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Paper: C98-1097
+          </a>
+        </div>
+      </div>
+
+      <div class="collapse" id="n09001">
+        <div class="row">       
+          <div class="col-6">
+            <hr>
+            <div class="card text-white bg-success mb-3">
+              <div class="card-header">Paper ID: N09-1001</div>
+              <div class="card-body">
+                <h5 class="card-title">Generated Summary [N09-1001]</h5>
+                <p class="card-text" style="text-align: justify;">We propose a semi-supervised minimum cut framework that makes use of both WordNet definitions and its relation structure. This is important as the problem of subjectivity-ambiguity is frequent: We (Su and Markert, 2008) find that over 30% of words in our dataset are subjectivity-ambiguous. Qc 2009 Association for Computational Linguistics We propose a semi-supervised approach based on minimum cut in a lexical relation graph to assign subjectivity (subjective/objective) labels to word senses.2 Our algorithm outperforms supervised minimum cuts and standard supervised, non-graph classification algorithms (like SVM), reducing the error rate by up to 40%. Section 3 describes our proposed semi-supervised minimum cut framework in detail. There has been a large and diverse body of research in opinion mining, with most research at the text (Pang et al., 2002; Pang and Lee, 2004; Popescu and Etzioni, 2005; Ounis et al., 2006), sentence (Kim and Hovy, 2005; Kudo and Matsumoto, 2004; Riloff et al., 2003; Yu and Hatzivassiloglou, 2003) or word (Hatzivassiloglou and McKeown, 1997; Turney and Littman, 2003; Kim and Hovy, 2004; Takamura et al., 2005; Andreevskaia and Bergler, 2006; Kaji and Kitsuregawa, 2007) level.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <hr>
+            <div class="card text-white bg-dark mb-3">
+              <div class="card-header">Paper ID: N09-1001</div>
+              <div class="card-body">
+                <h5 class="card-title">Community Summary</h5>
+                <p class="card-text" style="text-align: justify;">
+                  We supplement WordNet entries with information on the subjectivity of its word senses. We propose a semi-supervised minimum cut framework that makes use of both WordNet definitions and its relation structure. Qc 2009 Association for Computational Linguistics We propose a semi-supervised approach based on minimum cut in a lexical relation graph to assign subjectivity (subjective/objective) labels to word senses.2 Our algorithm outperforms supervised minimum cuts and standard supervised, non-graph classification algorithms (like SVM), reducing the error rate by up to 40%. Also, WordNet connections between different parts of the WordNet hierarchy can also be sparse, leading to relatively isolated senses in a graph in a supervised framework. Semi-supervised Mincuts allow us to import unlabeled data that can serve as bridges to isolated components. More importantly, as the unlabeled data can be chosen to be related to the labeled and test data, they might help pull test data to the right cuts (categories). We propose semi-supervised mincuts for subjectivity recognition on senses for several reasons. "We define two vertices s (source) and t (sink),which correspond to the “subjective” and “objective” category, respectively. Following the definition in Blum and Chawla (2001), we call the vertices s and t classification vertices, and all other vertices (labeled, test, and unlabeled data) example vertices. Each example vertex corresponds to one WordNet sense and is connected to both s and t via a weighted edge. Assigning weights to WordNet relations: We connect two vertices that are linked by one of the ten WordNet relations in Table 1 via an edge. Not all WordNet relations we use are subjectivity- preserving to the same degree: for example, hyponyms (such as simpleton) of objective senses (such as person) do not have to be objective. However, we aim for high graph connectivity and we can assign different weights to different relations 4 We employ LIBSVM, available at http://www.csie.. We conduct the experiments on two different gold standard datasets. One is the MicroWNOp corpus, ntu.edu.tw/˜cjlin/libsvm/. It includes 298 words with 703 objective and 358 subjective WordNet senses. Our best result from Mincuts is significantly better at 84.6% (see LRMSL in Table 2). 
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <hr>
-          <div class="card text-white bg-dark mb-3">
-            <div class="card-header">Paper ID: N09-1001</div>
-            <div class="card-body">
-              <h5 class="card-title">Dark card title</h5>
-              <p class="card-text" style="text-align: justify;">
-                We supplement WordNet entries with information on the subjectivity of its word senses. We propose a semi-supervised minimum cut framework that makes use of both WordNet definitions and its relation structure. Qc 2009 Association for Computational Linguistics We propose a semi-supervised approach based on minimum cut in a lexical relation graph to assign subjectivity (subjective/objective) labels to word senses.2 Our algorithm outperforms supervised minimum cuts and standard supervised, non-graph classification algorithms (like SVM), reducing the error rate by up to 40%. Also, WordNet connections between different parts of the WordNet hierarchy can also be sparse, leading to relatively isolated senses in a graph in a supervised framework. Semi-supervised Mincuts allow us to import unlabeled data that can serve as bridges to isolated components. More importantly, as the unlabeled data can be chosen to be related to the labeled and test data, they might help pull test data to the right cuts (categories). We propose semi-supervised mincuts for subjectivity recognition on senses for several reasons. "We define two vertices s (source) and t (sink),which correspond to the “subjective” and “objective” category, respectively. Following the definition in Blum and Chawla (2001), we call the vertices s and t classification vertices, and all other vertices (labeled, test, and unlabeled data) example vertices. Each example vertex corresponds to one WordNet sense and is connected to both s and t via a weighted edge. Assigning weights to WordNet relations: We connect two vertices that are linked by one of the ten WordNet relations in Table 1 via an edge. Not all WordNet relations we use are subjectivity- preserving to the same degree: for example, hyponyms (such as simpleton) of objective senses (such as person) do not have to be objective. However, we aim for high graph connectivity and we can assign different weights to different relations 4 We employ LIBSVM, available at http://www.csie.. We conduct the experiments on two different gold standard datasets. One is the MicroWNOp corpus, ntu.edu.tw/˜cjlin/libsvm/. It includes 298 words with 703 objective and 358 subjective WordNet senses. Our best result from Mincuts is significantly better at 84.6% (see LRMSL in Table 2). 
-              </p>
+      </div>
+
+      <div class="collapse" id="n091025">
+        <div class="row">       
+          <div class="col-6">
+            <hr>
+            <div class="card text-white bg-success mb-3">
+              <div class="card-header">Paper ID: N09-1025</div>
+              <div class="card-body">
+                <h5 class="card-title">Generated Summary</h5>
+                <p class="card-text" style="text-align: justify;">We add more than 250 features to improve a syntax- based MT system—already the highest-scoring single system in the NIST 2008 ChineseEnglish common-data track—by +1.1 B. We also add more than 10,000 features to Hiero (Chiang, 2005) and obtain a +1.5 B improvement. Our results add to a growing body of evidence (Watanabe et al., 2007; Chiang et al., 2008) that MIRA is preferable to MERT across languages and systems, even for very large-scale tasks. Others have introduced alternative discriminative training methods (Tillmann and Zhang, 2006; Liang et al., 2006; Turian et al., 2007; Blunsom et al., 2008; Macherey et al., 2008), in which a recurring challenge is scal- ability: to train many features, we need many train 218 Human Language Technologies: The 2009 Annual Conference of the North American Chapter of the ACL, pages 218–226, Boulder, Colorado, June 2009. Another line of research (Watanabe et al., 2007; Chiang et al., 2008) tries to squeeze as many features as possible from a relatively small dataset. Hiero (Chiang, 2005) is a hierarchical, string-to- string translation system. We incorporate all our new features into a linear model (Och and Ney, 2002) and train them using MIRA (Crammer et al., 2006), following previous work (Watanabe et al., 2007; Chiang et al., 2008). Following Chiang et al. We implemented the source-side context features for Hiero and the target-side syntax features for the syntax-based system, and the discount features for both.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <hr>
+            <div class="card text-white bg-dark mb-3">
+              <div class="card-header">Paper ID: N09-1025</div>
+              <div class="card-body">
+                <h5 class="card-title">Community Summary</h5>
+                <p class="card-text" style="text-align: justify;">
+                  We add more than 250 features to improve a syntax- based MT system—already the highest-scoring single system in the NIST 2008 ChineseEnglish common-data track—by +1.1 B. We also add more than 10,000 features to Hiero (Chiang, 2005) and obtain a +1.5 B improvement. Our results add to a growing body of evidence (Watanabe et al., 2007; Chiang et al., 2008) that MIRA is preferable to MERT across languages and systems, even for very large-scale tasks. Another line of research (Watanabe et al., 2007; Chiang et al., 2008) tries to squeeze as many features as possible from a relatively small dataset. Hiero (Chiang, 2005) is a hierarchical, string-to- string translation system. Two of the features are n-gram language models, which require intersecting the synchronous CFG with finite-state automata representing the language models. This grammar can be parsed efficiently using cube pruning (Chiang, 2007). We incorporate all our new features into a linear model (Och and Ney, 2002) and train them using MIRA (Crammer et al., 2006), following previous work (Watanabe et al., 2007; Chiang et al., 2008). Following Chiang et al. (2008), we calculate the sentence Bscores in (1), (2), and (3) in the context of some previous 1-best translations. 
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="collapse" id="c981097">
+        <div class="row">       
+          <div class="col-6">
+            <hr>
+            <div class="card text-white bg-success mb-3">
+              <div class="card-header">Paper ID: C98-1097</div>
+              <div class="card-body">
+                <h5 class="card-title">Generated Summary</h5>
+                <p class="card-text" style="text-align: justify;">The lexical cohesion relations of reiteration and collocation are used to identify related words. These relations are automatically located using a combination of three linguistic features: word repetition, collocation and relation weights. Segmenting such data into distinct topics is useful for information retrieval, where only those segments relevant to a user's query can be retrieved. Another approach to text segmentation is the detection of semantically related words. Another approach extracted semantic information from Roget's Thesaurus (RT). Lexical cohesion relations (Halliday and Hasan, 1976) between words were identified in RT and used to construct lexical chains of related words in five texts (Morris and Hirst, 1991 ). In previous work, it was found that collocation (a lexical cohesion relation) was under-represented in the thesaurus. Following Morris and Hirst's work, a segmentation algorithm was developed based on identifying lexical cohesion relations across a text. This algorithm utilises linguistic features additional to those captured in the thesaurus to identify the other types of lexical cohesion relations that can exist in text. Lexical cohesion is expressed through the vocabulary used in text and the semantic relations between those words. To automatically detect lexical cohesion tics between pairwise words, three linguistic features were considered: word repetition, collocation and relation weights. These types can be identified using relation weights (Jobbins and Evett, 1998). Relation Weights: Relation weights quantify the amount of semantic relation between words based on the lexical organisation of RT (Jobbins and Evett, 1995).</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <hr>
+            <div class="card text-white bg-dark mb-3">
+              <div class="card-header">Paper ID: C98-1097</div>
+              <div class="card-body">
+                <h5 class="card-title">Community Summary</h5>
+                <p class="card-text" style="text-align: justify;">
+                  The Wall Street Journal archives, for example, consist of a series of articles about different subject areas. Segmenting such data into distinct topics is useful for information retrieval, where only those segments relevant to a user&apos;s query can be retrieved. Another approach extracted semantic information from Roget&apos;s Thesaurus (RT). Lexical cohesion is expressed through the vocabulary used in text and the semantic relations between those words. Identifying semantic relations in a text can be a useful indicator of its conceptual structure. Reiteration is subdivided into four cohesive effects: word repetition (e.g. ascent and ascent), synonym (e.g. ascent and climb) which includes near-synonym and hyponym, superordinate (e.g. ascent and task) and general word (e.g. ascent and thing). To automatically detect lexical cohesion tics between pairwise words, three linguistic features were considered: word repetition, collocation and relation weights. Word repetition is a component of the lexical cohesion class of reiteration, and collocation is a lexical cohesion class in its entirety. Word repetition: Word repetition ties in lexical cohesion are identified by same word matches and matches on inflections derived from the same stem. The proposed segmentation algorithm compares adjacent windows of sentences and determines their lexical similarity. Both word repetition in combination with collocation and all three features in combination also achieved a precision rate of 0.80 but attained a lower recall rate of 0.62. The combination of features word repetition and relation weights produced the best precision and recall rates of 0.80 and 0.69. When used in isolation, the performance of each feature was inferior to a combined approach. This fact provides evidence that different lexical relations are detected by each linguistic feature considered. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="row">
+          <hr>
+          <div class="col-12">
+            <br>
+            <h5>Pivot words for each facets from the entire training set</h5>
+            <hr>
+          </div>
+        </div>
+      <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">[ Facets ]</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Method</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Result</a>
+              <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Aim</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <p>
+                  Select a facet on the left to view its pivot words.
+                  
+                </p>
+              </div>
+              <div class="tab-pane fade show" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <p>
+                  build,segmentation,representations,representation,gender,100,confidence,
+                  manual,matching,role,etc,propose,selection,ranked,pair,lists,unsupervised,
+                  roles,assignments,success,drawn,combining,coreference,mention,antecedent,contextual,
+                  keyword,babar,anaphor,transliteration,foma,drss,iob,dictionary-based,zone,initcaps,wfst
+                </p>
+              </div>
+              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <p>
+                  _PAD,syntactic,existing,parsing,show,arabic,treebank,remains,settings,gold,segmentation,
+                  performance,f1,easily,morphology,collins,dependency,2004,investigate,major,variety,vp,sbar,
+                  shows,gender,np,parser,level,≤,70,lengths,phrasal,rate,23,dev,german,rates,label,chunking,tree,
+                  errors,95,confidence,increased,recent,heuristics,parse,next,pp,berkeley,parts,able,r,07,08,99,72,29,
+                  maximum,response,discussion,adjp,achieves,tagging,dependencies,13,
+                </p>   
+              </div>
+              <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <p>
+                  literature,arabic,grammar,build,application,linguistic,factors,1993,msa,representation,
+                  influence,next,comparison,evaluate,knowledge,created,present,four,machine,corpora,whole,
+                  paper,analyze,discourse,phrases,instead,new,propose,approach,1990,morphological,important,
+                  method,n-grams,manual,recent,named,entities,give,role,texts,another,include,processing,
+                  estimated,chose,goal,condition,comparable,question-focused,retrieval,understanding,importance,
+                  topic-sensitive,hypothesize,states,ofthe,lexrank,applied,considers,selection,1992
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <br>
+
       </div>
       <br>
 
