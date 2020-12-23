@@ -63,6 +63,7 @@ layout: page
 
 ##### **Updates**
 **2020**
+- **23rd December**: Journal paper titled, "Vartalaap: What Drives #AirQuality Discussions: Politics,Pollution or Pseudo-science?" accepted in CSCW 2021
 - **20th October**: Deployment paper got accepted in the 3rd workshop on [DATA'20](https://workshopdata.github.io/DATA2020/)
 - **14th October**: Poster abstract got accepted in [Sensys 2020](http://sensys.acm.org/2020/)
 - **28th July**: Two posters/short papers got accepted in [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020).
