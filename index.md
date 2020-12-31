@@ -63,7 +63,7 @@ layout: page
 
 ##### **Updates**
 **2020**
-- **23rd December**: Journal paper titled, "Vartalaap: What Drives #AirQuality Discussions: Politics,Pollution or Pseudo-science?" accepted in CSCW 2021
+- **23rd December**: Journal paper titled, "*Vartalaap: What Drives #AirQuality Discussions: Politics,Pollution or Pseudo-science?*" accepted in [CSCW 2021](https://cscw.acm.org/2021/)
 - **20th October**: Deployment paper got accepted in the 3rd workshop on [DATA'20](https://workshopdata.github.io/DATA2020/)
 - **14th October**: Poster abstract got accepted in [Sensys 2020](http://sensys.acm.org/2020/)
 - **28th July**: Two posters/short papers got accepted in [Ubicomp/ISWC 2020](http://ubicomp.org/ubicomp2020).
@@ -98,7 +98,7 @@ layout: page
 - <span class="cat">**January'16**: Front End Web Dev. For, [EODB](http://eodbassam.in), Guwahati, Assam</span>
 - <span class="cat">**July'16**: Contract Worker for front-end web technologies. *Multiple Organizations*</span>
 - <span class="cat">**August'18**: Research and Teaching Assistant, IIIT- Sricity</span>
-- <span class="cat">**March'19**: Junior Research Fellow, IIT-GN</span>
+- <span class="cat">**March'19**: Junior Research Fellow, IIT-Gandhinagar</span>
 
 [1]:{{ site.url }}/downloads/free-space-management-1.pdf
 [2]:{{ site.url }}/downloads/machine-language-c.pdf
