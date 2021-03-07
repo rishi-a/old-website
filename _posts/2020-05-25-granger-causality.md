@@ -402,7 +402,7 @@ for i in [1,2,3,4,5,6,7,8,9,10,11,12]:
       ' ignored when e.g. forecasting.', ValueWarning)
     
 
-**Result**: The lag-order p = 8 on the basis of Akaike Information Criterion (AIC)
+**Result**: The lag-order p = 2 on the basis of Akaike Information Criterion (AIC)
 
 **Step 5**: Make sure that the VAR is well-specified. For example, ensure that there is no serial correlation in the residuals. If need be, increase p until any autocorrelation issues are resolved.
 
@@ -458,7 +458,7 @@ print(result)
 
 **Step 8**: Now take the preferred VAR model and add in m additional lags of each of the variables into each of the equations.
 
-Interesting, now here I will re-fit the VAR model using train data with a lag of 8 + 1. Recall that m = 1 in our case
+
 
 
 ```python
@@ -513,7 +513,7 @@ o = grangers_causation_matrix(train, variables = train.columns)
 o
 ```
 
-
+<p>Thank to Anmol Agarwal (BITS PILANI) for pointing out the typographical errors in this blog. </p>
 
 
 <div>
