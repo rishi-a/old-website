@@ -513,7 +513,7 @@ o = grangers_causation_matrix(train, variables = train.columns)
 o
 ```
 
-<p>Thank to Anmol Agarwal (BITS PILANI) for pointing out the typographical errors in this blog. </p>
+
 
 
 <div>
@@ -592,3 +592,4 @@ with open('gc-p-value.pickle', 'wb') as handle:
 
 <img src="/images/output_44_0.png">
 
+<p>Thank to Anmol Agarwal (BITS PILANI) for pointing out the typographical errors in this blog. </p>
