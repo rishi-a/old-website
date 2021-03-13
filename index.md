@@ -64,6 +64,7 @@ layout: page
 ##### **Updates**
 **2021**
 - **12th March:** Done with PhD qualifying examinations!
+
 **2020**
 - **23rd December**: Journal paper titled, "*Vartalaap: What Drives #AirQuality Discussions: Politics,Pollution or Pseudo-science?*" accepted in [CSCW 2021](https://cscw.acm.org/2021/)
 - **20th October**: Deployment paper got accepted in the 3rd workshop on [DATA'20](https://workshopdata.github.io/DATA2020/)
