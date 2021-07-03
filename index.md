@@ -63,6 +63,7 @@ layout: page
 
 ##### **Updates**
 **2021**
+- **3rd July:** I will be serving as a Student Volunteer for [UbiComp'21](https://ubicomp.org/ubicomp2021/)!
 - **9th April:** Gave an expert talk on "*Mobile Computing In Health*" during GUJCOST sponsored 3-day workshop on "IoT and Wearable Technology." at [SCET](https://scet.ac.in/) - Feedback From Participants-: [Picture 1](/images/yay.png), [Picture 2](/images/feedback-scet.png)
 - **22nd March:** Member of Shadow Program Committee at [ACM COMPASS](https://compass.acm.org/) 
 - **12th March:** Done with PhD qualifying examinations!
