@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "What does the order of a filter do?"
+date:   2021-07-03 13:00:00 +0530
+categories: 
+---
 ## What does the order of a filter do?
 
 One of the essential steps in signal processing is getting rid of unwanted noise from the signal. A signal could be composed of multiple frequency components. Real-life signal (signals from audio, video etc.) consists of various frequencies. 
