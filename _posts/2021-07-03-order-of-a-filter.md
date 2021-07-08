@@ -140,7 +140,7 @@ ax.set_title('Spectrum of the noisy signal');
 ```
 
 
-![png](..\images\2021-07-03\output_8_0.png)
+![png](..\..\..\images\2021-07-03\output_8_0.png)
 
 
 In the plot above, we observe that the noisy signal consists of 50 Hz, 70 Hz and 150 Hz. Now, our objective is to design a filter to get rid of any frequency components other than 50 Hz (the frequency of the clean signal)
