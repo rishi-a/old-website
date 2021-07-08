@@ -123,7 +123,7 @@ plt.show();
 ```
 
 
-![png](output_6_0.png)
+![png](..\images\2021-07-03\output_6_0.png)
 
 
 Our objective is to eliminate the noise from the noisy signal and restore it to the original (Clean) signal. We will first investigate what frequency components are present in the noisy signal. 
@@ -140,7 +140,7 @@ ax.set_title('Spectrum of the noisy signal');
 ```
 
 
-![png](output_8_0.png)
+![png](..\images\2021-07-03\output_8_0.png)
 
 
 In the plot above, we observe that the noisy signal consists of 50 Hz, 70 Hz and 150 Hz. Now, our objective is to design a filter to get rid of any frequency components other than 50 Hz (the frequency of the clean signal)
@@ -223,7 +223,7 @@ ax[1,1].legend();
 ```
 
 
-![png](output_15_0.png)
+![png](..\images\2021-07-03\output_15_0.png)
 
 
 The frequency response of the filter is far from idle. As we can see in the top right plot, frequencies beyond 50 Hz will still appear in the signal, although with lower amplitude. Consequently, the filtered signal in the bottom right plot hardly looks like the original signal. Also, observe the black dot in the top right plot. It shows the magnitude at 50 Hz and the same magnitude is observed in the frequency response of the filtered signal (bottom left plot)
@@ -282,7 +282,7 @@ ax[1,1].legend();
 ```
 
 
-![png](output_17_0.png)
+![png](..\images\2021-07-03\output_17_0.png)
 
 
 The frequency response with an order 5 filter is better relative to order 1. The frequency response at 150 Hz is almost 0. But we still have a significant amplitude at the frequency of 70 Hz. We will again increase the order and try to minimize the magnitude of 70 Hz component.
@@ -336,7 +336,7 @@ ax[1,1].legend();
 ```
 
 
-![png](output_19_0.png)
+![png](..\images\2021-07-03\output_19_0.png)
 
 
 With an order 7 filter, the magnitude of frequency at 70 Hz is much lower compared to the fundamental frequency of 50 Hz.
@@ -356,7 +356,7 @@ ax.set_title('Audio Signal');
 ```
 
 
-![png](output_22_0.png)
+![png](..\images\2021-07-03\output_22_0.png)
 
 
 Below, we can hear the raw signal as recorded by a smartphone microphone
@@ -390,7 +390,7 @@ ax.set_title('Frequency Response of the combined signal');
 ```
 
 
-![png](output_25_0.png)
+![png](..\images\2021-07-03\output_25_0.png)
 
 
 As mentioned before, we will filter all frequency less than 1024 Hz. It will also remove the large DC component that appears in the plot above.
@@ -444,7 +444,7 @@ ax[1,1].set_ylim([0,0.009]);
 ```
 
 
-![png](output_28_0.png)
+![png](..\images\2021-07-03\output_28_0.png)
 
 
 Listen to the audio signal filtered using order 1 filter. 
@@ -505,7 +505,7 @@ ax[1,1].set_ylim([0,0.009]);
 ```
 
 
-![png](output_32_0.png)
+![png](..\images\2021-07-03\output_32_0.png)
 
 
 Listen to the audio signal filtered using order 5 filter.
