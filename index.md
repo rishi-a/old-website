@@ -55,7 +55,7 @@ layout: page
 
 <img class="pad-2" align="right" width="110" height="110" src="/images/RISHIRAJ.jpg">
 <!--<img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
--->I’m a Ph.D. student at the Computer Science Engineering discipline of [IIT Gandhinagar](https://iitgn.ac.in/), and [Prof. Nipun Batra](https://nipunbatra.github.io/) supervises me.  My research interest is in Ubiquitous Computing. My current focus is designing wearables that measure health parameters and exposure to air pollutions.  I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam.
+-->I’m a Ph.D. student and a Prime Minister's Research Fellow (PMRF) at the Computer Science Engineering discipline of [IIT Gandhinagar](https://iitgn.ac.in/). [Prof. Nipun Batra](https://nipunbatra.github.io/) supervises me.  My research interest is in Ubiquitous Computing. My current focus is designing wearables that measure health parameters and exposure to air pollutions. I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam. 
 
 
 
@@ -63,7 +63,9 @@ layout: page
 
 ##### **Updates**
 **2021**
+- **22nd October:** Got selected as a **Prime Minister's Research Fellow** ([PMRF](https://pmrf.in/))
 - **13th September:** Our [article](https://nipunbatra.github.io/hmm/) on Hidden Markov Model got accepted in the IEEE [VISxAI](https://visxai.io/) workshop 2021. 
+- **14th August:** I'm serving as a member of the program committee (PC) in the 4th workshop on [Data: Acquisition to Analysis](https://data-workshop.github.io/DATA2021/)
 - **3rd July:** I will be serving as a Student Volunteer for [UbiComp'21](https://ubicomp.org/ubicomp2021/)!
 - **9th April:** Gave an expert talk on "*Mobile Computing In Health*" during GUJCOST sponsored 3-day workshop on "IoT and Wearable Technology." at [SCET](https://scet.ac.in/) - Feedback From Participants-: [Picture 1](/images/yay.png), [Picture 2](/images/feedback-scet.png)
 - **22nd March:** Member of Shadow Program Committee at [ACM COMPASS](https://compass.acm.org/) 
