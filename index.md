@@ -64,6 +64,9 @@ I'm looking to work in Human-Computer Interaction, Ubiquitous Computing, Sensor-
 <div style="margin-top: 50px"></div>
 
 ##### **Updates**
+**2022**
+- **April 26:** Paper titled, "*Samachar: Print News Media on Air Pollution in India*" accepted in [ACM COMPASS'22](https://compass.acm.org/)
+
 **2021**
 - **22nd October:** Got selected as a **Prime Minister's Research Fellow** ([PMRF](https://pmrf.in/))
 - **13th September:** Our [article](https://nipunbatra.github.io/hmm/) on Hidden Markov Model got accepted in the IEEE [VISxAI](https://visxai.io/) workshop 2021. 
