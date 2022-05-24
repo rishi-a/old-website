@@ -26,6 +26,10 @@ I have received both PMRF and Fulbright fellowships during my PhD tenure. I’m 
 <img  class="center" src="/images/media-news/indian-express-fulright.png">
 
 <br>
+[Ahemdabad Mirror on 24 May 2022](https://ahmedabadmirror.com/iitgns-phd-scholar-awarded-fellowship/81833150.html)
+<img  class="center" src="/images/media-news/ahmedabad-mirror-fulright.png">
+
+<br>
 [Education Diary on 20 May 2022](https://indiaeducationdiary.in/iit-gandhinagar-phd-scholar-bags-the-prestigious-fulbright-nehru-doctoral-research-fellowship-2022-23/)
 <img  class="center" src="/images/media-news/education-diary-fulright.png">
 
