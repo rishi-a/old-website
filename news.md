@@ -22,6 +22,11 @@ title: Media Coverage
 I have received both PMRF and Fulbright fellowships during my PhD tenure. I’m grateful to my supervisor, IIT Gandhinagar, my parents and all collaborators for these achievements.
 <br>
 ### **Fulbright Nehru Fellowship**
+[The Education Time on 25 May 2022](https://www.educationtimes.com/article/scholarships/91766182/cross-domain-knowledge-helped-phd-student-get-fullbright-nehru-doctoral-research-fellowship)
+<img  class="center" src="/images/media-news/educationtimes-fulbright.png">
+
+
+<br>
 [The Indian Express on 21 May 2022](https://indianexpress.com/article/cities/ahmedabad/iitgn-phd-scholar-bags-fulbright-nehru-fellowship-7928541/)
 <img  class="center" src="/images/media-news/indian-express-fulright.png">
 
