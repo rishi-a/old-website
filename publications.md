@@ -19,6 +19,8 @@ title: Publications
 </style>
 
 ###### **Publications**
+- <span style="color:#626964; text-decoration:underline;"><b>Towards continous Respiration Rate Detection While Walking (pdf coming soon)</b></span><br>Rishiraj Adhikary, Aryan Varshney Nipun Batra<br>In UbiComp/ISWC 2022 
+- <span style="color:#626964; text-decoration:underline;"><b>[Samachar: Print News Media on Air Pollution in India][8]</b></span><br>Karm Patel, Rishiraj Adhikary, Zeel B Patel, Nipun Batra, Sarath Guttikunda<br>In ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies(COMPASS ‘22)
 - <span style="color:#626964; text-decoration:underline;"><b>[Exploring Hidden Markov Models][7]</b></span><br>Kukunuri Rithwik, Rishiraj Adhikary, Mahika Om Jaguste, Nipun Batra and Ashish Tendulkar<br>The 4th Workshop on
 Visualization for AI Explainability (VISxAI'21) 
 - <span style="color:#626964; text-decoration:underline;"><b>[Vartalaap: What Drives #AirQuality Discussions: Politics, Pollution or Pseudo-science?][6]</b></span><br>Rishiraj Adhikary, Zeel Patel, Tanmay Srivastava, Nipun Batra, Mayank Singh, Udit Bhatia and Sarath Guttikunda <br>The 24th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW'21) 
@@ -35,4 +37,6 @@ Visualization for AI Explainability (VISxAI'21)
 [5]:{{ site.url }}/downloads/publications/Covid-energy.pdf
 [6]:{{ site.url }}/downloads/publications/vartalaap.pdf
 [7]:{{ site.url }}https://nipunbatra.github.io/hmm/
+[8]:{{ site.url }}/downloads/publications/compass22-samachaar.pdf
+
 

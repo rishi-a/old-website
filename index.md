@@ -55,7 +55,7 @@ layout: page
 
 <img class="pad-2" align="right" width="110" height="110" src="/images/RISHIRAJ.jpg">
 <!--<img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
--->I’m a Ph.D. student and a Prime Minister's Research Fellow (PMRF) at the Computer Science Engineering discipline of [IIT Gandhinagar](https://iitgn.ac.in/). [Prof. Nipun Batra](https://nipunbatra.github.io/) supervises me.  My research interest is in Ubiquitous Computing. My current focus is designing wearables that measure health parameters and exposure to air pollutions. I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam. 
+-->I’m a Ph.D. student, a Fulbright Scholar and a Prime Minister's Research Fellow (PMRF) at the Computer Science Engineering discipline of [IIT Gandhinagar](https://iitgn.ac.in/). [Prof. Nipun Batra](https://nipunbatra.github.io/) supervises me.  My research interest is in Ubiquitous Computing. My current focus is designing wearables that measure health parameters and exposure to air pollutions. I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam. 
 
 <!--
 ##### **<span style="color: #f56607">Looking for research internship (May-July 2022)</span>**
@@ -66,6 +66,8 @@ I'm looking to work in Human-Computer Interaction, Ubiquitous Computing, Sensor-
 
 ##### **Updates**
 **2022**
+- **August 22** Short paper titled, "*Towards continous Respiration Rate Detection While Walking*" accepted in Ubicomp 2022
+- **August 22:** Joined Carnegie Mellon University as a visiting researher (**Fulbright Scholar**).
 - **April 26:** Paper titled, "*Samachar: Print News Media on Air Pollution in India*" accepted in [ACM COMPASS'22](https://compass.acm.org/)
 
 **2021**
