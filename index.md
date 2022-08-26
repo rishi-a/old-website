@@ -66,8 +66,8 @@ I'm looking to work in Human-Computer Interaction, Ubiquitous Computing, Sensor-
 
 ##### **Updates**
 **2022**
-- **August 22** Short paper titled, "*Towards continous Respiration Rate Detection While Walking*" accepted in Ubicomp 2022
-- **August 22:** Joined Carnegie Mellon University as a visiting researher (**Fulbright Scholar**).
+- **August 22** Short paper titled, "*Towards Continous Respiration Rate Detection While Walking*" accepted in Ubicomp 2022
+- **August 22:** Joined Carnegie Mellon University as a visiting researcher (**Fulbright Scholar**).
 - **April 26:** Paper titled, "*Samachar: Print News Media on Air Pollution in India*" accepted in [ACM COMPASS'22](https://compass.acm.org/)
 
 **2021**
