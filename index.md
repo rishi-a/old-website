@@ -42,7 +42,7 @@ layout: page
 	   		 padding-left:10px; padding-right: 10px;
 	   		 border-radius: 50%
 	  	}
-  	
+
 	}
 
 	#about-me, #teaching, #updates, #past-roles{
@@ -55,7 +55,7 @@ layout: page
 
 <img class="pad-2" align="right" width="110" height="110" src="/images/RISHIRAJ.jpg">
 <!--<img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
--->I’m a Ph.D. student, a Fulbright Scholar and a Prime Minister's Research Fellow (PMRF) at the Computer Science Engineering discipline of [IIT Gandhinagar](https://iitgn.ac.in/). [Prof. Nipun Batra](https://nipunbatra.github.io/) supervises me.  My research interest is in Ubiquitous Computing. My current focus is designing wearables that measure health parameters and exposure to air pollutions. I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam. 
+-->I’m a Ph.D. student, a Fulbright Scholar and a Prime Minister's Research Fellow (PMRF) at the Computer Science Engineering discipline of [IIT Gandhinagar](https://iitgn.ac.in/). [Prof. Nipun Batra](https://nipunbatra.github.io/) supervises me.  My research interest is in Ubiquitous Computing. My current focus is designing wearables that measure health parameters and exposure to air pollutions. I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam.
 
 <!--
 ##### **<span style="color: #f56607">Looking for research internship (May-July 2022)</span>**
@@ -66,17 +66,18 @@ I'm looking to work in Human-Computer Interaction, Ubiquitous Computing, Sensor-
 
 ##### **Updates**
 **2022**
-- **August 22** Short paper titled, "*Towards Continous Respiration Rate Detection While Walking*" accepted in Ubicomp 2022
+- **September 14** [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) officially ends. Grateful to be mentored by Josh Gordon from Google. Proposal can be found [here][8].
+- **August 22** Short paper titled, "*Towards Continuous Respiration Rate Detection While Walking*" accepted in Ubicomp 2022
 - **August 22:** Joined Carnegie Mellon University as a visiting researcher (**Fulbright Scholar**).
 - **April 26:** Paper titled, "*Samachar: Print News Media on Air Pollution in India*" accepted in [ACM COMPASS'22](https://compass.acm.org/)
 
 **2021**
 - **22nd October:** Got selected as a **Prime Minister's Research Fellow** ([PMRF](https://pmrf.in/))
-- **13th September:** Our [article](https://nipunbatra.github.io/hmm/) on Hidden Markov Model got accepted in the IEEE [VISxAI](https://visxai.io/) workshop 2021. 
+- **13th September:** Our [article](https://nipunbatra.github.io/hmm/) on Hidden Markov Model got accepted in the IEEE [VISxAI](https://visxai.io/) workshop 2021.
 - **14th August:** I'm serving as a member of the program committee (PC) in the 4th workshop on [Data: Acquisition to Analysis](https://data-workshop.github.io/DATA2021/)
 - **3rd July:** I will be serving as a Student Volunteer for [UbiComp'21](https://ubicomp.org/ubicomp2021/)!
 - **9th April:** Gave an expert talk on "*Mobile Computing In Health*" during GUJCOST sponsored 3-day workshop on "IoT and Wearable Technology." at [SCET](https://scet.ac.in/) - Feedback From Participants-: [Picture 1](/images/yay.png), [Picture 2](/images/feedback-scet.png)
-- **22nd March:** Member of Shadow Program Committee at [ACM COMPASS](https://compass.acm.org/) 
+- **22nd March:** Member of Shadow Program Committee at [ACM COMPASS](https://compass.acm.org/)
 - **12th March:** Done with PhD qualifying examinations!
 
 **2020**
@@ -93,7 +94,7 @@ I'm looking to work in Human-Computer Interaction, Ubiquitous Computing, Sensor-
 - **4th November**: Attended [AI For Social Good](https://sites.google.com/view/aiforsocialgoodworkshop/home) Workshop in Google Research Bangalore.
 - **22nd August**: Attended India Clean Air Summit (ICAS) 2019 organised by CSTEP.
 - **29th July**: Joined IIT Gandhinagar as a Ph.D. student
-- **24th July**: Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI in Delhi. 
+- **24th July**: Received ACM travel grant to attend Expanding the Horizons of Human-Centered AI in Delhi.
 - **1st March**: Joined IIT Gandhinagar as a Research Assistant.
 
 <div style="margin-top: 80px"></div>
@@ -124,8 +125,9 @@ I'm looking to work in Human-Computer Interaction, Ubiquitous Computing, Sensor-
 [5]:{{ site.url }}/downloads/publications/2020_Ubicomp_Breathe_Poster.pdf
 [6]:{{ site.url }}/downloads/publications/2020_Ubicomp_Breathe_Poster.pdf
 [7]:{{ site.url }}/downloads/publications/Ubicomp-DC2020_Revised.pdf
+[8]:{{ site.url }}/downloads/GSoC-Proposal.pdf
 
 
 <script>
-	document.getElementsByTagName("body")[0].setAttribute("id", "background"); 
+	document.getElementsByTagName("body")[0].setAttribute("id", "background");
 </script>
