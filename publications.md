@@ -19,6 +19,7 @@ title: Publications
 </style>
 
 ###### **Publications**
+- <span style="color:#626964; text-decoration:underline;"><b>[SpiroMask: Measuring Lung Function Using Consumer-Grade Masks][10]</b></span><br>Rishiraj Adhikary, Dhruvi Lodhavia, Chris Francis, Rohit Patil, Tanmay Srivastava, Prerna Khanna, Nipun Batra, Joe Breda, Jacob Peplinski, Shwetak Patel<br>In ACM Transactions on Computing for Healthcare (HEALTH)
 - <span style="color:#626964; text-decoration:underline;"><b>[Towards Continuous Respiration Rate Detection While Walking][9]</b></span><br>Rishiraj Adhikary, Aryan Varshney Nipun Batra<br>In UbiComp/ISWC 2022
 - <span style="color:#626964; text-decoration:underline;"><b>[Samachar: Print News Media on Air Pollution in India][8]</b></span><br>Karm Patel, Rishiraj Adhikary, Zeel B Patel, Nipun Batra, Sarath Guttikunda<br>In ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies(COMPASS ‘22)
 - <span style="color:#626964; text-decoration:underline;"><b>[Exploring Hidden Markov Models][7]</b></span><br>Kukunuri Rithwik, Rishiraj Adhikary, Mahika Om Jaguste, Nipun Batra and Ashish Tendulkar<br>The 4th Workshop on
@@ -39,3 +40,4 @@ Visualization for AI Explainability (VISxAI'21)
 [7]:{{ site.url }}https://nipunbatra.github.io/hmm/
 [8]:{{ site.url }}/downloads/publications/compass22-samachaar.pdf
 [9]:{{ site.url }}/downloads/publications/Ubicomp2022_CO2_Mask.pdf
+[10]:{{ site.url }}/downloads/publications/spiromask.pdf
