@@ -18,6 +18,9 @@ title: Media Coverage
   		border: 5px solid #555;
 	}
 </style>
+## **Research on SpiroMask**
+Our research named, _**SpiroMask**_ was covered comprehensively by [The Ahmedabad Mirror on 3rd November 2022](https://www.ahmedabadmirror.com/iit-gn-researchers-devise-mask-to-measure-lung-health/81846808.html)
+<img  class="center" src="/images/media-news/spiromask-news-1.jpeg">
 
 I have received both PMRF and Fulbright fellowships during my PhD tenure. I’m grateful to my supervisor, IIT Gandhinagar, my parents and all collaborators for these achievements.
 <br>
