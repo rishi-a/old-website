@@ -29,6 +29,7 @@ github_username:  rishi-a
 
 # Build settings
 theme: minima
+#theme: hyde
 plugins:
   - jekyll-feed
 
