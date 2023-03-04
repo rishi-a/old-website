@@ -30,4 +30,8 @@ I'm assisting Dr. Ahlad in teaching Deep Learning for Cybersecurity at National 
 |20th Feb 2023| [Pandas, Pytorch and Linear Regression](/teaching-content/deep-learning-nfsu-2023/lab-3-pandas-pytorch--data-handling-LR.pdf)
 |20th Feb 2023 | [Lab Homework 1](/teaching-content/deep-learning-nfsu-2023/assignment-1-questions.pdf) |
 | 27th Feb 2023 | No Class (Exam)|
-| 06th March | TBD | 
+| Additional Content | [Perceptron, Adaline, Automatic Diff.](/teaching-content/deep-learning-nfsu-2023/lab-4-perceptron-adaline-torchDiff.pdf)|
+| Additional Content | [Logistic Regression, Cross Entropy, One Hot Enc.](/teaching-content/deep-learning-nfsu-2023/lab-5-logistic-regression-cross-entropy-one-hot-encoding.pdf)|
+| Additonal Content | SoftMax Regression, MNIST|
+| 06th March| Revision (as per request): Mean, Standard Deviation, Covariance | 
+| 06th March| Class Work To Be Released | 
