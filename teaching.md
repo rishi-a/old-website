@@ -19,7 +19,7 @@ title: Teaching
 	}
 </style>
 ## **Deep Learning Lab(Spring 2023)**
-I'm assisting Dr. Ahlad in teaching Deep Learning for Cybersecurity at National Forensic Sciences University [(NFSU)](https://www.nfsu.ac.in/), as a part of my Prime Ministers' Research Fellowship (PMRF) Teaching Assistance (TA) work. My responsibilites include conducting lab sessions, designing lab assignments and curating theoretical quiz materials.
+I'm co-teaching Deep Learning for Cybersecurity with [Dr. Ahlad Kumar](https://nfsu.ac.in/Faculty/profile?userid=163) at National Forensic Sciences University [(NFSU)](https://www.nfsu.ac.in/), as a part of my Prime Ministers' Research Fellowship ([PMRF](https://www.pmrf.in/)) Teaching Assistance (TA) work. My responsibilites include conducting lab sessions, designing lab assignments and curating theoretical quiz materials.
 
 *Lab Content*
 
@@ -32,6 +32,6 @@ I'm assisting Dr. Ahlad in teaching Deep Learning for Cybersecurity at National 
 | 27th Feb 2023 | No Class (Exam)|
 | Additional Content | [Perceptron, Adaline, Automatic Diff.](/teaching-content/deep-learning-nfsu-2023/lab-4-perceptron-adaline-torchDiff.pdf)|
 | Additional Content | [Logistic Regression, Cross Entropy, One Hot Enc.](/teaching-content/deep-learning-nfsu-2023/lab-5-logistic-regression-cross-entropy-one-hot-encoding.pdf)|
-| Additonal Content | SoftMax Regression, MNIST|
-| 06th March| Revision (as per request): Mean, Standard Deviation, Covariance | 
+| Additional Content | [SoftMax Regression, MNIST](/teaching-content/deep-learning-nfsu-2023/lab-6-softmax-regression.pdf)|
+| 06th March| Revision (as per requests): Mean, Standard Deviation, Covariance | 
 | 06th March| Class Work To Be Released | 
