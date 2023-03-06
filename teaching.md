@@ -33,5 +33,7 @@ I'm co-teaching Deep Learning for Cybersecurity with [Dr. Ahlad Kumar](https://n
 | Additional Content | [Perceptron, Adaline, Automatic Diff.](/teaching-content/deep-learning-nfsu-2023/lab-4-perceptron-adaline-torchDiff.pdf)|
 | Additional Content | [Logistic Regression, Cross Entropy, One Hot Enc.](/teaching-content/deep-learning-nfsu-2023/lab-5-logistic-regression-cross-entropy-one-hot-encoding.pdf)|
 | Additional Content | [SoftMax Regression, MNIST](/teaching-content/deep-learning-nfsu-2023/lab-6-softmax-regression.pdf)|
-| 06th March| Revision (as per requests): Mean, Standard Deviation, Covariance | 
-| 06th March| Class Work To Be Released | 
+| 06th March| Revision (as per requests): [Mean, Standard Deviation, Covariance](/teaching-content/deep-learning-nfsu-2023/lab-4-NFSU.pdf) | 
+| 06th March| [Class Work Released](/teaching-content/deep-learning-nfsu-2023/lab-4-NFSU-classwork.pdf) |
+| 13th March| TBD |
+
