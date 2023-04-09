@@ -37,5 +37,7 @@ I'm co-teaching Deep Learning for Cybersecurity with [Dr. Ahlad Kumar](https://n
 | 06th March| [Class Work Released](/teaching-content/deep-learning-nfsu-2023/lab-4-NFSU-classwork.pdf) |
 | 13th March| No Class |
 | 20th March| No Class (Sports Week) |
-| 27th March| [Sigmoid Function and LR](/teaching-content/deep-learning-nfsu-2023/lab-5-NFSU.pdf), [Classwork](/teaching-content/deep-learning-nfsu-2023/lab-5-NFSU-classwork-questions.pdf), Answers (To be uploaded later) |
+| 27th March| [Sigmoid Function and LR](/teaching-content/deep-learning-nfsu-2023/lab-5-NFSU.pdf), [Classwork](/teaching-content/deep-learning-nfsu-2023/lab-5-NFSU-classwork-questions.pdf) |
+| 27th March| [Sigmoid Function and LR](/teaching-content/deep-learning-nfsu-2023/lab-5-NFSU.pdf), [Classwork](/teaching-content/deep-learning-nfsu-2023/lab-5-NFSU-classwork-questions.pdf) |
+|3rd April | [Naive Bayes and KNN](/teaching-content/deep-learning-nfsu-2023/lab-6-Naive-Bayes-KNN.ipynb) [pdf](/teaching-content/deep-learning-nfsu-2023/lab-6-Naive-Bayes-KNN.pdf), [Classwork](/teaching-content/deep-learning-nfsu-2023/lab-6-Naive-Bayes-Questions.ipynb), [PlayTennis Dataset](/teaching-content/deep-learning-nfsu-2023/PlayTennis.csv)|
 
