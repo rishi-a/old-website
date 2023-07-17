@@ -1,4 +1,5 @@
 ---
+# example line
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 output:
@@ -55,7 +56,7 @@ layout: page
 
 <img class="pad-2" align="right" width="110" height="110" src="/images/RISHIRAJ.jpg">
 <!--<img class="pad-1" align="right" width="200" height="170" src="/images/IMG-20190202-WA0001.jpg">
--->I’m a Ph.D. candidate in the CSE discipline of [IIT Gandhinagar](https://iitgn.ac.in). Prof. [Nipun Batra](https://nipunbatra.github.io/) advises me. I'm also a Fulbright Visiting Researcher at the [SMASH Lab](https://smashlab.io/) of [Carnegie Mellon University](https://cmu.edu). My research interest is in Ubiquitous Computing. My current focus is on designing wearables that measure health parameters. I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam.
+-->I’m a Ph.D. candidate (PMRF) in the CSE discipline of [IIT Gandhinagar](https://iitgn.ac.in). Prof. [Nipun Batra](https://nipunbatra.github.io/) advises me. I was a Fulbright Visiting Researcher at the [SMASH Lab](https://smashlab.io/) of [Carnegie Mellon University](https://cmu.edu). My research interest is in Ubiquitous Computing. My current focus is on designing wearables that measure health parameters. I did my schooling in Shillong, India and grew up there, although I was born in the Indian state of Assam.
 
 <!--
 ##### **<span style="color: #f56607">Looking for research internship (May-July 2022)</span>**
