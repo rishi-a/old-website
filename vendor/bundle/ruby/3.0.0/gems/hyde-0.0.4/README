@@ -1,0 +1,35 @@
+
+= hyde
+
+
+== Description
+
+Convert unit 'hyde' to SI metre.
+
+=== Gem Installation
+
+	gem install hyde
+
+
+== Features/Problems
+
+* The argument metre is not 'cm' but 'm'.
+* 'hyde' command.
+
+
+== Synopsis
+
+	require "hyde"
+	p 1.56.in_hyde
+	p Hyde.m_to_hyde(1.56)
+
+command:
+
+	$ hyde 156cm
+	156cm: 1.0hyde
+
+== Copyright
+
+License::   Public Domain
+
+

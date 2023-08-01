@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# vim:ft=ruby:
+
+require "rubygems"
+require "hyde"
+
+Hyde::HydeCommand.new.run(ARGV)
+
