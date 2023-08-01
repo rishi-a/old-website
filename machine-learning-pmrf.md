@@ -5,7 +5,7 @@
 layout: default
 permalink: /teaching/ml-gu/
 title: 
-exclude_from_menu: true
+exclude: true
 
 ---
 
