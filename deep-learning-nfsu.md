@@ -5,6 +5,7 @@
 layout: default
 permalink: /teaching/dl-nfsu/
 title: 
+exclude_from_menu: true
 
 ---
 
