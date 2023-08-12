@@ -1,13 +1,4 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: page
-permalink: /teaching/ml-gu/
-title: 
-exclude: true
-
----
 
 ## Machine Learning (Fall 2023)
 **Host Institution: Gauhati University**
