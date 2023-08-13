@@ -22,7 +22,7 @@ title: Rishiraj Adhikary
 email: rishiraj.inbox@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Rishiraj is a Ph.D. student at the Sustainability Lab, Computer Science Engineering, IIT Gandhinagar, Gujarat. He is a Fulbright Fellow to CMU and a PMRF. Prof. Nipun from IIT-GN advises him.
-#baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rishihere
 github_username:  rishi-a

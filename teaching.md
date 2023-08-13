@@ -18,7 +18,9 @@ title: Teaching
   		border: 5px solid #555;
 	}
 </style>
-Link currently down. Will be refixed by 16th August Midnight IST.
-**[Machine Learning (Fall 2023)](/teaching/ml-gu/)**
+Link currently down. Will be refixed by 16th August Midnight IST.<br>
 
-**[Deep Learning (Spring 2023)](/teaching/dl-nfsu/)**
+
+**[Machine Learning (Fall 2023)]()**
+
+**[Deep Learning (Spring 2023)]()**
