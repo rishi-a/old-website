@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: base
 permalink: /teaching/
-title: Teaching
+title: 
 
 ---
 <style type="text/css">
@@ -18,7 +18,6 @@ title: Teaching
   		border: 5px solid #555;
 	}
 </style>
-Link currently down. Will be refixed by 16th August Midnight IST.<br>
 
 
 **[Machine Learning (Fall 2023)]()**

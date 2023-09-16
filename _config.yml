@@ -28,10 +28,14 @@ twitter_username: rishihere
 github_username:  rishi-a
 
 # Build settings
+#theme: minima
 theme: minima
 #theme: hyde
 plugins:
+  - jekyll-remote-theme 
   - jekyll-feed
+
+remote_theme: jekyll/minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
